@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SMEPayroll>
+
+  <Message>
+    <MessageId id="001" type="E" msg="Login Error!"></MessageId>
+    <MessageId id="002" type="E" msg="Please Select Company"></MessageId>
+    <MessageId id="003" type="E" msg="Test3"></MessageId>
+    <MessageId id="004" type="E" msg="Please Enter User Id"></MessageId>
+    <MessageId id="005" type="E" msg="Please Enter  Valid User Id"></MessageId>
+    <MessageId id="006" type="S" msg="Password has been sent succesfully"></MessageId>
+    <MessageId id="007" type="E" msg="Hourly rate is Manuval"></MessageId>
+  </Message>
+  
+  
+</SMEPayroll>

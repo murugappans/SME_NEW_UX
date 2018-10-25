@@ -1,0 +1,151 @@
+<Details>
+  <A8BRecord>
+    <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+      <A8B2009ST>
+        <RecordType xmlns="http://www.iras.gov.sg/A8B2009">1</RecordType>
+        <IDTYPE xmlns="http://www.iras.gov.sg/A8B2009">SPR</IDTYPE>
+        <IDNo xmlns="http://www.iras.gov.sg/A8B2009"> </IDNo>
+        <NameLine1 xmlns="http://www.iras.gov.sg/A8B2009">Biswajit</NameLine1>
+        <NameLine2 xmlns="http://www.iras.gov.sg/A8B2009">
+        </NameLine2>
+        <Nationality xmlns="http://www.iras.gov.sg/A8B2009">
+        </Nationality>
+        <Sex xmlns="http://www.iras.gov.sg/A8B2009">M</Sex>
+        <DateOfBirth xmlns="http://www.iras.gov.sg/A8B2009">19540905</DateOfBirth>
+        <Record1 xmlns="http://www.iras.gov.sg/A8B2009">
+          <CompanyIDType xmlns="http://www.iras.gov.sg/SchemaTypes">8</CompanyIDType>
+          <CompanyIDNo xmlns="http://www.iras.gov.sg/SchemaTypes">199305457N</CompanyIDNo>
+          <CompanyName xmlns="http://www.iras.gov.sg/SchemaTypes">HARRIS PYE SINGAPORE PTE LTD</CompanyName>
+          <PlanType xmlns="http://www.iras.gov.sg/SchemaTypes">ESOP</PlanType>
+          <DateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20091224</DateOfGrant>
+          <DateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20091209</DateOfExercise>
+          <Price xmlns="http://www.iras.gov.sg/SchemaTypes">100</Price>
+          <OpenMarketValueAtDateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfGrant>
+          <OpenMarketValueAtDateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfExercise>
+          <NoOfShares xmlns="http://www.iras.gov.sg/SchemaTypes">10</NoOfShares>
+          <NonExemptGrossAmount xmlns="http://www.iras.gov.sg/SchemaTypes">0</NonExemptGrossAmount>
+          <GrossAmountGains xmlns="http://www.iras.gov.sg/SchemaTypes">0</GrossAmountGains>
+        </Record1>
+        <Record2 xmlns="http://www.iras.gov.sg/A8B2009">
+          <CompanyIDType xmlns="http://www.iras.gov.sg/SchemaTypes">8</CompanyIDType>
+          <CompanyIDNo xmlns="http://www.iras.gov.sg/SchemaTypes">199305457N</CompanyIDNo>
+          <CompanyName xmlns="http://www.iras.gov.sg/SchemaTypes">HARRIS PYE SINGAPORE PTE LTD</CompanyName>
+          <PlanType xmlns="http://www.iras.gov.sg/SchemaTypes">ESOW</PlanType>
+          <DateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20091217</DateOfGrant>
+          <DateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20091208</DateOfExercise>
+          <Price xmlns="http://www.iras.gov.sg/SchemaTypes">100</Price>
+          <OpenMarketValueAtDateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">200</OpenMarketValueAtDateOfGrant>
+          <OpenMarketValueAtDateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">200</OpenMarketValueAtDateOfExercise>
+          <NoOfShares xmlns="http://www.iras.gov.sg/SchemaTypes">20</NoOfShares>
+          <NonExemptGrossAmount xmlns="http://www.iras.gov.sg/SchemaTypes">0</NonExemptGrossAmount>
+          <GrossAmountGains xmlns="http://www.iras.gov.sg/SchemaTypes">0</GrossAmountGains>
+        </Record2>
+        <SectionATotals xmlns="http://www.iras.gov.sg/SchemaTypes">
+          <TotalGrossAmountNonExemptAfter2003>-1800</TotalGrossAmountNonExemptAfter2003>
+          <TotalGrossAmountNonExemptBefore2003>0</TotalGrossAmountNonExemptBefore2003>
+          <TotalGrossAmountGainsAfter2003>0</TotalGrossAmountGainsAfter2003>
+          <TotalGrossAmountGainsBefore2003>0</TotalGrossAmountGainsBefore2003>
+        </SectionATotals>
+        <Record3 xmlns="http://www.iras.gov.sg/A8B2009">
+          <CompanyIDType xmlns="http://www.iras.gov.sg/SchemaTypes">8</CompanyIDType>
+          <CompanyIDNo xmlns="http://www.iras.gov.sg/SchemaTypes">199305457N</CompanyIDNo>
+          <CompanyName xmlns="http://www.iras.gov.sg/SchemaTypes">HARRIS PYE SINGAPORE PTE LTD</CompanyName>
+          <PlanType xmlns="http://www.iras.gov.sg/SchemaTypes">ESOP</PlanType>
+          <DateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20091224</DateOfGrant>
+          <DateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20091209</DateOfExercise>
+          <Price xmlns="http://www.iras.gov.sg/SchemaTypes">100</Price>
+          <OpenMarketValueAtDateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfGrant>
+          <OpenMarketValueAtDateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfExercise>
+          <NoOfShares xmlns="http://www.iras.gov.sg/SchemaTypes">10</NoOfShares>
+          <ExemptGrossAmountUnderERIS xmlns="http://www.iras.gov.sg/SchemaTypes" />
+          <NonExemptGrossAmount xmlns="http://www.iras.gov.sg/SchemaTypes">-800</NonExemptGrossAmount>
+          <GrossAmountGains xmlns="http://www.iras.gov.sg/SchemaTypes">1000</GrossAmountGains>
+        </Record3>
+        <Record4 xmlns="http://www.iras.gov.sg/A8B2009">
+          <CompanyIDType xmlns="http://www.iras.gov.sg/SchemaTypes">8</CompanyIDType>
+          <CompanyIDNo xmlns="http://www.iras.gov.sg/SchemaTypes">199305457N</CompanyIDNo>
+          <CompanyName xmlns="http://www.iras.gov.sg/SchemaTypes">HARRIS PYE SINGAPORE PTE LTD</CompanyName>
+          <PlanType xmlns="http://www.iras.gov.sg/SchemaTypes">ESOP</PlanType>
+          <DateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20091224</DateOfGrant>
+          <DateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20091208</DateOfExercise>
+          <Price xmlns="http://www.iras.gov.sg/SchemaTypes">100</Price>
+          <OpenMarketValueAtDateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">200</OpenMarketValueAtDateOfGrant>
+          <OpenMarketValueAtDateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">200</OpenMarketValueAtDateOfExercise>
+          <NoOfShares xmlns="http://www.iras.gov.sg/SchemaTypes">30</NoOfShares>
+          <ExemptGrossAmountUnderERIS xmlns="http://www.iras.gov.sg/SchemaTypes" />
+          <NonExemptGrossAmount xmlns="http://www.iras.gov.sg/SchemaTypes">3000</NonExemptGrossAmount>
+          <GrossAmountGains xmlns="http://www.iras.gov.sg/SchemaTypes">3000</GrossAmountGains>
+        </Record4>
+        <Record5 xmlns="http://www.iras.gov.sg/A8B2009">
+          <CompanyIDType xmlns="http://www.iras.gov.sg/SchemaTypes">8</CompanyIDType>
+          <CompanyIDNo xmlns="http://www.iras.gov.sg/SchemaTypes">199305457N</CompanyIDNo>
+          <CompanyName xmlns="http://www.iras.gov.sg/SchemaTypes">HARRIS PYE SINGAPORE PTE LTD</CompanyName>
+          <PlanType xmlns="http://www.iras.gov.sg/SchemaTypes">ESOP</PlanType>
+          <DateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20091224</DateOfGrant>
+          <DateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20091209</DateOfExercise>
+          <Price xmlns="http://www.iras.gov.sg/SchemaTypes">100</Price>
+          <OpenMarketValueAtDateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">200</OpenMarketValueAtDateOfGrant>
+          <OpenMarketValueAtDateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">200</OpenMarketValueAtDateOfExercise>
+          <NoOfShares xmlns="http://www.iras.gov.sg/SchemaTypes">200</NoOfShares>
+          <ExemptGrossAmountUnderERIS xmlns="http://www.iras.gov.sg/SchemaTypes" />
+          <NonExemptGrossAmount xmlns="http://www.iras.gov.sg/SchemaTypes">20000</NonExemptGrossAmount>
+          <GrossAmountGains xmlns="http://www.iras.gov.sg/SchemaTypes">-18000</GrossAmountGains>
+        </Record5>
+        <SectionBTotals xmlns="http://www.iras.gov.sg/SchemaTypes">
+          <TotalGrossAmountExemptAfter2003>0</TotalGrossAmountExemptAfter2003>
+          <TotalGrossAmountExemptBefore2003>0</TotalGrossAmountExemptBefore2003>
+          <TotalGrossAmountNonExemptAfter2003>1000</TotalGrossAmountNonExemptAfter2003>
+          <TotalGrossAmountNonExemptBefore2003>0</TotalGrossAmountNonExemptBefore2003>
+          <TotalGrossAmountGainsAfter2003>0</TotalGrossAmountGainsAfter2003>
+          <TotalGrossAmountGainsBefore2003>0</TotalGrossAmountGainsBefore2003>
+        </SectionBTotals>
+        <Record6 xmlns="http://www.iras.gov.sg/A8B2009">
+          <CompanyIDType xmlns="http://www.iras.gov.sg/SchemaTypes">8</CompanyIDType>
+          <CompanyIDNo xmlns="http://www.iras.gov.sg/SchemaTypes">199305457N</CompanyIDNo>
+          <CompanyName xmlns="http://www.iras.gov.sg/SchemaTypes">HARRIS PYE SINGAPORE PTE LTD</CompanyName>
+          <PlanType xmlns="http://www.iras.gov.sg/SchemaTypes">ESOP</PlanType>
+          <DateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20091224</DateOfGrant>
+          <DateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20091209</DateOfExercise>
+          <Price xmlns="http://www.iras.gov.sg/SchemaTypes">100</Price>
+          <OpenMarketValueAtDateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfGrant>
+          <OpenMarketValueAtDateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfExercise>
+          <NoOfShares xmlns="http://www.iras.gov.sg/SchemaTypes">10</NoOfShares>
+          <ExemptGrossAmountUnderERIS xmlns="http://www.iras.gov.sg/SchemaTypes">1800</ExemptGrossAmountUnderERIS>
+          <NonExemptGrossAmount xmlns="http://www.iras.gov.sg/SchemaTypes">-800</NonExemptGrossAmount>
+          <GrossAmountGains xmlns="http://www.iras.gov.sg/SchemaTypes">1000</GrossAmountGains>
+        </Record6>
+        <SectionCTotals xmlns="http://www.iras.gov.sg/SchemaTypes">
+          <TotalGrossAmountNonExemptAfter2003>-36200</TotalGrossAmountNonExemptAfter2003>
+          <TotalGrossAmountExemptBefore2003>0</TotalGrossAmountExemptBefore2003>
+          <TotalGrossAmountNonExemptAfter2003>22200</TotalGrossAmountNonExemptAfter2003>
+          <TotalGrossAmountNonExemptBefore2003>0</TotalGrossAmountNonExemptBefore2003>
+          <TotalGrossAmountGainsAfter2003>-14000</TotalGrossAmountGainsAfter2003>
+          <TotalGrossAmountGainsBefore2003>0</TotalGrossAmountGainsBefore2003>
+        </SectionCTotals>
+        <Record7 xmlns="http://www.iras.gov.sg/A8B2009">
+          <CompanyIDType xmlns="http://www.iras.gov.sg/SchemaTypes">8</CompanyIDType>
+          <CompanyIDNo xmlns="http://www.iras.gov.sg/SchemaTypes">199305457N</CompanyIDNo>
+          <CompanyName xmlns="http://www.iras.gov.sg/SchemaTypes">HARRIS PYE SINGAPORE PTE LTD</CompanyName>
+          <PlanType xmlns="http://www.iras.gov.sg/SchemaTypes">ESOP</PlanType>
+          <DateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20091224</DateOfGrant>
+          <DateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20091209</DateOfExercise>
+          <Price xmlns="http://www.iras.gov.sg/SchemaTypes">100</Price>
+          <OpenMarketValueAtDateOfGrant xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfGrant>
+          <OpenMarketValueAtDateOfExercise xmlns="http://www.iras.gov.sg/SchemaTypes">20</OpenMarketValueAtDateOfExercise>
+          <NoOfShares xmlns="http://www.iras.gov.sg/SchemaTypes">10</NoOfShares>
+          <ExemptGrossAmountUnderERIS xmlns="http://www.iras.gov.sg/SchemaTypes">1800</ExemptGrossAmountUnderERIS>
+          <NonExemptGrossAmount xmlns="http://www.iras.gov.sg/SchemaTypes">-800</NonExemptGrossAmount>
+          <GrossAmountGains xmlns="http://www.iras.gov.sg/SchemaTypes">1000</GrossAmountGains>
+        </Record7>
+        <SectionDTotals xmlns="http://www.iras.gov.sg/SchemaTypes">
+          <TotalGrossAmountExemptAfter2003>1800</TotalGrossAmountExemptAfter2003>
+          <TotalGrossAmountExemptBefore2003>0</TotalGrossAmountExemptBefore2003>
+          <TotalGrossAmountNonExemptAfter2003>-800</TotalGrossAmountNonExemptAfter2003>
+          <TotalGrossAmountNonExemptBefore2003>0</TotalGrossAmountNonExemptBefore2003>
+          <TotalGrossAmountGainsAfter2003>1000</TotalGrossAmountGainsAfter2003>
+          <TotalGrossAmountGainsBefore2003>0</TotalGrossAmountGainsBefore2003>
+        </SectionDTotals>
+      </A8B2009ST>
+    </ESubmissionSDSC>
+  </A8BRecord>
+</Details>

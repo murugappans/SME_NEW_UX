@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Appointments>
+  <NextID>1</NextID>
+  <Resources>
+    <Department>
+      <Key>1</Key>
+      <Text>Director</Text>
+    </Department>
+    <Department>
+      <Key>2</Key>
+      <Text>Automation</Text>
+    </Department>
+    <Department>
+      <Key>3</Key>
+      <Text>Technical</Text>
+    </Department>
+    <Department>
+      <Key>4</Key>
+      <Text>Administration</Text>
+    </Department>
+    <Department>
+      <Key>5</Key>
+      <Text>Accounts</Text>
+    </Department>
+    <Department>
+      <Key>6</Key>
+      <Text>Purchasing</Text>
+    </Department>
+    <Department>
+      <Key>7</Key>
+      <Text>Quality Assurance</Text>
+    </Department>
+    <Department>
+      <Key>8</Key>
+      <Text>Spare Parts</Text>
+    </Department>
+    <Department>
+      <Key>9</Key>
+      <Text>Valve</Text>
+    </Department>
+    <Department>
+      <Key>10</Key>
+      <Text>Workshop</Text>
+    </Department>
+    <Department>
+      <Key>11</Key>
+      <Text>Store</Text>
+    </Department>
+    <Department>
+      <Key>12</Key>
+      <Text>Human Resource</Text>
+    </Department>
+    <Department>
+      <Key>13</Key>
+      <Text>Health &amp; Safety</Text>
+    </Department>
+    <Department>
+      <Key>14</Key>
+      <Text>Transport</Text>
+    </Department>
+    <Department>
+      <Key>15</Key>
+      <Text>Shipyard</Text>
+    </Department>
+    <Department>
+      <Key>16</Key>
+      <Text>IT</Text>
+    </Department>
+    <Leave>
+      <Key>8</Key>
+      <Text>Annual Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>9</Key>
+      <Text>Sick Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>10</Key>
+      <Text>Maternity Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>11</Key>
+      <Text>Paternity Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>12</Key>
+      <Text>Child Care Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>13</Key>
+      <Text>Hospitalisation Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>14</Key>
+      <Text>Compensational Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>15</Key>
+      <Text>Marriage Leave</Text>
+    </Leave>
+    <Leave>
+      <Key>16</Key>
+      <Text>Leave1 Or Absence(LOA)</Text>
+    </Leave>
+    <Leave>
+      <Key>17</Key>
+      <Text>ABSENT</Text>
+    </Leave>
+    <Leave>
+      <Key>18</Key>
+      <Text>UNPAID LEAVE</Text>
+    </Leave>
+    <Leave>
+      <Key>19</Key>
+      <Text>NO PAY LEAVE</Text>
+    </Leave>
+  </Resources>
+</Appointments>

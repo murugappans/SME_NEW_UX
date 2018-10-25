@@ -1,0 +1,35 @@
+<A8BTrailer>
+  <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+    <A8BTrailer2009ST>
+      <RecordType>2</RecordType>
+      <NoOfRecords>1</NoOfRecords>
+      <SectionATrailerNonExemptTotalGrossAmountAfter2003>-1800</SectionATrailerNonExemptTotalGrossAmountAfter2003>
+      <SectionATrailerNonExemptTotalGrossAmountBefore2003>0</SectionATrailerNonExemptTotalGrossAmountBefore2003>
+      <SectionATrailerGainsTotalGrossAmountAfter2003>0</SectionATrailerGainsTotalGrossAmountAfter2003>
+      <SectionATrailerGainsTotalGrossAmountBefore2003>0</SectionATrailerGainsTotalGrossAmountBefore2003>
+      <SectionBTrailerExemptTotalGrossAmountAfter2003>0</SectionBTrailerExemptTotalGrossAmountAfter2003>
+      <SectionBTrailerExemptTotalGrossAmountBefore2003>0</SectionBTrailerExemptTotalGrossAmountBefore2003>
+      <SectionBTrailerNonExemptTotalGrossAmountAfter2003>1000</SectionBTrailerNonExemptTotalGrossAmountAfter2003>
+      <SectionBTrailerNonExemptTotalGrossAmountBefore2003>0</SectionBTrailerNonExemptTotalGrossAmountBefore2003>
+      <SectionBTrailerGainsTotalGrossAmountAfter2003>0</SectionBTrailerGainsTotalGrossAmountAfter2003>
+      <SectionBTrailerGainsTotalGrossAmountBefore2003>0</SectionBTrailerGainsTotalGrossAmountBefore2003>
+      <SectionCTrailerExemptTotalGrossAmountAfter2003>-36200</SectionCTrailerExemptTotalGrossAmountAfter2003>
+      <SectionCTrailerExemptTotalGrossAmountBefore2003>0</SectionCTrailerExemptTotalGrossAmountBefore2003>
+      <SectionCTrailerNonExemptTotalGrossAmountAfter2003>22200</SectionCTrailerNonExemptTotalGrossAmountAfter2003>
+      <SectionCTrailerNonExemptTotalGrossAmountBefore2003>0</SectionCTrailerNonExemptTotalGrossAmountBefore2003>
+      <SectionCTrailerGainsTotalGrossAmountAfter2003>-14000</SectionCTrailerGainsTotalGrossAmountAfter2003>
+      <SectionCTrailerGainsTotalGrossAmountBefore2003>0</SectionCTrailerGainsTotalGrossAmountBefore2003>
+      <SectionDTrailerExemptTotalGrossAmountAfter2003>1800</SectionDTrailerExemptTotalGrossAmountAfter2003>
+      <SectionDTrailerExemptTotalGrossAmountBefore2003>0</SectionDTrailerExemptTotalGrossAmountBefore2003>
+      <SectionDTrailerNonExemptTotalGrossAmountAfter2003>-800</SectionDTrailerNonExemptTotalGrossAmountAfter2003>
+      <SectionDTrailerNonExemptTotalGrossAmountBefore2003>0</SectionDTrailerNonExemptTotalGrossAmountBefore2003>
+      <SectionDTrailerGainsTotalGrossAmountAfter2003>1000</SectionDTrailerGainsTotalGrossAmountAfter2003>
+      <SectionDTrailerGainsTotalGrossAmountBefore2003>0</SectionDTrailerGainsTotalGrossAmountBefore2003>
+      <SectionETrailerNonExemptGrandTotalGrossAmountAfter2003>-800</SectionETrailerNonExemptGrandTotalGrossAmountAfter2003>
+      <SectionETrailerNonExemptGrandTotalGrossAmountBefore2003>0</SectionETrailerNonExemptGrandTotalGrossAmountBefore2003>
+      <SectionETrailerGainsGrandTotalGrossAmountAfter2003>-12000</SectionETrailerGainsGrandTotalGrossAmountAfter2003>
+      <SectionETrailerGainsGrandTotalGrossAmountBefore2003>0</SectionETrailerGainsGrandTotalGrossAmountBefore2003>
+      <Filler />
+    </A8BTrailer2009ST>
+  </ESubmissionSDSC>
+</A8BTrailer>

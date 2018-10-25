@@ -1,0 +1,20 @@
+Menu
+1. Use top menus on left also and current menu submodules should be opened on left menu bar
+2. Use round colored right side block to display information.
+
+RIght sidebar :
+
+1. Use some different style also use headings for data (e.g Company Name text before company name).
+
+New Block
+
+1Create Notification and login bar on right top.
+2 Show round colored block over notification and also on sub sections.
+
+
+Employee page:
+1. Use icon instead images
+2. Move tollbar to top row(colored)
+
+Create a new dashboard for employees
+

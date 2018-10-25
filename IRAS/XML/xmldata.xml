@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SMEPayroll>
+  <Timesheet>
+    <HourCalc id="0" text="NONE"></HourCalc>
+    <HourCalc id="1" text="NH To OT1"></HourCalc>
+    <HourCalc id="2" text="NH To OT2"></HourCalc>
+    <HourCalc id="3" text="OT1 To NH"></HourCalc>
+    <HourCalc id="4" text="OT1 To OT2"></HourCalc>
+    <HourCalc id="5" text="OT2 To NH"></HourCalc>
+    <HourCalc id="6" text="OT2 To OT1"></HourCalc>
+    <HourCalc id="7" text="NH+OT1 To NH"></HourCalc>
+    <HourCalc id="8" text="NH+OT1 To OT1"></HourCalc>
+    <HourCalc id="9" text="NH+OT1 To OT2"></HourCalc>
+    <HourCalc id="10" text="NH+OT2 To OT1"></HourCalc>
+    <HourCalc id="11" text="NH+OT2 To OT2"></HourCalc>
+    <HourCalc id="12" text="NH+OT2 To NH"></HourCalc>
+    <HourCalc id="13" text="OT1+OT2 To NH"></HourCalc>
+    <HourCalc id="14" text="OT1+OT2 To OT1"></HourCalc>
+    <HourCalc id="15" text="OT1+OT2 To OT2"></HourCalc>
+    <HourCalc id="16" text="NH+OT1+OT2 To NH"></HourCalc> 
+    <HourCalc id="17" text="NH+OT1+OT2 To OT1"></HourCalc>
+    <HourCalc id="18" text="NH+OT1+OT2 To OT2"></HourCalc>
+  </Timesheet>
+
+  <Company>
+    <CompanyType id="" text="Select"></CompanyType>
+    <CompanyType id="7" text="UEN-Business Registration number issued by ACRA"></CompanyType>
+    <CompanyType id="8" text="UEN-Local Company Registration number issued by ACRA"></CompanyType>
+    <CompanyType id="A" text="ASGD-Tax Reference number assigned by IRAS"></CompanyType>
+    <CompanyType id="I" text="ITR-Income Tax Reference number assinged by IRAS"></CompanyType>
+    <CompanyType id="C" text="CRN-Central Registration number issued by Ministry of Trade and Industries"></CompanyType>
+    <CompanyType id="M" text="MCSTR-Management Corporation Strata Titles number issued by Building and Consturction Authority"></CompanyType>
+    <CompanyType id="G" text="GSTN-Goods and Services Tax number issued by IRAS"></CompanyType>
+    <CompanyType id="U" text="UENO-Unique Entity Number Others (E.g Foreign Company Registration Number)"></CompanyType>
+  </Company>
+
+  <Tax>
+    <TaxPayableType id=""  text="Select"></TaxPayableType>
+    <TaxPayableType id="1" text="BONUS - CONTRACTUAL"></TaxPayableType>
+    <TaxPayableType id="2" text="BONUS - NON CONTRACTUAL"></TaxPayableType>
+    <TaxPayableType id="3" text="DIRECTORS FEE"></TaxPayableType>
+    <TaxPayableType id="4" text="PENSION"></TaxPayableType>
+    <TaxPayableType id="5" text="ALLOWANCE - TRANSPORT"></TaxPayableType>
+    <TaxPayableType id="6" text="ALLOWANCE ENTERTAINMENT"></TaxPayableType>
+    <TaxPayableType id="7" text="ALLOWANCE - OTHERS"></TaxPayableType>
+    <TaxPayableType id="8" text="LUMSUM PAYMENT - GRATUITY (1 to 2)"></TaxPayableType>
+    <TaxPayableType id="9" text="LUMSUM PAYMENT - COMPENSATION FOR LOSS OF OFFICE (1 to 4)"></TaxPayableType>
+    <TaxPayableType id="10" text="LUMSUM PAYMENT - NOTICE PAY (1 to 2)"></TaxPayableType>
+    <TaxPayableType id="11" text="LUMSUM PAYMENT - EX-GRATIA PAYMENT (1 to 2)"></TaxPayableType>
+    <TaxPayableType id="12" text="LUMSUM PAYMENT - OTHERS  (1 to 2)"></TaxPayableType>
+    <TaxPayableType id="13" text="MONTHLY COMMISSION"></TaxPayableType>
+    <TaxPayableType id="14" text="OTHER COMMISSIONS"></TaxPayableType>
+    <TaxPayableType id="15" text="SALARY"></TaxPayableType>
+
+    <!--Make sure to have comma "," at the start and at the end of the text key like ,8, ,13, -->
+    <TaxPayableTypeLumSumSwtich id="1" text=",8,9,10,11,12,"></TaxPayableTypeLumSumSwtich>
+
+    <IR8aAddressType id="L" text="Local Residential address"></IR8aAddressType>
+    <IR8aAddressType id="F" text="Foreign Address"></IR8aAddressType>
+    <IR8aAddressType id="C" text="C/O Address"></IR8aAddressType>
+    <IR8aAddressType id="N" text="No Address"></IR8aAddressType>
+  </Tax>
+
+  <ANB>
+    <country id="301" text="singapore"></country>
+  </ANB>
+  
+  
+  <Banks>
+    <Bank id="OCBC" text="1"></Bank>
+    <Bank id="UOB" text="2"></Bank>
+    <Bank id="DBS" text="4"></Bank>
+    <Bank id="DB" text="6"></Bank>
+    <Bank id="SC" text="7"></Bank>
+    <Bank id="MIZ" text="9"></Bank>
+    <Bank id="SMBC" text="37"></Bank>
+    <Bank id="CITI" text="20"></Bank>
+    <Bank id="FAREAST" text="43"></Bank>
+    <Bank id="ABN" text="10"></Bank>
+    <Bank id="HSBC" text="41"></Bank>
+    <Bank id="MAY" text="30"></Bank>
+    <Bank id="BTMU" text="40"></Bank>
+    <Bank id="NOR" text="31"></Bank>
+  </Banks>
+
+  <Relations>
+    <Relation id="3" text="Brother"></Relation>
+    <Relation id="2" text="Children"></Relation>
+    <Relation id="5" text="Father"></Relation>
+    <Relation id="6" text="Mother"></Relation>
+    <Relation id="4" text="Sister"></Relation>
+    <Relation id="1" text="Spouse"></Relation>
+  </Relations>
+
+  <Sex>
+    <Gender id="M" text="Male"></Gender>
+    <Gender id="F" text="Female"></Gender>
+  </Sex>
+
+  <Options>
+    <Option id="0" text="No"></Option>
+    <Option id="1" text="Yes"></Option>
+  </Options>
+
+  <OptionsText>
+    <Option id="No" text="No"></Option>
+    <Option id="Yes" text="Yes"></Option>
+  </OptionsText>
+
+  <NationalityStatus>
+    <Nationality id="N" text="Non Singaporean"></Nationality>
+    <Nationality id="S" text="Singaporean"></Nationality>
+  </NationalityStatus>
+
+  <Units>
+    <Type id="1"  text="Numbers"></Type>
+    <Type id="2"  text="Length/Distance"></Type>
+    <Type id="3"  text="Mass/Weight"></Type>
+    <Type id="4"  text="Area"></Type>
+    <Type id="5"  text="Time"></Type>
+    <Type id="6"  text="Volume"></Type>
+    <Type id="7"  text="Liquid Volume"></Type>
+    <Type id="8"  text="Electric Current"></Type>
+    <Type id="9"  text="Temperature"></Type>
+    <Type id="10" text="Angle"></Type>
+    <Type id="11" text="Solid Angle"></Type>
+    <Type id="12" text="Speed/Velocity"></Type>
+    <Type id="13" text="Density"></Type>
+    <Type id="14" text="Acceleration"></Type>
+    <Type id="15" text="Force"></Type>
+    <Type id="16" text="Pressure"></Type>
+    <Type id="17" text="Torque"></Type>
+    <Type id="18" text="Energy"></Type>
+    <Type id="19" text="Power"></Type>
+    <Type id="20" text="Angular momentum"></Type>
+    <Type id="21" text="Dynamic viscosity"></Type>
+    <Type id="22" text="Kinematic viscosity"></Type>
+    <Type id="23" text="Electric current"></Type>
+    <Type id="24" text="Electric charge"></Type>
+    <Type id="25" text="Electric Dipole"></Type>
+    <Type id="26" text="Electromotive force"></Type>
+    <Type id="27" text="Electrical resistance"></Type>
+    <Type id="28" text="Capacitance"></Type>
+    <Type id="29" text="Inductance"></Type>
+    <Type id="30" text="Magnetic field"></Type>
+    <Type id="31" text="Magnetic flux"></Type>
+    <Type id="32" text="Information entropy"></Type>
+    <Type id="33" text="Radioactivity"></Type>
+    <Type id="34" text="Luminance"></Type>
+    <Type id="35" text="Radioactivity - absorbed dose"></Type>
+    <Type id="36" text="Radioactivity - equivalent dose"></Type>
+  </Units>
+  <Rights>
+    <Right id="view employees"              MenuText="Employees"                  StyleId="0" url="../employee/employee.aspx"                           urlleft="../frames/emp_nav.aspx" ></Right>
+    <Right id="view employee groups"        MenuText="Employee Leave Groups"            StyleId="0" url="../employee/employeegroups.aspx"                     urlleft="../frames/emp_nav.aspx"></Right>
+
+    <Right id="leave request"               MenuText="Apply Leave"                StyleId="0" url="../Leaves/LeaveRequest.aspx"                         urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view applied leaves"         MenuText="Applied Leaves"             StyleId="0" url="../Leaves/ViewAppliedLeaves.aspx"                    urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view rejected leaves"        MenuText="Rejected Leaves"            StyleId="0" url="../Leaves/RejectedLeaves.aspx"                       urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view approved leaves"        MenuText="Approved Leaves"            StyleId="0" url="../Leaves/PendingApproval.aspx"                      urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="approve and reject leaves"   MenuText="Pending Approval"           StyleId="0" url="../Leaves/PendingApproval.aspx"                      urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="manage leaves allowed"       MenuText="Allowed Leaves"             StyleId="0" url="../Leaves/LeavesAllowedFrm.aspx"                     urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view leave types"            MenuText="Leave Types"                StyleId="0" url="../Leaves/LeaveTypes.aspx"                           urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="leave transfer"              MenuText="Leave Transfer"             StyleId="0" url="../Leaves/LeaveTransfer.aspx"                        urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view public holidays"        MenuText="Public Holidays"            StyleId="0" url="../Leaves/PublicHolidays.aspx"                       urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view manage leaves"          MenuText="Manage Leaves"              StyleId="0" url="../Leaves/LeaveAddDed.aspx"                          urlleft="../frames/job_nav.aspx"></Right>
+
+    <Right id="pending approval for claim"  MenuText="Pending Approval For Claim" StyleId="0" url="../Payroll/ClaimApproval.aspx"                       urlleft="../Frames/Claims_Nav.aspx"></Right>
+    <Right id="apply claim"                 MenuText="Apply Claim"                StyleId="0" url="../Payroll/ClaimAdditions.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="claim status"                MenuText="Claim Status"               StyleId="0" url="../Payroll/AppliedClaims.aspx"                       urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="approved claims"             MenuText="Approved Claims"            StyleId="0" url="../Payroll/ApprovedClaims.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="rejected claims"             MenuText="Rejected Claims"            StyleId="0" url="../Payroll/RejectedClaims.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+
+    <Right id="roster"                      MenuText="Roster"                     StyleId="0" url="../Management/ManageRoster.aspx"                     urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="roster settings"             MenuText="Roster Settings"            StyleId="0" url="../Management/RosterSettings.aspx"                   urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="roster assignment"           MenuText="Roster Assignment"          StyleId="0" url="../Management/RosterAssigned.aspx"                   urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="automatic timesheet"         MenuText="Automatic Timesheet"        StyleId="0" url="../Timesheet/TimesheetDocument.aspx"                 urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="manage employee timesheet"   MenuText="Manual Employee Timesheet"  StyleId="0" url="../Timesheet/ManualTimesheetUpdate.aspx"             urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="manage project timesheet"    MenuText="Manual Project Timesheet"   StyleId="0" url="../Timesheet/ManualTimesheetUpdate.aspx?PageType=2"  urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="compare timesheet"           MenuText="Compare Timesheet"          StyleId="0" url="../Timesheet/ManualTimesheetCompare.aspx"            urlleft="../Frames/timesheet_nav.aspx"></Right>
+
+    <Right id="manage payroll additions"    MenuText="Payroll Additions"          StyleId="0" url="../Payroll/PayrollAdditions.aspx"                    urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="manage payroll deductions"   MenuText="Payroll Deductions"         StyleId="0" url="../Payroll/PayrollDeductions.aspx"                   urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="manage overtime payroll"     MenuText="Payroll Overtimepay"        StyleId="0" url="../Employee/Emp_Overtime.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="generate or submit payroll"  MenuText="Submit Payroll"             StyleId="0" url="../Payroll/SubmitPayroll.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="approve or reject payroll"   MenuText="Approve Payroll"            StyleId="0" url="../Payroll/ApprovePayroll.aspx"                      urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="view generate payroll"       MenuText="Generate Payroll"           StyleId="0" url="../Payroll/GenPayroll.aspx"                          urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="print payroll"               MenuText="Print Payroll"              StyleId="0" url="../Payroll/PrintPayroll.aspx"                        urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="multi additions"             MenuText="Multi Additions"            StyleId="0" url="../Payroll/Emp_BulkAdd.aspx"                         urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="multi deductions"            MenuText="Multi Deductions"           StyleId="0" url="../Payroll/Emp_BulkDed.aspx"                         urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="print my payroll"            MenuText="Print My Payslip"           StyleId="0" url="../Payroll/PrintMyPayroll.aspx?PageType=2"           urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="unlock payroll"              MenuText="Unlock Payroll"             StyleId="0" url="../Payroll/UnlockPayroll.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="generate ledger"             MenuText="Generate Ledger"            StyleId="0" url="../Payroll/GenerateLedger.aspx"                      urlleft="../Frames/project_nav.aspx"></Right>
+    
+    <Right id="view cpf information"        MenuText="CPF File"                   StyleId="0" url="../CPF/SubmitCPF.aspx"                               urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view iras information"       MenuText="IRAS Files"                 StyleId="0" url="../Management/ManageIR8A.aspx"                       urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view giro information"       MenuText="Bank GIRO"                  StyleId="0" url="../Reports/Girofile.aspx"                            urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view reports"                MenuText="Reports"                    StyleId="0" url="../Management/ReportDetail.aspx"                     urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view custom reports"         MenuText="Custom Reports"             StyleId="0" url="../Reports/CustomReportMainPage.aspx"                urlleft="../Frames/report_nav.aspx"></Right>
+
+    <Right id="view company"                MenuText="Company Management"         StyleId="0" url="../Company/ShowCompanies.aspx"                       urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="view users"                  MenuText="User Rights Management"     StyleId="0" url="../Users/ShowGroups.aspx"                            urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="view lookups"                MenuText="Lookups Management"         StyleId="0" url="../Management/ShowDropdowns.aspx"                    urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="project management"          MenuText="Project Management"         StyleId="0" url="../Management/ProjectManagement.aspx"                urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="workflow management"         MenuText="Workflow Management"        StyleId="0" url="../Management/WorkflowManagement.aspx"               urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="items management"            MenuText="Items Management"           StyleId="0" url="../Management/ItemsManagement.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="assignment management"       MenuText="Assignment Management"      StyleId="0" url="../Management/AssignmentManagement.aspx"             urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="bulk import"                 MenuText="Imports Management"         StyleId="0" url="../Management/ManageImports.aspx"                    urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="accomadation management"     MenuText="Accomadation Management"    StyleId="0" url="../Management/ManageAccomadation.aspx"               urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="other managements"           MenuText="Others Management"          StyleId="0" url="../Management/OtherManagement.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+    <Right id="stock in"                    MenuText="Stock In"                   StyleId="0" url="../Management/StockIn.aspx"                          urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="stock out"                   MenuText="Stock Out"                  StyleId="0" url="../Management/StockOut.aspx"                         urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="stock transfer"              MenuText="Stock Transfer"             StyleId="0" url="../Management/StockTransfer.aspx"                    urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="stock return"                MenuText="Stock Return"               StyleId="0" url="../Management/StockReturn.aspx"                      urlleft="../Frames/inventory_nav.aspx"></Right>
+
+    <Right id="view custom consolidate reports"   MenuText="Consolidate Reports"  StyleId="0" url="../Reports/CustomConMainPage.aspx" urlleft="../Frames/report_nav.aspx"></Right>
+  </Rights>
+  <ANBGroup>
+    <ANBProduct id="ANBPRODUCT" text="WMS"></ANBProduct>
+  </ANBGroup>
+  <Calendar>
+    <Months>
+      <Month id="0" text="All"></Month>
+      <Month id="1" text="Jan"></Month>
+      <Month id="2" text="Feb"></Month>
+      <Month id="3" text="Mar"></Month>
+      <Month id="4" text="Apr"></Month>
+      <Month id="5" text="May"></Month>
+      <Month id="6" text="Jun"></Month>
+      <Month id="7" text="Jul"></Month>
+      <Month id="8" text="Aug"></Month>
+      <Month id="9" text="Sep"></Month>
+      <Month id="10" text="Oct"></Month>
+      <Month id="11" text="Nov"></Month>
+      <Month id="12" text="Dec"></Month>
+    </Months>
+    <Years>
+      <Year id="2009" text="2009"></Year>
+      <Year id="2008" text="2008"></Year>
+      <Year id="2007" text="2007"></Year>
+      <Year id="2010" text="2010"></Year>
+      <Year id="2011" text="2011"></Year>
+      <Year id="2012" text="2012"></Year>
+      <Year id="2013" text="2013"></Year>
+      <Year id="2014" text="2014"></Year>
+      <Year id="2015" text="2015"></Year>
+    </Years>
+  </Calendar>
+</SMEPayroll>

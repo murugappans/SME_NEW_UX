@@ -1,0 +1,28 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+- FONTS
+- MAIN CSS
+
+
+-------------------------------------------------------------------*/
+
+/* FONTS */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('font-awesome.min.css');
+@import url('simple-line-icons.min.css');
+
+/* MAIN CSS */
+@import url('bootstrap.min.css');
+@import url('bootstrap-switch.min.css');
+@import url('components-md.min.css');
+@import url('plugins-md.min.css');
+@import url('layout.min.css');
+@import url('charts/vendors.bundle.css');
+@import url('charts/style.bundle.css');
+@import url('EmployeeRoster/Roster/css/general-notification.css');
+@import url('custom-internal.min.css');
+
+
+

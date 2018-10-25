@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<A8A xmlns="http://www.iras.gov.sg/A8ADef">
+<A8AHeader>
+  <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+       <FileHeaderST>
+         <RecordType></RecordType>
+         <Source></Source>
+         <BasisYear></BasisYear>
+         <OrganizationID></OrganizationID>
+         <OrganizationIDNo></OrganizationIDNo>
+         <AuthorisedPersonName></AuthorisedPersonName>
+         <AuthorisedPersonDesignation></AuthorisedPersonDesignation>
+         <EmployerName></EmployerName>
+         <Telephone></Telephone>
+         <AuthorisedPersonEmail></AuthorisedPersonEmail>
+         <BatchIndicator></BatchIndicator>
+         <BatchDate></BatchDate>
+         <DivisionOrBranchName></DivisionOrBranchName>
+       </FileHeaderST>
+   </ESubmissionSDSC>
+</A8AHeader>
+<Details>
+  
+</Details>
+ 
+</A8A>

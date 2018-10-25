@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SMEPayroll>
+
+  <Rights>
+    
+    <Right id="employee dashboard"          MenuText="Dashboard"					        iconclass="fa fa-bolt"   url="../../Employee/Employee_Dashboard.aspx"                           urlleft="../Employee/Employee_Dashboard.aspx" ></Right>
+    <Right id="view employees"              MenuText="Employees"					        iconclass="fa fa-bolt"   url="../employee/employee.aspx"                           urlleft="../frames/emp_nav.aspx" ></Right>
+    <Right id="multiple employee termination" MenuText="Multiple Regignations"     iconclass="fa fa-bolt"   url="../Management/MultipleEmployeeTermination.aspx"                           urlleft="../Management/MultipleEmployeeTermination.aspx" ></Right>
+    <Right id="salary increment"          MenuText="Salary Increment"           iconclass="fa fa-bolt"   url="../Management/SalaryChange.aspx"                           urlleft="../Management/SalaryChange.aspx"></Right>
+    <Right id="employee assignment"          MenuText="Assignment"               iconclass="fa fa-bolt"   url="../Employee/EmpAssignment.aspx"                           urlleft="../Employee/EmpAssignment.aspx" ></Right>
+    
+    
+    <Right id="leave dashboard"              MenuText="Dashboard"                iconclass="fa fa-bolt"   url="../Leaves/Leave-Dashboard.aspx"                         urlleft="../Leaves/Leave-Dashboard.aspx"></Right>
+    <Right id="leave request"               MenuText="Request"                iconclass="fa fa-bolt"   url="../Leaves/LeaveRequest.aspx"                         urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view applied leaves"         MenuText="Status"                 iconclass="fa fa-bolt"   url="../Leaves/ViewAppliedLeaves.aspx"                    urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="approve and reject leaves"   MenuText="Approval"                 iconclass="fa fa-bolt"   url="../Leaves/PendingApproval.aspx"                      urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="approvedrejected list"       MenuText="Approved/Rejected List"   iconclass="fa fa-bolt"   url="../Leaves/PendingApproval.aspx"                      urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="leave transfer"              MenuText="Transfer"                 iconclass="fa fa-bolt"   url="../Management/LeaveTranferAndEncash.aspx"          urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="leave rollback"              MenuText="Rollback"                   iconclass="fa fa-bolt"   url="../Leaves/LeaveRollback.aspx"                          urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="leave setting"              MenuText="Setting"                   iconclass="fa fa-bolt"   url="../Leaves/LeaveRollback.aspx"                          urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="leave assignment"              MenuText="Aassignment"                   iconclass="fa fa-bolt"   url="../Leaves/LeaveRollback.aspx"                          urlleft="../frames/job_nav.aspx"></Right>
+    
+    
+    <Right id="claim dashboard"               MenuText="Claim Dashboard"                iconclass="fa fa-bolt"   url="../Payroll/Claim-Dashboard.aspx"                         urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="apply claim"                 MenuText="Request"                iconclass="fa fa-bolt"   url="../ClaimCapping/ApplyCliamForm.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="claim status"                MenuText="Status"               iconclass="fa fa-bolt"   url="../Payroll/AppliedClaims.aspx"                       urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="pending approval for claim"  MenuText="Approval"         iconclass="fa fa-bolt"   url="../Payroll/ClaimApproval.aspx"                                urlleft="../Frames/Claims_Nav.aspx"></Right>
+    <Right id="approvedrejected list"       MenuText="Approved/Rejected"   iconclass="fa fa-bolt"   url="../Leaves/PendingApproval.aspx"                      urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="claim assignment"          MenuText="Assignment"                 iconclass="fa fa-bolt"   url="../Payroll/ClaimApproval.aspx"                                urlleft="../Frames/Claims_Nav.aspx"></Right>
+    <Right id="claim capping"             MenuText="Claim Capping"              iconclass="fa fa-bolt"   url="../Payroll/ClaimApproval.aspx"                                urlleft="../Frames/Claims_Nav.aspx"></Right>
+    
+    
+    <Right id="employee roster"             MenuText="Set Roster"            iconclass="fa fa-bolt"   url="../EmployeeRoster/RosterBox.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="employee off day"             MenuText="Set Off Day"            iconclass="fa fa-bolt"   url="../EmployeeRoster/EmployeeOffDay.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="scheduler team"             MenuText="Team"              iconclass="fa fa-bolt"   url="../EmployeeRoster/ManageTeamSchedular.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="list"                      MenuText="List"                   iconclass="fa fa-bolt"   url="../Appraisal/ManageTeamAppraisal.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    
+    
+    <Right id="timesheet dashboard"          MenuText="Dashboard"                iconclass="fa fa-bolt"   url="../Payroll/Payroll-Dashboard.aspx"                         urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="timesheet monthly"           MenuText="Timesheet"          iconclass="fa fa-bolt"   url="../TimeSheetNew/TimeSheetCalculatorNew.aspx"                              urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="automatic timesheet"         MenuText="Import"           iconclass="fa fa-bolt"   url="../Timesheet/TimesheetDocument.aspx"                 urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="pending approval"            MenuText="Approval"           iconclass="fa fa-bolt"   url="../Timesheet/TimeApproval.aspx"                              urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="timesheet status"            MenuText="Status"           iconclass="fa fa-bolt"   url="../Timesheet/TimeApprovalStatus.aspx"                              urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="mobile timesheet report"     MenuText="Mobile TS-Report"    iconclass="fa fa-bolt"   url="../Reports/MobileTimeSheetReport.aspx"               urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="view exception reports"      MenuText="Timesheet Reports"          iconclass="fa fa-bolt"   url="../Reports/TimesheetExceptionReport.aspx"            urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="lateness report"             MenuText="Lateness Report"            iconclass="fa fa-bolt"   url="../Reports/LateReport.aspx"                          urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="manage project timesheet"    MenuText="Project"         iconclass="fa fa-bolt"   url="../Management/MultiProjectAssigned.aspx"             urlleft="../Frames/timesheet_nav.aspx"></Right>
+    <Right id="timesheet assignment"        MenuText="Assignment"         iconclass="fa fa-bolt"   url="../Management/MultiProjectAssigned.aspx"             urlleft="../Frames/timesheet_nav.aspx"></Right>
+    
+    
+    <Right id="payroll dashboard"               MenuText="Payroll Dashboard"                iconclass="fa fa-bolt"   url="../Payroll/Payroll-Dashboard.aspx"                         urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="manage payroll additions"    MenuText="Addition"                   iconclass="fa fa-bolt"   url="../Payroll/PayrollAdditions.aspx"                    urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="manage payroll deductions"   MenuText="Deduction"                  iconclass="fa fa-bolt"   url="../Payroll/PayrollDeductions.aspx"                   urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="encashment"                  MenuText="Encashment"            iconclass="fa fa-bolt"   url="../Payroll/SetupAdditionTypes.aspx?type=true"                         urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="manage overtime payroll"     MenuText="Overtimepay"                iconclass="fa fa-bolt"   url="../Employee/Emp_Overtime.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="generate or submit payroll"  MenuText="Process"             iconclass="fa fa-bolt"   url="../Payroll/SubmitPayroll.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="approve or reject payroll"   MenuText="Approve"            iconclass="fa fa-bolt"   url="../Payroll/ApprovePayroll.aspx"                      urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="view generate payroll"       MenuText="Generate"           iconclass="fa fa-bolt"   url="../Payroll/GenPayroll.aspx"                          urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="print payroll"               MenuText="Print Pyroll"              iconclass="fa fa-bolt"   url="../Payroll/PrintPayroll.aspx"                        urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="print my payroll"            MenuText="Print My Payslip"           iconclass="fa fa-bolt"   url="../Payroll/PrintMyPayroll.aspx?PageType=2"           urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="unlock payroll"              MenuText="Unlock"             iconclass="fa fa-bolt"   url="../Payroll/UnlockPayroll.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="payroll ceiling"              MenuText="Ceiling"                   iconclass="fa fa-bolt"   url="../Management/EmpCeilingMaster.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="manage payslip remarks"       MenuText="Payslip Remarks"             iconclass="fa fa-bolt"   url="../Payroll/payslipRemarks.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="manage payslip cheques"       MenuText="Payslip Cheques"             iconclass="fa fa-bolt"   url="../Payroll/payslipCheques.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="payroll assignment"       MenuText="Assignment"                  iconclass="fa fa-bolt"   url="../Payroll/UnlockPayroll.aspx"                       urlleft="../Frames/project_nav.aspx"></Right>
+    
+    
+    <Right id="view cpf information"        MenuText="CPF File"                   iconclass="fa fa-bolt"   url="../CPF/SubmitCPF.aspx"                               urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view giro information"       MenuText="Bank/Online Mid-Month Giro"                  iconclass="fa fa-bolt"   url="../Reports/Girofile_k.aspx"                            urlleft="../Frames/report_nav.aspx"></Right>
+     <Right id="common reports"               MenuText="Static Report"             iconclass="fa fa-bolt"   url="../Reports/CommonReportsMain.aspx"                urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view custom reports"         MenuText="Custom Report"             iconclass="fa fa-bolt"   url="../Reports/CustomReportMainPage.aspx"                urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view iras information"       MenuText="IRAS"                 iconclass="fa fa-bolt"   url=" ../IRAS/Login.aspx"                       urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view community chest"        MenuText="Community Chest"          iconclass="fa fa-bolt"   url="../Management/ManageComchest.aspx"                     urlleft="../Frames/ComChest_nav.aspx"></Right>
+    <Right id="generate ledger"             MenuText="Generate Ledger"            iconclass="fa fa-bolt"   url="../Payroll/GenerateLedger.aspx"                      urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="cheque cash export"          MenuText="Cheque Cash Export"       iconclass="fa fa-bolt"   url="../Reports/Copy of Girofile.aspx"                     urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view amcs"                   MenuText="AMCS"                      iconclass="fa fa-bolt"   url="../Management/ManageAMC.aspx"                           urlleft="../Frames/report_nav.aspx"></Right>
+    
+    
+    <Right id="appraisal"             MenuText="Appraisal"          iconclass="fa fa-bolt"   url="../Appraisal/Appraisal.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="pending appraisal"             MenuText="Pending"          iconclass="fa fa-bolt"   url="../Appraisal/ManagerAppraisalList.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="appraisal status"             MenuText="Status"          iconclass="fa fa-bolt"   url="../Appraisal/AppraisalAllList.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="appraisal team"             MenuText="Team"                   iconclass="fa fa-bolt"   url="../Appraisal/ManageTeamAppraisal.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="appraisal team assignment"             MenuText="Team Assignment"          iconclass="fa fa-bolt"   url="../Appraisal/TeamAppraisalAssigned.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="appraisal category"             MenuText="Category"          iconclass="fa fa-bolt"   url="../Appraisal/AppraisalCategory.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="appraisal objectives"             MenuText="Objectives"          iconclass="fa fa-bolt"   url="../Appraisal/AppraisalObjectives.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="appraisal template"             MenuText="Template"          iconclass="fa fa-bolt"   url="../Appraisal/AppraisalTemplate.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    
+    
+    <Right id="view company"                MenuText="Manage Company"         iconclass="fa fa-bolt"   url="../Company/ShowCompanies.aspx"                       urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="view users"                  MenuText="Manage Security"        iconclass="fa fa-bolt"   url="../Users/ShowGroups.aspx"                            urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="view lookups"                MenuText="Manage Setting"        iconclass="fa fa-bolt"   url="../Management/ManageSettings.aspx"                    urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="workflow management"         MenuText="Manage Workflow"        iconclass="fa fa-bolt"   url="../Management/WorkflowManagement.aspx"               urlleft="../Frames/admin_nav.aspx"></Right>
+    
+    <Right id="help on this page"             MenuText="Help on this page"          iconclass="fa fa-bolt"   url="http://smepayroll.com/help/default.htm"         urlleft=""></Right>
+    <Right id="user guide"			              MenuText="User Guide"						      iconclass="fa fa-bolt"   url="http://smepayroll.com/downloads/SMEPAYROLL%20V%209.0%20User%20Guide.pdf"         urlleft=""></Right>
+
+
+    
+    
+
+    <!--
+    
+    <Right id="view mid-month giro information"       MenuText="Online Mid-Month GIRO"                  iconclass="fa fa-bolt"   url="../Reports/Girofile_MidSalary.aspx"                            urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="view reports"                MenuText="Reports"                    iconclass="fa fa-bolt"   url="../Management/ReportDetail.aspx"                     urlleft="../Frames/report_nav.aspx"></Right>
+    <Right id="ket"                         MenuText="KET"                      iconclass="fa fa-bolt"   url="../employee/KetForm.aspx"                     urlleft="../Frames/report_nav.aspx"></Right>
+    
+    
+
+    
+    
+    <Right id="multi additions"             MenuText="Multi Additions"            iconclass="fa fa-bolt"   url="../Payroll/SetupAdditionTypes.aspx?type=true"                         urlleft="../Frames/project_nav.aspx"></Right>
+    <Right id="multi deductions"            MenuText="Multi Deductions"           iconclass="fa fa-bolt"   url="../Payroll/SetupDeductionTypes.aspx?type=true"                         urlleft="../Frames/project_nav.aspx"></Right>
+<Right id="compare timesheet"           MenuText="Compare Timesheet"          iconclass="fa fa-bolt"   url="../Timesheet/ManualTimesheetCompare.aspx"            urlleft="../Frames/timesheet_nav.aspx"></Right>
+    
+    
+    <Right id="roster"                      MenuText="Roster"                     iconclass="fa fa-bolt"   url="../Management/ManageRoster.aspx"                     urlleft="../Frames/timesheet_nav.aspx"></Right>
+    
+    <Right id="roster settings"             MenuText="Roster Settings"            iconclass="fa fa-bolt"   url="../Management/RosterSettings.aspx"                   urlleft="../Frames/timesheet_nav.aspx"></Right>
+    
+    <Right id="roster assignment"           MenuText="Roster Assignment"          iconclass="fa fa-bolt"   url="../Management/RosterAssigned.aspx"                   urlleft="../Frames/timesheet_nav.aspx"></Right>
+    
+    <Right id="employee scheduler"    MenuText="Employee Scheduler"         iconclass="fa fa-bolt"   url="../EmployeeRoster/RosterBox.aspx"                            urlleft="../Frames/timesheet_nav.aspx"></Right>
+    
+    <Right id="assign team"             MenuText="Assign Team"                    iconclass="fa fa-bolt"   url="../EmployeeRoster/TeamSchedularAssigned.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    
+    
+    
+    
+    
+    
+    <Right id="employee roster list"             MenuText="Employee Roster List"  iconclass="fa fa-bolt"   url="../EmployeeRoster/EmployeeRosterList.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+    <Right id="employee off list"             MenuText="Employee Off List"        iconclass="fa fa-bolt"   url="../EmployeeRoster/EmployeeOffList.aspx"              urlleft="../Frames/appraisal_nav.aspx"></Right>
+
+
+    
+    <Right id="view employee groups"        MenuText="Employee Leave Groups"      iconclass="fa fa-bolt"   url="../employee/employeegroups.aspx"                     urlleft="../frames/emp_nav.aspx"></Right>
+    <Right id="view rejected leaves"        MenuText="Rejected Leave"            iconclass="fa fa-bolt"   url="../Leaves/RejectedLeaves.aspx"                       urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view approved leaves"        MenuText="Approved Leave"            iconclass="fa fa-bolt"   url="../Leaves/ApprovedLeaves.aspx"                      urlleft="../frames/job_nav.aspx"></Right>
+    
+    <Right id="manage leaves allowed"       MenuText="Allowed Leave"             iconclass="fa fa-bolt"   url="../Leaves/LeavesAllowedFrm.aspx"                     urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view leave types"            MenuText="Leave Types"                iconclass="fa fa-bolt"   url="../Leaves/LeaveTypes.aspx"                           urlleft="../frames/job_nav.aspx"></Right>
+    
+    <Right id="view public holidays"        MenuText="Manage Holidays"            iconclass="fa fa-bolt"   url="../Leaves/PublicHolidays.aspx"                       urlleft="../frames/job_nav.aspx"></Right>
+    <Right id="view manage leaves"          MenuText="Manage Leave"              iconclass="fa fa-bolt"   url="../Leaves/LeaveAddDed.aspx"                          urlleft="../frames/job_nav.aspx"></Right>
+    
+
+    
+    
+    
+    
+    <Right id="approved claims"             MenuText="Approved Claim"            iconclass="fa fa-bolt"   url="../Payroll/ApprovedClaims.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="rejected claims"             MenuText="Rejected Claim"            iconclass="fa fa-bolt"   url="../Payroll/RejectedClaims.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="setting claim capping amount" MenuText="Claim Capping Amount"            iconclass="fa fa-bolt"   url="../ClaimCapping/CliamCappingAmountAssgin.aspx"                       urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="claim capping groups"         MenuText="Claim Capping Groups"            iconclass="fa fa-bolt"   url="../claimCapping/ClaimCappingAddEdit.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+    <Right id="claim settings"         MenuText="Claim Setting"            iconclass="fa fa-bolt"   url="../claimCapping/Claim_Settings.aspx"                      urlleft="../Frames/claims_nav.aspx"></Right>
+
+
+
+
+    
+
+
+
+
+
+    
+
+    
+    
+    <Right id="project management"          MenuText="Manage Project"         iconclass="fa fa-bolt"   url="../Management/ProjectManagement.aspx"                urlleft="../Frames/admin_nav.aspx"></Right> 
+    
+    <Right id="items management"            MenuText="Manage Items"           iconclass="fa fa-bolt"   url="../Management/ItemsManagement.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="assignment management"       MenuText="Manage Assignments"     iconclass="fa fa-bolt"   url="../Management/AssignmentManagement.aspx"             urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="bulk import"                 MenuText="Manage Imports"         iconclass="fa fa-bolt"   url="../Management/ManageImports.aspx"                    urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="accomadation module"         MenuText="Manage Accommodation"   iconclass="fa fa-bolt"   url="../Management/ManageAccomadation.aspx"               urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="other managements"           MenuText="Manage Others"          iconclass="fa fa-bolt"   url="../Management/OtherManagement.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+    <Right id="payroll ceiling"             MenuText="Payroll Ceiling"        iconclass="fa fa-bolt"   url="../Management/EmpCeilingMaster.aspx"                 urlleft="../frames/PayrollCeiling_nav.aspx"></Right>
+    <Right id="manage template"             MenuText="Manage Template"        iconclass="fa fa-bolt"   url="../Management/emailTemplate.aspx"                    urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="scan code assignment"        MenuText="Scan Code Assignment"   iconclass="fa fa-bolt"   url="../Management/ScanCodeIDAssign.aspx"                 urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="lateness assignment"         MenuText="Lateness Assignment"    iconclass="fa fa-bolt"   url="../Management/LatenessManagement.aspx"               urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="costing managements"         MenuText="Costing Managements"    iconclass="fa fa-bolt"   url="../Cost/Cost.aspx"                                   urlleft="../frames/Cost_nav.aspx"></Right>
+    <Right id="multi currency"              MenuText="Multi Currency"         iconclass="fa fa-bolt"   url="../Management/MultiCurrency.aspx"                    urlleft="../frames/Multi_nav.aspx"></Right> 
+
+
+
+    <Right id="multicurrency"               MenuText="Multi Currency"          iconclass="fa fa-bolt"   url="../Management/MultiCurrency.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+    <Right id="timesheet daily(hours)"      MenuText=" TimeSheet Daily(Hours)"          iconclass="fa fa-bolt"   url="../Timesheet/ManualTimesheetDataEntry_Daily.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+    <Right id="timesheetproject"       MenuText="Timesheet Project"          iconclass="fa fa-bolt"   url="../Timesheet/TimesheetProject.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+    <Right id="timesheet daily(month)"       MenuText=" TimeSheet Daily(Month)"          iconclass="fa fa-bolt"   url="../Timesheet/ManualTimesheetDataEntryMonthly.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+
+
+
+
+   <Right id="multicurrency"               MenuText="Multi Currency"          iconclass="fa fa-bolt"   url="../Management/MultiCurrency.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right> 
+
+    <Right id="payrollceiling"               MenuText="Payroll Ceiling"          iconclass="fa fa-bolt"   url="../Management/EmpCeilingMaster.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+
+
+    <Right id="email template"           MenuText="Manage Template"          iconclass="fa fa-bolt"   url="../Management/emailTemplate.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+    <Right id="costing"           MenuText="Costing Management"          iconclass="fa fa-bolt"   url="../Cost/Cost.aspx"                  urlleft="../Frames/admin_nav.aspx"></Right>
+
+
+
+    <Right id="stock details"               MenuText="Stock Details"              iconclass="fa fa-bolt"   url="../Management/StockDetails.aspx"                          urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="issue details"               MenuText="Issue Details"              iconclass="fa fa-bolt"   url="../Management/StockIssueDetails.aspx"                     urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="return details"              MenuText="Return Details"              iconclass="fa fa-bolt"   url="../Management/StockReturnDetails.aspx"                     urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="outstanding details"         MenuText="Outstanding Details"        iconclass="fa fa-bolt"   url="../Management/StockOutstandingDetails.aspx"                     urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="stock balance"         MenuText="Stock Balance"        iconclass="fa fa-bolt"   url="../Management/StockBalance.aspx"                     urlleft="../Frames/inventory_nav.aspx"></Right>
+
+
+    <Right id="stock in"                    MenuText="Stock In"                   iconclass="fa fa-bolt"   url="../Management/StockInNew.aspx"                          urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="stock out"                   MenuText="Stock Out"                  iconclass="fa fa-bolt"   url="../Management/StockOutNew.aspx"                         urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="stock transfer"              MenuText="Stock Transfer"             iconclass="fa fa-bolt"   url="../Management/StockTransfer.aspx"                    urlleft="../Frames/inventory_nav.aspx"></Right>
+    <Right id="stock return"                MenuText="Stock Return"               iconclass="fa fa-bolt"   url="../Management/StockReturnNew.aspx"                      urlleft="../Frames/inventory_nav.aspx"></Right>
+
+    <Right id="view custom consolidate reports"   MenuText="Consolidate Reports"    iconclass="fa fa-bolt"   url="../Reports/CustomConMainPage.aspx" urlleft="../Frames/report_nav.aspx"></Right>
+
+
+    <Right id="chequecashexport"   MenuText="Cheque/CashExport"    iconclass="fa fa-bolt"   url="../Reports/Copy of Girofile.aspx" urlleft="../Frames/report_nav.aspx"></Right>
+
+    <Right id="help on this page"             MenuText="Help on this page"          iconclass="fa fa-bolt"   url="http://smepayroll.com/help/default.htm"         urlleft=""></Right>
+    
+    <Right id="user guide"			              MenuText="User Guide"						      iconclass="fa fa-bolt"   url="http://smepayroll.com/downloads/SMEPAYROLL%20V%209.0%20User%20Guide.pdf"         urlleft=""></Right>
+    <Right id="new in this version"           MenuText="New in this version"        iconclass="fa fa-bolt"   url=""         urlleft=""></Right>
+    <Right id="check for update"              MenuText="About"				              iconclass="fa fa-bolt"   url=""         urlleft=""></Right>
+
+    <Right id="manage clients"                MenuText="Manage Clients"            iconclass="fa fa-bolt"   url="../Invoice/ClientManagement.aspx"          urlleft="../Frames/invoice_nav.aspx"></Right>
+    <Right id="manage quotation"              MenuText="Manage Quotation"          iconclass="fa fa-bolt"   url="../Invoice/Quotation.aspx"        urlleft="../Frames/invoice_nav.aspx"></Right>
+    <Right id="manage order"                  MenuText="Manage Order"               iconclass="fa fa-bolt"   url="../Invoice/Order.aspx"            urlleft="../Frames/invoice_nav.aspx"></Right>
+    <Right id="manage invoice"                MenuText="Manage Invoice"           iconclass="fa fa-bolt"   url="../Invoice/Invoice_Main.aspx"            urlleft="../Frames/invoice_nav.aspx"></Right>
+    <Right id="manage preference"             MenuText="Manage Preference"          iconclass="fa fa-bolt"   url="../Invoice/PreferenceIcon.aspx"              urlleft="../Frames/invoice_nav.aspx"></Right> -->
+
+    
+   
+
+    
+
+
+  </Rights>
+
+</SMEPayroll>

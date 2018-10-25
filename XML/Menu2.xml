@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SMEPayroll>
+
+  <Rights>
+    
+    <Right id="demo company assignment"			MenuText="Demo Company Assignment"						      iconclass="fa fa-bolt"    url="../Management/DemoCompanyAssign.aspx"          urlleft=""></Right>
+    <Right id="header information"			    MenuText="Header Information"						            iconclass="fa fa-bolt"   url="../Management/CustomExportGrid.aspx"         urlleft=""></Right>
+    <Right id="home page reminders"			    MenuText="Home Page Reminders"						          iconclass="fa fa-bolt"  url="../Management/ManageHomePageRemainders.aspx"         urlleft=""></Right>
+    <Right id="manage administrative users"	MenuText="Manage Administrative Users"						  iconclass="fa fa-bolt"   url="../Management/UserCreator.aspx"        urlleft=""></Right>
+    <Right id="manage template"			        MenuText="Manage Template"						              iconclass="fa fa-bolt"  url="../Management/emailTemplate.aspx"         urlleft=""></Right>
+
+
+    <Right id="agent"			                  MenuText="Agent"						                        iconclass="fa fa-bolt"   url="../Management/ManageAgent.aspx"        urlleft=""></Right>
+    <Right id="banks"			                  MenuText="Banks"						                        iconclass="fa fa-bolt"   url="../Management/Banks.aspx"        urlleft=""></Right>
+    <Right id="businessUnit"			          MenuText="BusinessUnit"						                  iconclass="fa fa-bolt"   url="../Cost/BusinessUnit.aspx"         urlleft=""></Right>
+    <Right id="certificate category"			  MenuText="Certificate Category"						          iconclass="fa fa-bolt"   url="../Management/ManageCertificateCategory.aspx"        urlleft=""></Right>
+    <Right id="cost category"			          MenuText="Cost Category"						                iconclass="fa fa-bolt"   url="../Cost/CCategory.aspx"        urlleft=""></Right>
+    <Right id="country"			                MenuText="Country"						                      iconclass="fa fa-bolt"   url="../Management/ManageCountry.aspx"         urlleft=""></Right>
+    <Right id="department"			            MenuText="Department"						                    iconclass="fa fa-bolt"   url="../Management/ManageDepartment.aspx"        urlleft=""></Right>
+    <Right id="designation"			            MenuText="Designation"						                  iconclass="fa fa-bolt"   url="../Management/ManageDesignation.aspx"        urlleft=""></Right>
+    <Right id="document category"			      MenuText="Document Category"						            iconclass="fa fa-bolt"   url="../Management/ManageDocumentCategory.aspx"         urlleft=""></Right>
+    <Right id="job category"			          MenuText="Job Category"						                  iconclass="fa fa-bolt"   url="../Management/JobCategory.aspx"         urlleft=""></Right>
+    <Right id="job title"			              MenuText="Job Title"						                    iconclass="fa fa-bolt"   url="../Management/JobTitle.aspx"         urlleft=""></Right>
+    <Right id="mye certificate"			        MenuText="MYE Certificate"						              iconclass="fa fa-bolt"   url="../Management/ManageMYE.aspx"        urlleft=""></Right>
+    <Right id="nationality"			            MenuText="Nationality"						                  iconclass="fa fa-bolt"   url="../Management/ManageNationality.aspx"         urlleft=""></Right>
+    <Right id="progression reason"			    MenuText="Progression Reason"						            iconclass="fa fa-bolt"   url="../Management/ProgressionReason.aspx"         urlleft=""></Right>
+    <Right id="race"			                  MenuText="Race"						                          iconclass="fa fa-bolt"   url="../Management/ManageRace.aspx"         urlleft=""></Right>
+    <Right id="religion"			              MenuText="Religion"						                      iconclass="fa fa-bolt"   url="../Management/ManageReligion.aspx"        urlleft=""></Right>
+    <Right id="safety pass"			            MenuText="Safety Pass"						                  iconclass="fa fa-bolt"   url="../Management/SafetyPass.aspx"         urlleft=""></Right>
+   
+    <Right id="trade"			                  MenuText="Trade"						                        iconclass="fa fa-bolt"   url="../Management/ManageTrade.aspx"        urlleft=""></Right>
+    <Right id="training course"			        MenuText="Training Course"						              iconclass="fa fa-bolt"   url="../Management/Courses.aspx"         urlleft=""></Right>
+    <Right id="item category"			          MenuText="Item Category"						                iconclass="fa fa-bolt"   url="../Management/ManageItemCategory.aspx"         urlleft=""></Right>
+    <Right id="item sub category"			      MenuText="Item Sub Category"						            iconclass="fa fa-bolt"   url="../Management/ManageItemSubCategory.aspx"        urlleft=""></Right>
+    <Right id="item uom"			              MenuText="Item UOM"						                      iconclass="fa fa-bolt"  url="../Management/ManageUOM.aspx"         urlleft=""></Right>
+    <Right id="Parameter"			             MenuText="Parameter"						                      iconclass="fa fa-bolt"   url="../Management/ManageParameter.aspx"        urlleft=""></Right>
+    <Right id="item"			                  MenuText="Item"						                          iconclass="fa fa-bolt"   url="../Management/ManageItem.aspx"        urlleft=""></Right>
+
+    <Right id="location"			              MenuText="Location"						                      iconclass="fa fa-bolt"   url="../Management/ManageLocation.aspx"         urlleft=""></Right>
+    <Right id="project"			                MenuText="Project"						                      iconclass="fa fa-bolt"   url="../Management/ManageProject.aspx"         urlleft=""></Right>
+    <Right id="sub project"			            MenuText="Sub Project"						                  iconclass="fa fa-bolt"   url="../Management/ManageSubProject.aspx"         urlleft=""></Right>
+    <Right id="project assignment"			    MenuText="Project Assignment"						            iconclass="fa fa-bolt"   url="../Management/ManageSettings.aspx"         urlleft=""></Right>
+
+
+    <Right id="additions"			              MenuText="Additions"						                    iconclass="fa fa-bolt"   url="../Management/AdditionType.aspx"                    urlleft=""></Right>
+    <Right id="deductions"			            MenuText="Deductions"						                    iconclass="fa fa-bolt"   url="../Management/DeductionType.aspx"                   urlleft=""></Right>
+    <Right id="multiadditionmapping"			  MenuText="MultiAddition Mapping"						        iconclass="fa fa-bolt"   url="../Management/MappingExcel_MultiAddition.aspx"        urlleft=""></Right>
+    <Right id="multideductionmapping"			  MenuText="MultiDeduction Mapping"						        iconclass="fa fa-bolt"   url="../Management/MappingExcel_MultiDeduction.aspx"         urlleft=""></Right>
+    <Right id="tax percentage"			        MenuText="Tax Percentage"						                iconclass="fa fa-bolt"  url="../Management/GstMaster.aspx"                      urlleft=""></Right>
+    <Right id="costing by team"			        MenuText="Costing By Team"						              iconclass="fa fa-bolt"   url="../Cost/CostingByTeamIndex.aspx"                  urlleft=""></Right>
+    <Right id="costing by project"			    MenuText="Costing By Project"						            iconclass="fa fa-bolt"   url="../Cost/CostingByProjectIndex.aspx"         urlleft=""></Right>
+    <Right id="costing by businessUnit"			MenuText="Costing By BusinessUnit"						      iconclass="fa fa-bolt"   url="../Cost/CostingByBusinessunitIndex.aspx"         urlleft=""></Right>
+    <Right id="costing by category"			    MenuText="Costing By Category"						          iconclass="fa fa-bolt"   url="../Cost/CostingByCategoryIndex.aspx"       urlleft=""></Right>
+    <Right id="costing by region"			      MenuText="Costing By Region"						            iconclass="fa fa-bolt"   url="../Cost/CostingByRegionIndex.aspx"         urlleft=""></Right>
+    <Right id="currency"			              MenuText="Currency"						                      iconclass="fa fa-bolt"   url="../Management/ManageSettings.aspx"         urlleft=""></Right>
+    <Right id="currency exchange rate"			MenuText="Currency Exchange Rate"						        iconclass="fa fa-bolt"   url="../Management/ManageSettings.aspx"         urlleft=""></Right>
+    <Right id="manage logo"			            MenuText="Manage Logo"						                  iconclass="fa fa-bolt"  url="../Management/ManageLogoDept.aspx"         urlleft=""></Right>
+    <Right id="manage year of assesment"		MenuText="Manage Year of Assesment"						      iconclass="fa fa-bolt"   url="../employee/EmployeYearEarn.aspx"         urlleft=""></Right>
+    <Right id="manage previous year wages"	MenuText="Manage Previous Year Wages"						    iconclass="fa fa-bolt"   url="../employee/PreviousYearWages.aspx"         urlleft=""></Right>
+    
+    
+
+    
+    
+
+
+  </Rights>
+
+</SMEPayroll>

@@ -1,0 +1,23 @@
+<A8BHeader>
+  <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+    <FileHeaderST>
+      <RecordType>0</RecordType>
+      <Source>6</Source>
+      <BasisYear>2009</BasisYear>
+      <PaymentType>08</PaymentType>
+      <OrganizationID>8</OrganizationID>
+      <OrganizationIDNo>199305457N</OrganizationIDNo>
+      <AuthorisedPersonName>Jenny Ho</AuthorisedPersonName>
+      <AuthorisedPersonDesignation>Office Manager</AuthorisedPersonDesignation>
+      <EmployerName>HARRIS PYE SINGAPORE PTE LTD</EmployerName>
+      <Telephone>68633188</Telephone>
+      <AuthorisedPersonEmail>jenny@harris-pye.com.sg</AuthorisedPersonEmail>
+      <BatchIndicator>O</BatchIndicator>
+      <BatchDate>20091227</BatchDate>
+      <IncorporationDate>
+      </IncorporationDate>
+      <DivisionOrBranchName>
+      </DivisionOrBranchName>
+    </FileHeaderST>
+  </ESubmissionSDSC>
+</A8BHeader>

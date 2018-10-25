@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Comments>
+	<Page>
+		<Key>home.aspx</Key>		
+		<URL>
+      help/standardmessage.htm
+    </URL>
+	</Page>
+
+  <!--Admin Starts-->
+  <Page>
+    <Key>Admin.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ShowCompanies.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>AddCompanyNew.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ShowDropdowns.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>AdditionType.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+
+  <Page>
+    <Key>ManageAgent.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>Banks.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageCertificateCategory.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageCountry.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>DeductionType.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageDepartment.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageDesignation.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageDocumentCategory.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageMYE.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageNationality.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageRace.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageReligion.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>SafetyPass.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageTrade.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>Courses.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>bulkAdditions.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+
+  <Page>
+    <Key>ImportEmployee.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ClaimsAdditions.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>bulkDeductions.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ShowGroups.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+
+  <Page>
+    <Key>WorkFlowManagement.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+
+  <Page>
+    <Key>EmployeeWorkflow.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManagePayrollGroup.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>EmployeeWorkflowLevel.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PayrollGroupAssigned.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PayrollWorkflowAssignment.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>assignmentManagement.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>DepartmentAssignment.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>leaveSupervisorAssignment.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>claimSupervisorAssignment.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>EmployeeAssignedToWorkersList.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+
+  <Page>
+    <Key>ItemsManagement.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+
+  <Page>
+    <Key>ManageItemCategory.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageItemSubCategory.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageUOM.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageParameter.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageItem.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ProjectManagement.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageLocation.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageProject.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageSubProject.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ProjectAssigned.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageAccomadation.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>AccomadationInfo.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>EmployeeAccomadationInfo.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>OtherManagement.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>payslipRemarks.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageLogoDept.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>EmployeYearEarn.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PreviousYearWages.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+  
+  <!--Admin Ends-->
+  <!--Employee Starts Here-->
+
+  <Page>
+    <Key>Employee.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+  
+  <Page>
+    <Key>AddEditEmployee.aspx</Key>
+    <URL>
+      help/personal_info2.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>EmployeeGroups.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <!--Employee Ends Here-->
+  
+  <!--Leaves Start Here-->
+  <Page>
+    <Key>LeaveRequest.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ViewAppliedLeaves.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ApprovedLeaves.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>RejectedLeaves.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PendingApproval.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>LeavesAllowedFrm.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>LeavesAllowedFrm.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>LeaveTypes.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>LeaveTransfer.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PublicHolidays.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>LeaveAddDed.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <!--Leaves Ends here-->
+  
+  <!--Claims Start-->
+
+  <Page>
+    <Key>ClaimAdditions.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+
+  <Page>
+    <Key>AppliedClaims.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ApprovedClaims.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>RejectedClaims.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ClaimApproval.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+  <!--Claims end here-->
+  
+  <!--Payroll Start-->
+  
+  <Page>
+    <Key>PayrollAdditions.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PayrollDeductions.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>emp_overtime.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>SubmitPayroll.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ApprovePayroll.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>GenPayroll.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PrintPayroll.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>UnLockPayroll.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>Emp_BulkAdd.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>Emp_BulkDed.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>PrintMyPayroll.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+  <!--Payoll Ends-->
+  
+  <!--CPF Starts-->  
+  <Page>
+    <Key>Girofile.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>CustomReportMainPage.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>ManageAMC.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>MedicineContribution.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>AssignAMC.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>GenerateAMCScheme.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+
+  <Page>
+    <Key>GenerateLedger.aspx</Key>
+    <URL>
+      help/standardmessage.htm
+    </URL>
+  </Page>
+  <!--CPF Ends-->
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+</Comments>

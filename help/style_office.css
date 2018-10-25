@@ -1,0 +1,68 @@
+﻿.page_body {}
+
+.skin_body {background-image:url(images_office/skin_background.jpg);background-repeat:repeat-x;background-color:#628dc7;margin:0px}
+.skin_detailwrapper {width:100%;padding-left:20px;background-image:url(images_office/skin_background_corner.jpg);background-repeat:no-repeat}
+.skin_separator {width:20px;}
+.skin_contentswrapper {width:250px;}
+.skin_pagewrapper {}
+.skin_container {width:100%;}
+.skin_header {}
+.skin_footer {}
+.skin_contentsheader {cursor:e-resize;color:#9fbfe8;background-image:url(images_office/resize.gif);background-repeat:no-repeat;background-position:right}
+.skin_contents {background-image:url(images_office/transparent.gif)}
+.skin_contentsfooter {}
+.skin_pageheader {}
+.skin_pageleft {display:none}
+.skin_page {background-color:#FFFFFF;border:1px solid #646464}
+.skin_pageright {width:31px}
+.skin_pagefooter {}
+.skin_footer {}
+
+.bookmark_button {padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;background-image:none}
+.print_button {padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;background-image:none}
+.link_button {padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;background-image:none}
+
+.tab_contents_up {width:55px;height:29px;background-image:url(images_office/toolbar_contents_up.gif);cursor:pointer;text-align:center;color:#15428b;padding-top:37px}
+.tab_contents_down {width:55px;height:29px;background-image:url(images_office/toolbar_contents_down.gif);cursor:pointer;text-align:center;color:#15428b;padding-top:37px}
+.tab_index_up {width:55px;height:29px;background-image:url(images_office/toolbar_index_up.gif);cursor:pointer;text-align:center;color:#15428b;padding-top:37px}
+.tab_index_down {width:55px;height:29px;background-image:url(images_office/toolbar_index_down.gif);cursor:pointer;text-align:center;color:#15428b;padding-top:37px}
+.tab_search_up {width:55px;height:29px;background-image:url(images_office/toolbar_search_up.gif);cursor:pointer;text-align:center;color:#15428b;padding-top:37px}
+.tab_search_down {width:55px;height:29px;background-image:url(images_office/toolbar_search_down.gif);cursor:pointer;text-align:center;color:#15428b;padding-top:37px}
+.tab_spacer {width:5px}
+
+
+.AdvancedOptionsPanel {width:100%;border:0px solid transparent;background-color:transparent; color:white;padding-left:10px;padding-right:10px}
+
+.ContentsLabel {}
+.IndexLabel {}
+.SearchResultsLabel {}
+.CloseContentsIcon {display:none}
+
+
+.search_textbox_cell{}
+.search_button_cell{background-image:url(images_office/search.gif);width:20px;}
+.search_advbutton_cell{display:none}
+.search_textbox{width:180px;height:16px;border:#AAB9CA 1px solid;background-color:#f5f4ec}
+
+.seealso_list A:link {text-decoration: none; color: #164587;background-image:url(images_office/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:active {text-decoration: none; color: #164587;background-image:url(images_office/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:visited {text-decoration: none; color: #164587;background-image:url(images_office/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:hover {text-decoration: underline;}
+
+.TreeNode {color:white}
+
+.login_link:link {color: #4f77b1}
+.login_link:active {color: #4f77b1}
+.login_link:visited {color: #4f77b1}
+.login_link:hover {color: blue}
+
+.searchresults A:link {text-decoration: none; color: #FFFFFF;}
+.searchresults A:active {text-decoration: none; color: #FFFFFF;}
+.searchresults A:visited {text-decoration: none; color: #FFFFFF;}
+.searchresults A:hover {background-color: #FBEFA0; color:black }
+
+.keywordindex {padding:10px}
+.keywordindex A:link {text-decoration: none; color: #FFFFFF;}
+.keywordindex A:active {text-decoration: none; color: #FFFFFF;}
+.keywordindex A:visited {text-decoration: none; color: #FFFFFF;}
+.keywordindex A:hover {background-color: yellow; color: black}

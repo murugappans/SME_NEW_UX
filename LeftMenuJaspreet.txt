@@ -1,0 +1,100 @@
+<li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">Claim Module</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../Payroll/ClaimApproval.aspx" class="nav-link ">
+                                    <span class="title">Pending approval for claim</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Payroll/ClaimAdditions.aspx" class="nav-link ">
+                                    <span class="title">Apply Claim</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Payroll/AppliedClaims.aspx" class="nav-link ">
+                                    <span class="title">Claim Status</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Payroll/ApprovedClaims.aspx" class="nav-link ">
+                                    <span class="title">Approved Claim</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Payroll/RejectedClaims.aspx" class="nav-link ">
+                                    <span class="title">Rejected Claim</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item  ">
+                        <a href="javascript:;" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">Claim Module</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="nav-item  ">
+                                <a href="../Management/ManageRoster.aspx" class="nav-link ">
+                                    <span class="title">Roster</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Management/RosterSettings.aspx" class="nav-link ">
+                                    <span class="title">Roster Settings</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Management/RosterAssigned.aspx" class="nav-link ">
+                                    <span class="title">Roster Assignment</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Timesheet/TimesheetDocument.aspx" class="nav-link ">
+                                    <span class="title">Import Timesheet</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Management/MultiProjectAssigned.aspx" class="nav-link ">
+                                    <span class="title">Project Assignment</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Timesheet/Copy of ManualTimesheetDataEntry.aspx" class="nav-link ">
+                                    <span class="title">Timesheet</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Reports/TimesheetExceptionReport.aspx" class="nav-link ">
+                                    <span class="title">Timesheet Reports</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Reports/MobileTimeSheetReport.aspx" class="nav-link ">
+                                    <span class="title">Mobile Timesheet Report</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Timesheet/TimeSheetCalculator.aspx" class="nav-link ">
+                                    <span class="title">Timesheet Monthly</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Timesheet/TimeApprovalStatus.aspx" class="nav-link ">
+                                    <span class="title">Timesheet Status</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a href="../Timesheet/TimeApproval.aspx" class="nav-link ">
+                                    <span class="title">Pending Approval</span>
+                                </a>
+                            </li>
+                   
+                        </ul>
+                    </li>

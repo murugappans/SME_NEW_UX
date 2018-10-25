@@ -1,0 +1,48 @@
+﻿.page_body {}
+
+.skin_body {margin:0px;background-image:url(images_simple/heading_background.gif);background-repeat:repeat-x}
+.skin_detailwrapper {width:100%}
+.skin_separator {border-right:1px solid #bbbbbb;width:14px;cursor:e-resize;}
+.skin_contentswrapper {width:280px;padding-left:14px}
+.skin_pagewrapper {}
+.skin_container {width:100%;}
+.skin_header {background-image:url(images_simple/heading_float.gif);background-repeat:no-repeat;background-position:top right}
+.skin_footer {}
+.skin_contentsheader {}
+.skin_contents {color:#1364c4}
+.skin_contentsfooter {}
+.skin_pageheader {}
+.skin_pageleft {display:none}
+.skin_page {}
+.skin_pageright {display:none}
+.skin_pagefooter {}
+.skin_footer {background-image:url(images_simple/footer_background.gif)}
+
+.index_button {color:#ffffff;font-size:10pt;cursor:pointer;background-image:none}
+.bookmark_button {color:#ffffff;font-size:10pt;cursor:pointer;background-image:none}
+.print_button {color:#ffffff;font-size:10pt;cursor:pointer;background-image:none}
+.link_button {color:#ffffff;font-size:10pt;cursor:pointer;background-image:none}
+
+.search_container {width:100%}
+.search_button_cell {width:22px;background-image:url(../_engine/images/search.gif);cursor:pointer;}
+.search_textbox_cell {padding-right:9px}
+.search_textbox {width:100%;}
+.search_advbutton_cell{display:none}
+
+.seealso_list A:link {text-decoration: none; color: #164587;background-image:url(images_Simple/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:active {text-decoration: none; color: #164587;background-image:url(images_Simple/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:visited {text-decoration: none; color: #164587;background-image:url(images_Simple/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:hover {text-decoration: underline;}
+
+.login_link {padding-right:15px}
+.login_link:link {text-decoration: none; font-size:10pt;color: #FFFFFF}
+.login_link:active {text-decoration: none;font-size:10pt;color: #FFFFFF}
+.login_link:visited {text-decoration: none;font-size:10pt;color: #FFFFFF}
+.login_link:hover {text-decoration: underline; background-color:transparent;font-size:10pt; color: #FFFFFF}
+
+.ContentsLabel {font-size:13pt; font-weight:bold;color: #e66a5e}
+.IndexLabel {font-size:13pt; font-weight:bold; color: #e66a5e}
+.SearchResultsLabel {font-size:13pt; font-weight:bold; color: #e66a5e}
+
+.SelectedTreeNode {background-color: transparent; color:#1364c4;text-decoration:underline;border-width:0px;  padding-top:3px;   padding-bottom:2px; padding-left: 3px; padding-right: 3px; }
+.TreeView {padding-top:5px;} 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<IR8A xmlns="http://www.iras.gov.sg/IR8ADef">
+<IR8AHeader>
+  <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+       <FileHeaderST>
+         <RecordType />
+         <Source />
+         <BasisYear />
+         <PaymentType />
+         <OrganizationID />
+         <OrganizationIDNo />
+         <AuthorisedPersonName />
+         <AuthorisedPersonDesignation />
+         <EmployerName />
+         <Telephone />
+         <AuthorisedPersonEmail />
+         <BatchIndicator />
+         <BatchDate />
+         <DivisionOrBranchName />
+       </FileHeaderST>
+   </ESubmissionSDSC>
+</IR8AHeader>
+<Details>
+  
+</Details>
+ <IR8ATrailer>
+   <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+     <IR8ATrailerST>
+       <RecordType />
+       <NoOfRecords />
+       <TotalPayment />
+       <TotalSalary />
+       <TotalBonus />
+       <TotalDirectorsFees />
+       <TotalOthers />
+       <TotalExemptIncome />
+       <TotalIncomeForTaxBorneByEmployer />
+       <TotalIncomeForTaxBorneByEmployee />
+       <TotalDonation />
+       <TotalCPF />
+       <TotalInsurance />
+       <TotalMBF />
+       <Filler />
+     </IR8ATrailerST>
+   </ESubmissionSDSC>
+ </IR8ATrailer> 
+</IR8A>

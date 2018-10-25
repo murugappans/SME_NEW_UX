@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<A8A xmlns="http://www.iras.gov.sg/A8ADef">
+  <A8AHeader>
+    <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+      <FileHeaderST>
+        <RecordType>0</RecordType>
+        <Source>6</Source>
+        <BasisYear>2009</BasisYear>
+        <OrganizationID>8</OrganizationID>
+        <OrganizationIDNo>199305457N</OrganizationIDNo>
+        <AuthorisedPersonName>Jenny Ho</AuthorisedPersonName>
+        <AuthorisedPersonDesignation>Office Manager</AuthorisedPersonDesignation>
+        <EmployerName>HARRIS PYE SINGAPORE PTE LTD</EmployerName>
+        <Telephone>68633188</Telephone>
+        <AuthorisedPersonEmail>jenny@harris-pye.com.sg</AuthorisedPersonEmail>
+        <BatchIndicator>O</BatchIndicator>
+        <BatchDate>20091226</BatchDate>
+        <DivisionOrBranchName>
+        </DivisionOrBranchName>
+      </FileHeaderST>
+    </ESubmissionSDSC>
+  </A8AHeader>
+  <Details>
+    <A8ARecord>
+      <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+        <A8AST>
+          <RecordType xmlns="http://www.iras.gov.sg/A8A">1</RecordType>
+          <IDType xmlns="http://www.iras.gov.sg/A8A">1</IDType>
+          <IDNo xmlns="http://www.iras.gov.sg/A8A" />
+          <NameLine1 xmlns="http://www.iras.gov.sg/A8A">Aung Ko San</NameLine1>
+          <NameLine2 xmlns="http://www.iras.gov.sg/A8A" />
+          <ResidencePlaceValue xmlns="http://www.iras.gov.sg/A8A" />
+          <ResidenceAddressLine1 xmlns="http://www.iras.gov.sg/A8A" />
+          <ResidenceAddressLine2 xmlns="http://www.iras.gov.sg/A8A" />
+          <ResidenceAddressLine3 xmlns="http://www.iras.gov.sg/A8A" />
+          <OccupationFromDate xmlns="http://www.iras.gov.sg/A8A" />
+          <OccupationToDate xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfDays xmlns="http://www.iras.gov.sg/A8A" />
+          <AVOrRentByEmployer xmlns="http://www.iras.gov.sg/A8A" />
+          <RentByEmployee xmlns="http://www.iras.gov.sg/A8A" />
+          <FurnitureValue xmlns="http://www.iras.gov.sg/A8A" />
+          <HardOrsoftFurnitureItemsValue xmlns="http://www.iras.gov.sg/A8A" />
+          <RefrigeratorValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfRefrigerators xmlns="http://www.iras.gov.sg/A8A">10</NoOfRefrigerators>
+          <VideoRecorderValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfVideoRecorders xmlns="http://www.iras.gov.sg/A8A">10</NoOfVideoRecorders>
+          <WashingMachineDryerDishWasherValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfWashingMachines xmlns="http://www.iras.gov.sg/A8A">10</NoOfWashingMachines>
+          <NoOfDryers xmlns="http://www.iras.gov.sg/A8A">10</NoOfDryers>
+          <NoOfDishWashers xmlns="http://www.iras.gov.sg/A8A">10</NoOfDishWashers>
+          <AirConditionerValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfAirConditioners xmlns="http://www.iras.gov.sg/A8A">10</NoOfAirConditioners>
+          <NoOfCentralACDining xmlns="http://www.iras.gov.sg/A8A">10</NoOfCentralACDining>
+          <NoOfCentralACSitting xmlns="http://www.iras.gov.sg/A8A">10</NoOfCentralACSitting>
+          <NoOfCentralACAdditional xmlns="http://www.iras.gov.sg/A8A">10</NoOfCentralACAdditional>
+          <TVRadioAmpHiFiStereoElectriGuitarValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfTVs xmlns="http://www.iras.gov.sg/A8A">10</NoOfTVs>
+          <NoOfRadios xmlns="http://www.iras.gov.sg/A8A">10</NoOfRadios>
+          <NoOfAmplifiers xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfHiFiStereos xmlns="http://www.iras.gov.sg/A8A">10</NoOfHiFiStereos>
+          <NoOfElectriGuitar xmlns="http://www.iras.gov.sg/A8A">10</NoOfElectriGuitar>
+          <ComputerAndOrganValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfComputers xmlns="http://www.iras.gov.sg/A8A">10</NoOfComputers>
+          <NoOfOrgans xmlns="http://www.iras.gov.sg/A8A">10</NoOfOrgans>
+          <SwimmingPoolValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfSwimmingPools xmlns="http://www.iras.gov.sg/A8A">10</NoOfSwimmingPools>
+          <PublicUtilities xmlns="http://www.iras.gov.sg/A8A">10</PublicUtilities>
+          <Telephone xmlns="http://www.iras.gov.sg/A8A">10</Telephone>
+          <Pager xmlns="http://www.iras.gov.sg/A8A">10</Pager>
+          <Suitcase xmlns="http://www.iras.gov.sg/A8A">10</Suitcase>
+          <GolfBagAndAccessories xmlns="http://www.iras.gov.sg/A8A">10</GolfBagAndAccessories>
+          <Camera xmlns="http://www.iras.gov.sg/A8A">10</Camera>
+          <Servant xmlns="http://www.iras.gov.sg/A8A">10</Servant>
+          <Driver xmlns="http://www.iras.gov.sg/A8A">10</Driver>
+          <GardenerOrCompoundUpkeep xmlns="http://www.iras.gov.sg/A8A">10</GardenerOrCompoundUpkeep>
+          <OtherBenefitsInKindValue xmlns="http://www.iras.gov.sg/A8A">10</OtherBenefitsInKindValue>
+          <HotelAccommodationValue xmlns="http://www.iras.gov.sg/A8A">2</HotelAccommodationValue>
+          <SelfWifeChildAbove20NoOfPersons xmlns="http://www.iras.gov.sg/A8A">2</SelfWifeChildAbove20NoOfPersons>
+          <SelfWifeChildAbove20NoOfDays xmlns="http://www.iras.gov.sg/A8A">2</SelfWifeChildAbove20NoOfDays>
+          <SelfWifeChildAbove20Value xmlns="http://www.iras.gov.sg/A8A" />
+          <ChildBetween8And20NoOfPersons xmlns="http://www.iras.gov.sg/A8A">21</ChildBetween8And20NoOfPersons>
+          <ChildBetween8And20NoOfDays xmlns="http://www.iras.gov.sg/A8A">122</ChildBetween8And20NoOfDays>
+          <ChildBetween8And20Value xmlns="http://www.iras.gov.sg/A8A" />
+          <ChildBetween3And7NoOfPersons xmlns="http://www.iras.gov.sg/A8A">2</ChildBetween3And7NoOfPersons>
+          <ChildBetween3And7NoOfDays xmlns="http://www.iras.gov.sg/A8A">2</ChildBetween3And7NoOfDays>
+          <ChildBetween3And7Value xmlns="http://www.iras.gov.sg/A8A" />
+          <ChildBelow3NoOfPersons xmlns="http://www.iras.gov.sg/A8A">2</ChildBelow3NoOfPersons>
+          <ChildBelow3NoOfDays xmlns="http://www.iras.gov.sg/A8A">2</ChildBelow3NoOfDays>
+          <ChildBelow3Value xmlns="http://www.iras.gov.sg/A8A" />
+          <Percent2OfBasic xmlns="http://www.iras.gov.sg/A8A">100</Percent2OfBasic>
+          <CostOfLeavePassageAndIncidentalBenefits xmlns="http://www.iras.gov.sg/A8A">3</CostOfLeavePassageAndIncidentalBenefits>
+          <NoOfLeavePassageSelf xmlns="http://www.iras.gov.sg/A8A">1</NoOfLeavePassageSelf>
+          <NoOfLeavePassageWife xmlns="http://www.iras.gov.sg/A8A">1</NoOfLeavePassageWife>
+          <NoOfLeavePassageChildren xmlns="http://www.iras.gov.sg/A8A">1</NoOfLeavePassageChildren>
+          <OHQStatus xmlns="http://www.iras.gov.sg/A8A">Y</OHQStatus>
+          <InterestPaidByEmployer xmlns="http://www.iras.gov.sg/A8A">1</InterestPaidByEmployer>
+          <LifeInsurancePremiumsPaidByEmployer xmlns="http://www.iras.gov.sg/A8A">1</LifeInsurancePremiumsPaidByEmployer>
+          <FreeOrSubsidisedHoliday xmlns="http://www.iras.gov.sg/A8A">1</FreeOrSubsidisedHoliday>
+          <EducationalExpenses xmlns="http://www.iras.gov.sg/A8A">1</EducationalExpenses>
+          <NonMonetaryAwardsForLongService xmlns="http://www.iras.gov.sg/A8A">1</NonMonetaryAwardsForLongService>
+          <EntranceOrTransferFeesToSocialClubs xmlns="http://www.iras.gov.sg/A8A">1</EntranceOrTransferFeesToSocialClubs>
+          <GainsFromAssets xmlns="http://www.iras.gov.sg/A8A">1</GainsFromAssets>
+          <FullCostOfMotorVehicle xmlns="http://www.iras.gov.sg/A8A">1</FullCostOfMotorVehicle>
+          <CarBenefit xmlns="http://www.iras.gov.sg/A8A">1</CarBenefit>
+          <OthersBenefits xmlns="http://www.iras.gov.sg/A8A">1</OthersBenefits>
+          <TotalBenefitsInKind xmlns="http://www.iras.gov.sg/A8A">100</TotalBenefitsInKind>
+          <NoOfEmployeesSharingQRS xmlns="http://www.iras.gov.sg/A8A" />
+          <Filler xmlns="http://www.iras.gov.sg/A8A" />
+          <Remarks xmlns="http://www.iras.gov.sg/A8A" />
+        </A8AST>
+      </ESubmissionSDSC>
+    </A8ARecord>
+    <A8ARecord>
+      <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+        <A8AST>
+          <RecordType xmlns="http://www.iras.gov.sg/A8A">1</RecordType>
+          <IDType xmlns="http://www.iras.gov.sg/A8A">1</IDType>
+          <IDNo xmlns="http://www.iras.gov.sg/A8A" />
+          <NameLine1 xmlns="http://www.iras.gov.sg/A8A">Biswajit Bardhan</NameLine1>
+          <NameLine2 xmlns="http://www.iras.gov.sg/A8A" />
+          <ResidencePlaceValue xmlns="http://www.iras.gov.sg/A8A" />
+          <ResidenceAddressLine1 xmlns="http://www.iras.gov.sg/A8A">54-19-53</ResidenceAddressLine1>
+          <ResidenceAddressLine2 xmlns="http://www.iras.gov.sg/A8A">Jaya Prakash Nagar</ResidenceAddressLine2>
+          <ResidenceAddressLine3 xmlns="http://www.iras.gov.sg/A8A">LIC Colony</ResidenceAddressLine3>
+          <OccupationFromDate xmlns="http://www.iras.gov.sg/A8A">12/8/2009 12:00:00 AM</OccupationFromDate>
+          <OccupationToDate xmlns="http://www.iras.gov.sg/A8A">12/16/2009 12:00:00 AM</OccupationToDate>
+          <NoOfDays xmlns="http://www.iras.gov.sg/A8A">2</NoOfDays>
+          <AVOrRentByEmployer xmlns="http://www.iras.gov.sg/A8A">100</AVOrRentByEmployer>
+          <RentByEmployee xmlns="http://www.iras.gov.sg/A8A">200</RentByEmployee>
+          <FurnitureValue xmlns="http://www.iras.gov.sg/A8A" />
+          <HardOrsoftFurnitureItemsValue xmlns="http://www.iras.gov.sg/A8A" />
+          <RefrigeratorValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfRefrigerators xmlns="http://www.iras.gov.sg/A8A">1</NoOfRefrigerators>
+          <VideoRecorderValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfVideoRecorders xmlns="http://www.iras.gov.sg/A8A">1</NoOfVideoRecorders>
+          <WashingMachineDryerDishWasherValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfWashingMachines xmlns="http://www.iras.gov.sg/A8A">1</NoOfWashingMachines>
+          <NoOfDryers xmlns="http://www.iras.gov.sg/A8A">1</NoOfDryers>
+          <NoOfDishWashers xmlns="http://www.iras.gov.sg/A8A">1</NoOfDishWashers>
+          <AirConditionerValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfAirConditioners xmlns="http://www.iras.gov.sg/A8A">1</NoOfAirConditioners>
+          <NoOfCentralACDining xmlns="http://www.iras.gov.sg/A8A">1</NoOfCentralACDining>
+          <NoOfCentralACSitting xmlns="http://www.iras.gov.sg/A8A">1</NoOfCentralACSitting>
+          <NoOfCentralACAdditional xmlns="http://www.iras.gov.sg/A8A">1</NoOfCentralACAdditional>
+          <TVRadioAmpHiFiStereoElectriGuitarValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfTVs xmlns="http://www.iras.gov.sg/A8A">1</NoOfTVs>
+          <NoOfRadios xmlns="http://www.iras.gov.sg/A8A">1</NoOfRadios>
+          <NoOfAmplifiers xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfHiFiStereos xmlns="http://www.iras.gov.sg/A8A">1</NoOfHiFiStereos>
+          <NoOfElectriGuitar xmlns="http://www.iras.gov.sg/A8A">1</NoOfElectriGuitar>
+          <ComputerAndOrganValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfComputers xmlns="http://www.iras.gov.sg/A8A">1</NoOfComputers>
+          <NoOfOrgans xmlns="http://www.iras.gov.sg/A8A">1</NoOfOrgans>
+          <SwimmingPoolValue xmlns="http://www.iras.gov.sg/A8A" />
+          <NoOfSwimmingPools xmlns="http://www.iras.gov.sg/A8A">1</NoOfSwimmingPools>
+          <PublicUtilities xmlns="http://www.iras.gov.sg/A8A">10</PublicUtilities>
+          <Telephone xmlns="http://www.iras.gov.sg/A8A">10</Telephone>
+          <Pager xmlns="http://www.iras.gov.sg/A8A">10</Pager>
+          <Suitcase xmlns="http://www.iras.gov.sg/A8A">10</Suitcase>
+          <GolfBagAndAccessories xmlns="http://www.iras.gov.sg/A8A">10</GolfBagAndAccessories>
+          <Camera xmlns="http://www.iras.gov.sg/A8A">10</Camera>
+          <Servant xmlns="http://www.iras.gov.sg/A8A">10</Servant>
+          <Driver xmlns="http://www.iras.gov.sg/A8A">10</Driver>
+          <GardenerOrCompoundUpkeep xmlns="http://www.iras.gov.sg/A8A">10</GardenerOrCompoundUpkeep>
+          <OtherBenefitsInKindValue xmlns="http://www.iras.gov.sg/A8A">10</OtherBenefitsInKindValue>
+          <HotelAccommodationValue xmlns="http://www.iras.gov.sg/A8A">1</HotelAccommodationValue>
+          <SelfWifeChildAbove20NoOfPersons xmlns="http://www.iras.gov.sg/A8A">1</SelfWifeChildAbove20NoOfPersons>
+          <SelfWifeChildAbove20NoOfDays xmlns="http://www.iras.gov.sg/A8A">1</SelfWifeChildAbove20NoOfDays>
+          <SelfWifeChildAbove20Value xmlns="http://www.iras.gov.sg/A8A" />
+          <ChildBetween8And20NoOfPersons xmlns="http://www.iras.gov.sg/A8A">1</ChildBetween8And20NoOfPersons>
+          <ChildBetween8And20NoOfDays xmlns="http://www.iras.gov.sg/A8A">1</ChildBetween8And20NoOfDays>
+          <ChildBetween8And20Value xmlns="http://www.iras.gov.sg/A8A" />
+          <ChildBetween3And7NoOfPersons xmlns="http://www.iras.gov.sg/A8A">1</ChildBetween3And7NoOfPersons>
+          <ChildBetween3And7NoOfDays xmlns="http://www.iras.gov.sg/A8A">1</ChildBetween3And7NoOfDays>
+          <ChildBetween3And7Value xmlns="http://www.iras.gov.sg/A8A" />
+          <ChildBelow3NoOfPersons xmlns="http://www.iras.gov.sg/A8A">1</ChildBelow3NoOfPersons>
+          <ChildBelow3NoOfDays xmlns="http://www.iras.gov.sg/A8A">1</ChildBelow3NoOfDays>
+          <ChildBelow3Value xmlns="http://www.iras.gov.sg/A8A" />
+          <Percent2OfBasic xmlns="http://www.iras.gov.sg/A8A">13</Percent2OfBasic>
+          <CostOfLeavePassageAndIncidentalBenefits xmlns="http://www.iras.gov.sg/A8A">3</CostOfLeavePassageAndIncidentalBenefits>
+          <NoOfLeavePassageSelf xmlns="http://www.iras.gov.sg/A8A">1</NoOfLeavePassageSelf>
+          <NoOfLeavePassageWife xmlns="http://www.iras.gov.sg/A8A">1</NoOfLeavePassageWife>
+          <NoOfLeavePassageChildren xmlns="http://www.iras.gov.sg/A8A">1</NoOfLeavePassageChildren>
+          <OHQStatus xmlns="http://www.iras.gov.sg/A8A">Y</OHQStatus>
+          <InterestPaidByEmployer xmlns="http://www.iras.gov.sg/A8A">1</InterestPaidByEmployer>
+          <LifeInsurancePremiumsPaidByEmployer xmlns="http://www.iras.gov.sg/A8A">1</LifeInsurancePremiumsPaidByEmployer>
+          <FreeOrSubsidisedHoliday xmlns="http://www.iras.gov.sg/A8A">1</FreeOrSubsidisedHoliday>
+          <EducationalExpenses xmlns="http://www.iras.gov.sg/A8A">1</EducationalExpenses>
+          <NonMonetaryAwardsForLongService xmlns="http://www.iras.gov.sg/A8A">1</NonMonetaryAwardsForLongService>
+          <EntranceOrTransferFeesToSocialClubs xmlns="http://www.iras.gov.sg/A8A">1</EntranceOrTransferFeesToSocialClubs>
+          <GainsFromAssets xmlns="http://www.iras.gov.sg/A8A">1</GainsFromAssets>
+          <FullCostOfMotorVehicle xmlns="http://www.iras.gov.sg/A8A">1</FullCostOfMotorVehicle>
+          <CarBenefit xmlns="http://www.iras.gov.sg/A8A">1</CarBenefit>
+          <OthersBenefits xmlns="http://www.iras.gov.sg/A8A">1</OthersBenefits>
+          <TotalBenefitsInKind xmlns="http://www.iras.gov.sg/A8A">1</TotalBenefitsInKind>
+          <NoOfEmployeesSharingQRS xmlns="http://www.iras.gov.sg/A8A" />
+          <Filler xmlns="http://www.iras.gov.sg/A8A" />
+          <Remarks xmlns="http://www.iras.gov.sg/A8A" />
+        </A8AST>
+      </ESubmissionSDSC>
+    </A8ARecord>
+  </Details>
+</A8A>

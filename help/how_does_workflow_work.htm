@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html><head><title>How does workflow work? - SME</title><link href="style_blue.css" type="text/css" rel="stylesheet"/><link href="pagestyles.css" type="text/css" rel="stylesheet"/><link href="AppStyles.css" type="text/css" rel="stylesheet"/><link href="TableLayoutCss.css" type="text/css" rel="stylesheet"/><script language=JavaScript type="text/javascript" src="static_page.js"></script><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"><META HTTP-EQUIV="Pragma" CONTENT="no-cache"><meta http-equiv="expires" content="FRI, 13 APR 1999 01:00:00 GMT"><META name="ROBOTS" content="NOINDEX, NOFOLLOW, NOARCHIVE"></head><body onload="HighlightSearchText();HighlightPage('97');" class="page_body"><p><span class="breadcrumbs"><a href="Welcome.htm" title="">Home</a>&nbsp;&gt;&nbsp;<a href="admin_management.htm" title="">Admin Management</a>&nbsp;&gt;&nbsp;<a href="manage_workflow.htm" title="">Manage Workflow</a>&nbsp;&gt;&nbsp;<a href="how_does_workflow_work.htm" title="">How does workflow work?</a></span></p>
+<p><span class="heading">How does workflow work?</span></p>
+<p>Smepayroll Workflow enables automation of business processes during which documents, information, or tasks are passed from one party to another and actions are performed according to a set of rules. Workflow provides many out-of-the-box components that business users and administrators can use to model their business processes.</p>
+The following step by step instruction will explain how to implement payroll Workflow in Smepayroll. <br />
+<br />
+<strong>SCENARIO :<br />
+-----------------------------------------------------<br />
+</strong>Company Name: Advanced &amp; Best Technologies Pte Ltd<br />
+Total Employees: 200<br />
+Requirement: Hierarchy structure <br />
+Payroll authority Level: <br />
+<span class="breadcrumbs"></span><img alt="" src="images/wf2.png" /><br />
+<br />
+The senario needs the top level group to be able to view and manager employees belonging to lower levels.<br />
+The lower level group cannot view or manage employees in top level group<br />
+<strong>-----------------------------------------------------<br />
+<br />
+Step 1:</strong> <br />
+Create Workflow name<br />
+<br />
+<img alt="" src="images/wf3.png" /><br />
+<br />
+Click on Add Workflow and enter a Workflow name, we will use <strong>WF SCENARIO 1 </strong>for this scenario. <br />
+<br />
+<img alt="" src="images/wf8.png" /><br />
+<strong><br />
+Step 2:</strong> <br />
+Create Workflow groups<br />
+<br />
+<img alt="" src="images/wf4.png" /><br />
+<br />
+Click on Add Workflow Group, enter the names accordingly.<br />
+<br />
+<img alt="" src="images/wf9.png" /><br />
+<br />
+<strong>Step 3:</strong> <br />
+Create Workflow Levels { Hierarchy}<br />
+<br />
+<img alt="" src="images/wf5.png" /><br />
+<br />
+Select the Workflow name from the dropdown list, Select the Workflow type and select the payroll group name created in previous steps. Click on Add Level button to add the levels as shown in the figure below.<br />
+<br />
+<img alt="" src="images/wf10.png" /><br />
+<strong><br />
+Step 4:</strong> <br />
+Assign Employee to Workflow group<br />
+<br />
+<img alt="" src="images/wf6.png" /><br />
+<br />
+Select the  payroll Group Name. For Example: Finance Controller<br />
+<br />
+<img alt="" src="images/wf11.png" /><br />
+<br />
+Select the employee names from the left grid and Click on Assign button to assign the employee as members of the Finance Controller group.All the employee that are assigned to this group will have Level 1 rights .i.e will be able to view and manage employee from their as well as lower groups.<br />
+<br />
+Follow the same steps to assign employee to other groups HR Manager, Assistant HR Manager and HR executive.<br />
+<br />
+<img alt="" src="images/wf12.png" /><br />
+<br />
+<br />
+<br />
+<strong>Step 5:</strong> <br />
+Assign Employee to Workflow<br />
+<br />
+<img alt="" src="images/wf7.png" /><br />
+<br />
+Select the  Workflow level. For Example: WF SCENARIO 1 - L1 <span style="color: #a5a5a5;">{ L1 = Level 1}</span><br />
+<br />
+<img alt="" src="images/wf13.png" /><br />
+<br />
+Select the employee names from the left grid and Click on Assign button to assign the employees to the Workflow level WF SCENARIO 1 - L1. All the employee that are assigned to this group will be view and managed by Level 1 payroll Group i.e Finance Controller Group<br />
+<br />
+Follow the same steps to assign employee to other Workflow levels WF SCENARIO 1 - L2, WF SCENARIO 1 - L3, WF SCENARIO 1 - L4.<br />
+<br />
+<br />
+<img alt="" src="images/wf14.png" /><br />
+<br />
+<p>Once all the above steps are completed the effects can be viewed in the payroll management. When the user logs into the system to access the payroll module, <br />
+He /She will only be able to view or manager users belonging on their workflow level or lower.</p><br><br><br><br><br><br><div style='width:175px;height:160px;background:transparent url(images/eval_callout.gif) no-repeat top left'><div style='padding-left:32px;padding-right:20px;padding-top:33px'><font face=arial size=2>This Help System was created with the evaluation version of HelpConsole.</font></div></div></body></html>

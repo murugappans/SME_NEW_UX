@@ -1,0 +1,55 @@
+﻿.page_body {}
+
+.skin_body {background-color:#1f3240;margin:0px;}
+.skin_detailwrapper {width:100%;padding-left:6px;padding-right:6px}
+.skin_separator {width:3px;background-color:#dddddd}
+.skin_contentswrapper {width:265px;background-color:#eef0f9}
+.skin_pagewrapper {}
+.skin_container {width:100%}
+.skin_header {}
+.skin_footer {}
+.skin_contentsheader {cursor:e-resize;color:#eef0f9}
+.skin_contents {padding-left:10px}
+.skin_contentsfooter {}
+.skin_pageheader {}
+.skin_pageleft {display:none}
+.skin_page {background-color:#FFFFFF;}
+.skin_pageright {display:none}
+.skin_pagefooter {}
+.skin_footer {}
+
+.index_button {color:#FFFFFF;cursor:pointer;padding-left:20px;padding-right:20px;padding-top:2px;padding-bottom:2px;background-image:url(images_tabs/index.gif);background-position:center left;background-repeat:no-repeat}
+.bookmark_button {color:#FFFFFF;cursor:pointer;padding-left:20px;padding-right:20px;padding-top:2px;padding-bottom:2px;background-image:url(images_tabs/bookmark.gif);background-position:center left;background-repeat:no-repeat}
+.print_button {color:#FFFFFF;cursor:pointer;padding-left:20px;padding-right:10px;padding-top:2px;padding-bottom:2px;background-image:url(images_tabs/print.gif);background-position:center left;background-repeat:no-repeat}
+.link_button {color:#FFFFFF;cursor:pointer;padding-left:20px;padding-right:20px;padding-top:2px;padding-bottom:2px;background-image:url(images_tabs/link.gif);background-position:center left;background-repeat:no-repeat}
+
+.tab_contents_up {width:68px;height:25px;background-image:url(images_tabs/tab_dark.gif);cursor:pointer;text-align:center;color:#EEEEEE}
+.tab_contents_down {width:71px;height:25px;background-image:url(images_tabs/tab_down.gif);cursor:pointer;text-align:center;color:#111111}
+.tab_index_up {width:68px;height:25px;background-image:url(images_tabs/tab_dark.gif);cursor:pointer;text-align:center;color:#EEEEEE;}
+.tab_index_down {width:71px;height:25px;background-image:url(images_tabs/tab_down.gif);cursor:pointer;text-align:center;color:#111111;}
+.tab_search_up {width:68px;height:25px;background-image:url(images_tabs/tab_light.gif);cursor:pointer;text-align:center;color:#EEEEEE}
+.tab_search_down {width:71px;height:25px;background-image:url(images_tabs/tab_down.gif);cursor:pointer;text-align:center;color:#111111}
+.tab_spacer {width:5px}
+
+
+
+.AdvancedOptionsPanel {width:100%;border:0px solid transparent;background-color:transparent; padding-left:0px;padding-right:10px}
+
+.ContentsLabel {}
+.IndexLabel {}
+.SearchResultsLabel {}
+.CloseContentsIcon {display:none}
+
+.seealso_list A:link {text-decoration: none; color: #164587;background-image:url(images_tabs/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:active {text-decoration: none; color: #164587;background-image:url(images_tabs/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:visited {text-decoration: none; color: #164587;background-image:url(images_tabs/pagelist_icon.gif);background-repeat:no-repeat;padding-left:12px;}
+.seealso_list A:hover {text-decoration: underline;}
+
+.TreeView {padding-top:0px; padding-left:8px;}
+.SelectedTreeNode {background-color: #aaa9a9; color:white; border: 1px solid #c1bebe;}
+
+.login_link {background-image:url(../_engine/images/button_back.gif);padding-bottom:4px;padding-top:4px;padding-left:6px;padding-right:6px}
+.login_link:link {text-decoration: none;color: #CBC9C9}
+.login_link:active {text-decoration: none;color: #CBC9C9}
+.login_link:visited {text-decoration: none;color: #CBC9C9}
+.login_link:hover {background-color: #4F4F4F; color: #CBC9C9}

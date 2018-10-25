@@ -1,0 +1,470 @@
+.portlet.box.red{
+    border:none !important;
+}
+
+.page-breadcrumb li:first-child{
+    font-size:18px;
+}
+    .page-breadcrumb li:first-child:after {
+        content:"";
+        background-color:#888;
+        margin-left:20px;
+        margin-right:20px;
+        padding:0 0.5px;
+    }
+
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-green {
+    background: #10becd;
+}
+.theme-panel .toggler{display:none !important;}
+
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-default {
+    background:#e7505a !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-blue {
+    background:#2D5F8B !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-darkBlue {
+    background:#191970 !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-steelBlue  {
+    background:#4682b4 !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-green2  {
+    background:#10becd !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-maroon {
+    background:#d64635 !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-rosyBrown {
+    background:#b27f7f !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-lightSeagreen {
+    background:#20b2aa !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-mediumSeagreen {
+    background:#3cb371 !important;
+}
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-slateGray {
+    background:#677888 !important;
+}
+
+
+.page-header.navbar .hor-menu .navbar-nav > li .dropdown-menu li > a > i {
+    display: none;
+}
+
+.theme-panel > .theme-options > .theme-option.theme-colors > ul > li.color-green2 {
+    background: #10becd;
+}
+
+table:focus, table tr:focus, table td:focus, table th:focus, div:focus {
+    outline: none !important;
+}
+
+.RadGrid_Outlook .rgHeader, .RadGrid_Outlook th.rgResizeCol {
+    background: none !important;
+}
+
+.RadGrid_Outlook {
+    border: none !important;
+}
+
+.rgMasterTable tr th {
+    color: inherit !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #e7ecf1 !important;
+    border-top: 1px solid #e7ecf1 !important;
+    font-weight: 600 !important;
+}
+
+
+.RadGrid_Outlook .rgRow td, .RadGrid_Outlook .rgAltRow td, .RadGrid_Outlook .rgEditRow td, .RadGrid_Outlook .rgFooter td {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px !important;
+    border-top: 1px solid #e7ecf1;
+}
+
+.RadGrid_Outlook .rgRow td, .RadGrid_Outlook .rgAltRow td {
+    /*border-color:#e7ecf1 !important;*/
+}
+
+.RadToolBar_Office2007 .rtbOuter {
+    border: none !important;
+}
+
+.RadToolBar_Office2007 .rtbMiddle {
+    border: none !important;
+    background: none !important;
+}
+
+.RadToolBar_Office2007 .rtbSplBtnFocused .rtbWrap, .RadToolBar_Office2007 .rtbSplBtnFocused .rtbOut, .RadToolBar_Office2007 .rtbSplBtnFocused .rtbMid, .RadToolBar_Office2007 .rtbSplBtnFocused .rtbIn, .RadToolBar_Office2007 .rtbItemFocused .rtbWrap, .RadToolBar_Office2007 .rtbItemFocused .rtbOut, .RadToolBar_Office2007 .rtbItemFocused .rtbMid, .RadToolBar_Office2007 .rtbItemFocused .rtbIn, .RadToolBar_Office2007 .rtbItemHovered .rtbWrap, .RadToolBar_Office2007 .rtbItemHovered .rtbOut, .RadToolBar_Office2007 .rtbItemHovered .rtbMid, .RadToolBar_Office2007 .rtbItemHovered .rtbIn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background: none !important;
+}
+
+.rtbItem .rtbIn {
+    height: auto !important;
+}
+
+.portlet > .portlet-title > .actions .btn-icon-only {
+    padding: 1px 0 3px;
+    margin: 0 2px;
+}
+
+li.rtbItem:nth-child(3) {
+    display: none;
+}
+
+li.rtbItem:hover .bg-white {
+    background: #fff !important;
+}
+
+.table-bordered tbody tr td, .table-bordered tbody tr th, .table-bordered thead tr td, .table-bordered thead tr th {
+    border-left: 1px solid #e7ecf1 !important;
+    border-right: 1px solid #e7ecf1 !important;
+    border-top: 1px solid #e7ecf1 !important;
+    border-bottom: 1px solid #e7ecf1 !important;
+}
+
+.RadGrid_Outlook .table-bordered .rgRow td, .RadGrid_Outlook .table-bordered .rgAltRow td, .RadGrid_Outlook .table-bordered .rgEditRow td, .RadGrid_Outlook .table-bordered .rgFooter td {
+    border-right: 1px solid #e7ecf1 !important;
+}
+
+.RadGrid_Outlook .rgActiveRow, .RadGrid_Outlook .rgHoveredRow {
+    background: none;
+}
+
+.table-hover > tbody > tr:hover, .table > tbody > tr.active > td, .table > tbody > tr.active > th, .table > tbody > tr > td.active, .table > tbody > tr > th.active, .table > tfoot > tr.active > td, .table > tfoot > tr.active > th, .table > tfoot > tr > td.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th, .table > thead > tr > td.active, .table > thead > tr > th.active {
+    background: #eef1f5;
+}
+
+.RadGrid_Outlook .rgHeaderDiv {
+    background: none !important;
+}
+
+table.RadSplitter_Default {
+    background: none !important;
+}
+
+
+/*Top Right Bar Start*/
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > span.user-img {
+    float: left;
+    margin-top: -5px;
+    margin-right: 5px;
+    height: 29px;
+    display: inline-block;
+    padding-left: 30px;
+    border-radius: 50%;
+}
+/*Top Right Bar End*/
+
+/*Popup main dashboard setting*/
+.RadWindow_Default .rwTopLeft, .RadWindow_Default .rwTopRight, .RadWindow_Default .rwTitlebar,
+.RadWindow_Default .rwFooterLeft, .RadWindow_Default .rwFooterRight, .RadWindow_Default .rwFooterCenter,
+.RadWindow_Default .rwTopResize, .RadWindow_Default .rwStatusbar div, .RadWindow_Default .rwStatusbar,
+.RadWindow_Default .rwPopupButton, .RadWindow_Default .rwPopupButton span,
+.RadWindow_Default.rwMinimizedWindow .rwCorner, .RadWindow_Default .rwBodyLeft, .RadWindow_Default .rwBodyRight,
+.RadWindow_Default .rwStatusbarRow .rwCorner, .RadWindow_Default .rwControlButtons a, a.rwIcon {
+    background-image: none !important;
+}
+.rwStatusbar {
+    background: #fff;
+}
+.rwControlButtons {
+    width: 100% !important;
+}
+div.RadWindow_Default .rwTitlebarControls em {
+    color: #fff !important;
+}
+.rwControlButtons a.rwReloadButton, .rwControlButtons a.rwMinimizeButton,
+.rwControlButtons a.rwPinButton, .rwControlButtons a.rwMaximizeButton,
+.rwControlButtons a.rwCloseButton, a.rwIcon {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-indent: unset !important;
+    overflow: unset !important;
+    line-height: 16px !important;
+    cursor:pointer !important;
+}
+    .rwControlButtons a.rwReloadButton:before, .rwControlButtons a.rwMinimizeButton:before,
+    .rwControlButtons a.rwPinButton:before, .rwControlButtons a.rwMaximizeButton:before,
+    .rwControlButtons a.rwCloseButton:before, a.rwIcon:before {
+        position: relative;
+        font-size: 16px;
+        color: #fff;
+    }
+    .rwControlButtons a.rwReloadButton:before {
+        content: "\f021";
+    }
+
+    .rwControlButtons a.rwMinimizeButton:before {
+        content: "\f068";
+    }
+
+    .rwControlButtons a.rwPinButton:before {
+        content: "\f08d";
+    }
+
+    .rwControlButtons a.rwMaximizeButton:before {
+        content: "\f096";
+    }
+
+    .rwControlButtons a.rwCloseButton:before {
+        content: "\f00d";
+    }
+
+    a.rwIcon:before {
+        content: "\f039";
+    }
+
+/*Popup main dashboard setting end*/
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-users .media-list .media {
+    padding: 15px 7px !important;
+}
+
+/*Toolbar settings*/
+
+#RAD_SPLITTER_PANE_CONTENT_Radpane111 {
+    overflow: visible !important;
+}
+
+.RadToolBar .rtbUL {
+    white-space: normal !important;
+}
+
+.heading-box .RadToolBar_Office2007 .rtbOuter {
+    border: none !important;
+}
+
+.heading-box {
+    padding: 5px 0 5px 0 !important;
+}
+
+    .heading-box select {
+        margin-top: 3.5px !important;
+    }
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn span.rtbText:before {
+    font: normal normal normal 18px/1 FontAwesome;
+    line-height: 25px;
+    /*padding-right: 5px;*/
+    /*background: #e7505a !important;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;*/
+}
+
+.rtbUL .rtbItem a.rtbWrap {
+    border-radius: 2px;
+}
+
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn:nth-child(1) span.rtbText:before {
+    content: "\f02f";
+}
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn:nth-child(2) span.rtbText:before {
+    content: "\f1c3";
+}
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn:nth-child(3) span.rtbText:before {
+    content: "\f1c2";
+}
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn:nth-child(4) span.rtbText:before {
+    content: "\f248";
+}
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn:nth-child(6) span.rtbText:before {
+    content: "\f021";
+}
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn:nth-child(7) span.rtbText:before {
+    content: "\f0c7";
+}
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn:nth-child(8) span.rtbText:before {
+    content: "\f201";
+}
+
+
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .print-btn span.rtbText:before {
+    content: "\f02f";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .excel-btn span.rtbText:before {
+    content: "\f1c3";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .word-btn span.rtbText:before {
+    content: "\f1c2";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .ungroup-btn span.rtbText:before {
+    content: "\f248";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .reset-default-btn span.rtbText:before {
+    content: "\f021";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .save-changes-btn span.rtbText:before {
+    content: "\f0c7";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .clear-sorting-btn span.rtbText:before {
+    content: "\f021";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .pdf-btn span.rtbText:before {
+    content: "\f1c1";
+}
+.RadToolBar ul.rtbUL li.rtbItem.rtbBtn .calender-btn span.rtbText:before {
+    content: "\f073";
+}
+/*Toolbar settings End*/
+
+
+
+/*Footer Start*/
+.page-footer-inner{display:none !important;}
+/*Footer End*/
+
+/* Css font family setting */
+body, h1, h2, h3, h4, h5, h6, .bars, .chart, .pie, .primary-font, .dropdown-menu, .label,
+.table.table-light > thead > tr > th, .page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > .badge,
+.page-header.navbar .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content,
+.page-header.navbar .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content .mega-menu-submenu li > a,
+.page-header.navbar .hor-menu .navbar-nav > li .dropdown-menu li > a {
+    font-family: 'Poppins', sans-serif !important;
+}
+/* Css font family setting End*/
+
+/* menu settings */
+.open > .dropdown-menu::before, .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-menu::before {
+    display: block !important;
+    content: "";
+    top: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #364150;
+    position: absolute;
+    display: inline-block;
+    margin: -10px 0 0 0;
+    width: 15px;
+}
+.open > .dropdown-menu::before{
+    left: 30px;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-menu::before {
+    right:10px;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-menu::after {
+    display: none !important;
+}
+
+.theme-panel {
+    margin-top: -4px;
+}
+
+.page-header.navbar .hor-menu .navbar-nav > li .dropdown-menu, .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-menu {
+    margin-top: 12px;
+}
+
+.open > .dropdown-menu {
+    /*margin-top: 12px !important;*/
+    -webkit-animation: m-header-menu-submenu-fade-in .5s ease 1, m-header-menu-submenu-move-up .5s ease-out 1;
+    -moz-animation: m-header-menu-submenu-fade-in .5s ease 1, m-header-menu-submenu-move-up .5s ease-out 1;
+    -ms-animation: m-header-menu-submenu-fade-in .5s ease 1, m-header-menu-submenu-move-up .5s ease-out 1;
+    -o-animation: m-header-menu-submenu-fade-in .5s ease 1, m-header-menu-submenu-move-up .5s ease-out 1;
+    animation: m-header-menu-submenu-fade-in .5s ease 1, m-header-menu-submenu-move-up .5s ease-out 1;
+}
+
+@-webkit-keyframes m-header-menu-submenu-fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes m-header-menu-submenu-fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes m-header-menu-submenu-fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes m-header-menu-submenu-fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes m-header-menu-submenu-move-up {
+    from {
+        margin-top: 50px;
+    }
+
+    to {
+        margin-top: 12px !important;
+    }
+}
+
+@-moz-keyframes m-header-menu-submenu-move-up {
+    from {
+        margin-top: 50px;
+    }
+
+    to {
+        margin-top: 12px !important;
+    }
+}
+
+@-o-keyframes m-header-menu-submenu-move-up {
+    from {
+        margin-top: 50px;
+    }
+
+    to {
+        margin-top: 12px !important;
+    }
+}
+
+@keyframes m-header-menu-submenu-move-up {
+    from {
+        margin-top: 50px;
+    }
+
+    to {
+        margin-top: 12px !important;
+    }
+}
+
+
+/* menu settings */

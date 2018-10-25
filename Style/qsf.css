@@ -1,0 +1,2049 @@
+/* Telerik RadControls for ASP.NET AJAX Demos */
+
+/* Skin chooser and skin chooser dropdown templates */
+.qsfSkinMgr .RadComboBoxDropDown .rcbScroll
+{
+    overflow-x:hidden !important;
+    
+}
+
+.skinChooserItem
+{
+    height:124px;
+    background-repeat:no-repeat;
+    display:block;   
+    background-position:6px 22px;
+    background-color:#d6eefd;
+    color:#7691a2;
+    font-size:14px;
+    font-weight:bold;       
+    cursor:pointer;
+    padding:4px 13px;
+}
+
+.skinChooserItem:hover
+{
+    color:#7691a2;
+    border:1px solid #0b496d;
+    padding:3px 12px;
+    background-position:5px 21px;
+}
+
+/* GLOBAL */
+
+html,
+body,
+.qsfGrid,
+.qsfLeft,
+.qsfRight,
+.qsfTitle,
+.qsfTicked,
+.qsfTicked li,
+.qsfMoreLinks h2,
+.qsfMoreLinks ul,
+.qsfMoreLinks li,
+.qsfBottomLinks,
+.qsfThumbHolder ul,
+.qsfTopRight ul,
+.qsfSuites
+{
+	margin:0;
+	padding:0;
+}
+
+img
+{
+	border:0;
+}
+
+.qsfNone
+{
+	position:absolute;
+	top:-100%;
+	left:-3333px;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+/* links */
+
+.qsfMoreLinks a,
+.qsfFooter a,
+.qsfTopLink:hover,
+.qsfCrumbs a:hover,
+.qsfInnerArea a:hover,
+.qsfCodeTabs .last a:hover,
+.qsfLeft .allProducts a,
+.qsfVersion a:hover,
+.qsfCodeSwitcher a:hover
+{
+	text-decoration:none;
+}
+
+.qsfMoreLinks a:hover,
+.qsfCodeTabs .last a
+{
+	text-decoration:underline;
+}
+
+/* floats */
+
+.qsfClear{display:inline-block}
+.qsfClear{display:block}
+.qsfClear:after,.qsfCodeTabs ul:after{content:"";display:block;clear:both;height:0;visibility:hidden}
+.qsfClearFloat{display:block;clear:both;height:1px;overflow:hidden;margin-bottom:-1px}
+
+/*ajax*/
+
+.qsfLoading
+{
+	height:100%;
+	background:url(Img/loading.gif) center center no-repeat;
+}
+
+/* MAIN LAYOUT */
+
+.BODY
+{
+	background:url(Img/qsfBody.gif) repeat-x #000f16;
+	font-size:62.5%;
+	line-height:1.2;
+	font-family:"segoe ui",arial,sans-serif;
+}
+
+.qsfWrap
+{
+	min-width:996px;
+	min-height:500px;
+	background:url(Img/qsfWrap.jpg) repeat-x -18px 0;
+	color:#fff;
+	font-size:1.2em;
+}
+* html .qsfWrap{height:500px}
+
+.qsfHome .qsfWrap,
+.qsfOverview .qsfWrap
+{
+	min-width:1015px;/*qsfMoreLinks - Compatibility column*/
+}
+
+/*quirks mode table font-size fix*/
+
+.qsfGrid,
+.controlMenu,
+.allProducts
+{
+	font-size:12px;
+}
+
+.qsfGrid
+{
+	width:100%;
+	margin:5px 0 0;
+	border:0;
+	border-collapse:collapse;
+	table-layout:fixed;/*prevents page expansion because of RadGrid when using scrolling and static headers*/
+}
+
+.qsfLeft,
+.qsfRight
+{
+	border:0;
+	vertical-align:top;
+}
+
+.qsfLeft
+{
+	width:210px;
+}
+
+
+/* HEADER */
+
+.qsfHeader
+{
+	min-width:1230px;
+}
+
+* html .qsfHeader
+{
+	width:1230px;
+}
+
+.qsfRadLogo
+{
+	float:left;
+	height:66px;
+	margin:0 20px 0 19px;
+}
+
+.qsfTelerikLogo
+{
+	float:right;
+	margin:11px 17px 0 0;
+	width:91px;
+	height:22px;
+	overflow:hidden;
+	text-indent:-2222px;
+	background:-300px -300px no-repeat url(Img/qsfSprite.gif);
+	color:#ccc;
+}
+
+/*suite links*/
+
+.qsfSuites
+{
+	list-style:none;
+	height:44px;
+}
+
+.qsfSuites li
+{
+	float:left;
+}
+
+.qsfSuites a
+{
+	display:block;
+	padding:0 21px;
+	line-height:44px;
+	text-indent:-2222px;
+	overflow:hidden;
+	background:url(Img/qsfSuitesSprite.gif) no-repeat;
+	color:#ccc;
+}
+
+.suiteTS a{width:108px;background-position:0 -1000px}
+.suiteTS a:hover{background-position:0 -1100px}
+.suiteRep a{width:72px;background-position:0 -600px}
+.suiteRep a:hover{background-position:0 -700px}
+.suiteORM a{width:106px;background-position:0 -800px}
+.suiteORM a:hover{background-position:0 -900px}
+.suiteSL a{width:73px;background-position:0 -400px}
+.suiteSL a:hover{background-position:0 -500px}
+.suiteWPF a{width:64px;background-position:0 -200px}
+.suiteWPF a:hover{background-position:0 -300px}
+.suiteWF a{width:73px;background-position:0 0}
+.suiteWF a:hover{background-position:0 -100px}
+
+/*top right links*/
+
+.qsfTopRight
+{
+	float:left;
+	display:inline;
+	margin:15px 0 8px 405px;
+	text-align:right;
+}
+
+.qsfTopRight ul
+{
+	float:left;
+	list-style:none;
+}
+
+.qsfTopRight li
+{
+	float:left;
+	border-right:1px solid #55c0c8;
+	margin:0;
+	padding:0 10px;
+	line-height:24px;
+}
+
+.qsfTopRight li a
+{
+	background:url(Img/qsfSprite.gif) no-repeat;
+	color:#fff;
+	padding-left:20px;
+}
+
+.qsfTopRight .qsfVideosLink a
+{
+	background-position:-300px -100px;
+}
+
+.qsfTopRight .qsfHelpLink a
+{
+	background-position:-300px -50px;
+}
+
+.qsfTopRight .qsfForumsLink a
+{
+	background-position:-300px 0;
+}
+
+.qsfTopRight li.qsfDownloadLink
+{
+	border-right:none;
+	padding-right:0;
+}
+.qsfTopRight li.qsfDownloadLink a
+{
+	padding:0;
+}
+
+.qsfTopRight a.qsfDownload
+{
+	float:left;
+	width:110px;
+	height:21px;
+	overflow:hidden;
+	margin-top:3px;
+	text-indent:-2222px;
+	background:-300px -150px no-repeat url(Img/qsfSprite.gif);
+	text-align:left;
+}
+
+.qsfTopRight a:hover
+{
+	text-decoration:none;
+}
+
+/* LEFT NAVIGATION */
+
+.qsfSearch
+{
+	width:179px;
+	height:26px;
+	position:relative;
+	left:13px;
+	margin:0 0 12px;
+	background:-300px -200px no-repeat url(Img/qsfSprite.gif);
+}
+
+.qsfSearch input
+{
+	width:148px;
+	height:22px;
+	border:0;
+	padding:4px 0 0 5px;
+	background:transparent;
+	font:13px "segoe ui",arial,sans-serif;
+}
+
+.qsfSearch input.rcbEmptyMessage
+{
+	font-style:italic;
+}
+
+.qsfSearch a
+{
+	position:absolute;
+	right:0;
+	top:0;
+	width:26px;
+	height:26px;
+	text-indent:2222px;
+	overflow:hidden;
+}
+/*search combobox*/
+
+.RadComboBoxDropDown_QsfSearch .col1, 
+.RadComboBoxDropDown_QsfSearch .col2
+{
+	display:inline-block;
+	padding-left:5px;
+	zoom:1;
+}
+
+.RadComboBoxDropDown_QsfSearch .col1
+{
+	width:90px;
+}
+
+.RadComboBoxDropDown_QsfSearch .col2
+{
+	width:280px;
+}
+
+.RadComboBoxDropDown_QsfSearch ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;	
+	
+}
+.RadComboBoxDropDown_QsfSearch
+{
+	position:absolute;
+	background :#96c6c6;
+	font:12px 'Segoe UI', Arial, sans-serif;
+}
+
+.RadComboBoxDropDown_QsfSearch .rcbScroll
+{
+	overflow:auto;
+	position:relative;
+}
+
+
+.RadComboBoxDropDown_QsfSearch .rcbHeader,
+.RadComboBoxDropDown_QsfSearch .rcbMoreResults
+{
+	background:transparent url('Img/qsfSearchHeader.png') repeat-x 0 0;
+	line-height:24px;
+	color:#fff;
+	width:100%;
+}
+
+.RadComboBoxDropDown_QsfSearch .rcbMoreResults span
+{
+	padding:0 5px;
+	zoom:1;
+}
+
+.RadComboBoxDropDown_QsfSearch .rcbMoreResults a
+{
+	float:left;
+	text-indent:-9999px;
+}
+
+.RadComboBoxDropDown_QsfSearch li.rcbHovered
+{
+	background:#bbdedf;
+}
+
+.RadComboBoxDropDown_QsfSearch .rcbItem,
+.RadComboBoxDropDown_QsfSearch .rcbHovered
+{
+	line-height:25px;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	zoom:1;
+}
+.RadComboBox_QsfSearch .rcbSlide
+{
+	position:absolute;
+	float:left;
+}
+
+.RadComboBoxDropDown_QsfSearch
+{
+	border:1px solid #96d1d9;
+}
+
+.qsfLeft i,
+td.leftCellTop,
+td.rightCellTop,
+td.leftCellMiddle,
+td.rightCellMiddle,
+td.leftCellBottom,
+td.middleCellBottom,
+td.rightCellBottom,
+.qsfLeft .collapsed ul /*,
+.qsfLeft .menuContainer img*/
+{
+	display:none;
+}
+
+.qsfLeft .controlMenuHeaderCell
+{
+	padding:0 0 5px 13px;
+	font-size:1.2em;
+}
+
+.qsfLeft .controlMenuHeaderCell input
+{
+	vertical-align:middle;
+	margin:0 7px 0 0;
+}
+
+.qsfLeft .controlMenu,
+.qsfLeft .allProducts
+{
+	width:190px;
+}
+
+.qsfLeft table ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.qsfLeft table ul ul
+{
+	/*margin:0.4em 0;*/
+}
+
+.qsfLeft .controlMenu li
+{
+	margin:0;
+	padding:0 0 0 20px;
+}
+
+.qsfLeft .controlMenu li li
+{
+	padding:0 0 0 9px;
+}
+
+.qsfLeft .menuContainer ul
+{
+	margin:2px 0 0;
+}
+
+.qsfLeft .menuContainer ul ul
+{
+	margin:0;
+}
+
+.qsfLeft .menuContainer a
+{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	padding:2px 0 3px 16px;
+}
+
+.qsfLeft .menuContainer a img
+{
+	margin:0 0 0 6px;
+}
+
+*>.qsfLeft .controlMenuHeaderCell
+{
+	background:url(Img/qsfAlphaBorder.png) 36px 100% no-repeat;
+}
+* html .qsfLeft .controlMenuHeaderCell{height:25px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../Common/Img/qsfAlphaBorderTop_IE6.png',sizingMethod='crop');}
+* html .qsfHome .qsfLeft .controlMenuHeaderCell,* html .qsfOverview .qsfLeft .controlMenuHeaderCell{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../Common/Img/qsfAlphaBorderTop_IE6.png',sizingMethod='crop');}
+
+.qsfLeft .menuContainer li li a
+{
+	background:none;
+	padding:2px 0 2px 11px;
+	margin:0 0 0 5px;
+	font-size:0.94em;
+}
+
+.qsfLeft .collapsed,
+.qsfLeft .expanded
+{
+	background:url(Img/qsfSprite.gif) no-repeat;
+}
+
+.qsfLeft .expanded
+{
+	background-position:-280px -1250px;
+}
+
+.qsfLeft .collapsed
+{
+	background-position:-280px -1200px;
+}
+
+.qsfLeft li .expanded
+{
+	background-position:-286px -1250px;
+	zoom:1;/*disappearing image*/
+}
+
+.qsfLeft li .collapsed
+{
+	background-position:-286px -1200px;
+	zoom:1;/*disappearing image*/
+}
+
+.qsfLeft .menuContainer a:hover
+{
+	color:#b5f4f7;
+}
+
+.qsfLeft .menuContainer li.tabSelected a
+{
+	text-decoration:underline;
+	color:#61ecdc;
+	background:transparent url(Img/qsfSprite.gif) no-repeat -600px 0;
+	padding-left:17px;
+	margin-left:-1px;
+}
+
+.qsfLeft .menuContainer li li.tabSelected a
+{
+	background-position:-600px 1px;
+}
+
+.qsfLeft .allProducts
+{
+	margin:2em 0 0;
+	font-size:1.08em;
+}
+
+.qsfLeft .allProducts ul
+{
+	margin:0 0 0 6px;
+}
+
+.qsfLeft .allProducts li
+{
+	margin:0;
+	padding:0 0 1px 0;
+	height:25px;
+	position:relative;
+}
+*>.qsfLeft .allProducts li
+{
+	background:url(Img/qsfAlphaBorder.png) 0 100% repeat-x;
+}
+* html .qsfLeft .allProducts li
+{
+	padding:0;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../Common/Img/qsfAlphaBorder2_IE6.png',sizingMethod='crop');
+}
+* html .qsfHome .qsfLeft .allProducts li,
+* html .qsfOverview .qsfLeft .allProducts li
+{
+	padding:0;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../Common/Img/qsfAlphaBorder2_IE6.png',sizingMethod='crop');
+}
+.qsfLeft .allProducts a
+{
+	display:block;
+	height:25px;
+	padding:0 0 0 30px;
+	/*border-bottom:1px solid #337285;*/
+	line-height:25px;
+	color:#fff;
+}
+*>.qsfLeft .allProducts a:hover
+{
+	background:url(img/qsfAlphaHover.png) repeat-x;
+}
+* html .qsfLeft .allProducts a:hover
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../Common/Img/qsfAlphaHover.png',sizingMethod='scale');
+}
+* html .qsfHome .qsfLeft .allProducts a:hover,
+* html .qsfOverview .qsfLeft .allProducts a:hover
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../Common/Img/qsfAlphaHover.png',sizingMethod='scale');
+}
+
+.qsfWrap .qsfLeft .controlMenuHeaderCell input,
+.qsfLeft .allProducts span
+{
+	width:16px;
+	height:16px;
+	border:0;
+	background-image:url(Img/qsfSprite.gif);
+	background-color:transparent;
+	background-repeat:no-repeat;
+	outline:none;
+}
+
+.qsfLeft .allProducts span
+{
+	position:absolute;
+	top:5px;
+	left:7px;
+	cursor:pointer;
+}
+
+.IconControls{background-position:0 0}
+.IconAjax{background-position:0 -50px}
+.IconCalendar{background-position:0 -100px}
+.IconChart{background-position:0 -150px}
+.IconColorPicker{background-position:0 -200px}
+.IconComboBox{background-position:0 -250px}
+.IconDock{background-position:0 -300px}
+.IconEditor{background-position:0 -350px}
+.IconFileExplorer{background-position:0 -400px}
+.IconFormDecorator{background-position:0 -450px}
+.IconGrid{background-position:0 -500px}
+.IconInput{background-position:0 -550px}
+.IconMenu{background-position:0 -600px}
+.IconPanelBar{background-position:0 -650px}
+.IconRotator{background-position:0 -700px}
+.IconScheduler{background-position:0 -750px}
+.IconSlider{background-position:0 -800px}
+.IconSpell{background-position:0 -850px}
+.IconSplitter{background-position:0 -900px}
+.IconTabStrip{background-position:0 -950px}
+.IconToolBar{background-position:0 -1000px}
+.IconToolTip{background-position:0 -1050px}
+.IconTreeView{background-position:0 -1100px}
+.IconUpload{background-position:0 -1150px}
+.IconWindow{background-position:0 -1200px}
+.IconListBox{background-position:0 -1250px}
+.IconCaptcha{background-position:0 -1300px}
+.IconXmlHttpPanel{background-position:0 -1350px}
+.qsfWrap .qsfGrid .qsfLeft .IconBinaryImage{background-position:0 0;background-image:url(ProductInfo/BinaryImage.gif);}
+
+/* RIGHT CONTENT */
+
+/* home backgrounds */
+
+.qsfBgHolder
+{
+	background:url(Img/qsfCollageShadowQ1.gif) 10px 117px no-repeat;
+}
+.qsfBgHolderInner
+{
+	background:url(Img/qsfCollageQ1.gif) 10px 0 no-repeat;
+	min-height:233px;
+}
+* html .qsfBgHolderInner{height:233px}
+
+
+/* page title */
+
+.qsfTitle
+{
+	background:url(Img/qsfTitleLeft.gif) no-repeat;
+	color:#000;
+	position:relative;
+}
+
+.qsfTitle h1 a
+{
+	text-decoration:none;
+	color:#000;
+	cursor:default;
+}
+
+.qsfWrap .qsfRight .qsfTitle h1 input
+{
+	float:left;
+	width:24px;
+	height:24px;
+	margin:6px;
+	border:0;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-image:url(Img/qsfSprite.gif);
+}
+
+.ImgAjax{background-position:-600px -50px}
+.ImgCalendar{background-position:-600px -100px}
+.ImgChart{background-position:-600px -150px}
+.ImgColorPicker{background-position:-600px -200px}
+.ImgComboBox{background-position:-600px -250px}
+.ImgDock{background-position:-600px -300px}
+.ImgEditor{background-position:-600px -350px}
+.ImgFileExplorer{background-position:-600px -400px}
+.ImgFormDecorator{background-position:-600px -450px}
+.ImgGrid{background-position:-600px -500px}
+.ImgInput{background-position:-600px -550px}
+.ImgMenu{background-position:-600px -600px}
+.ImgPanelBar{background-position:-600px -650px}
+.ImgRotator{background-position:-600px -700px}
+.ImgScheduler{background-position:-600px -750px}
+.ImgSlider{background-position:-600px -800px}
+.ImgSpell{background-position:-600px -850px}
+.ImgSplitter{background-position:-600px -900px}
+.ImgTabStrip{background-position:-600px -950px}
+.ImgToolBar{background-position:-900px 0}
+.ImgToolTip{background-position:-900px -50px}
+.ImgTreeView{background-position:-900px -100px}
+.ImgUpload{background-position:-900px -150px}
+.ImgWindow{background-position:-900px -200px}
+.ImgListBox{background-position:-900px -250px}
+.ImgControls{background-position:-900px -300px}
+.ImgCaptcha{background-position:-900px -350px}
+.ImgXmlHttpPanel{background-position:-900px -400px}
+.qsfWrap .qsfRight .qsfTitle h1 .ImgBinaryImage{background-position:0 0;background-image:url(Img/Icons/binaryimage.gif);}
+
+.qsfHome .qsfTitle
+{
+	margin:0 0 0 275px;
+}
+.qsfHome .qsfTitle
+{
+	padding:0 0 0 25px;
+}
+.qsfOverview .qsfTitle
+{
+	padding:0 0 0 29px;
+}
+
+.qsfTitle h1
+{
+	display:block;
+	height:37px;
+	margin:0;
+	background:url(Img/qsfTitle.gif) repeat-x;
+	font-size:20px;
+	line-height:35px;
+	font-weight:normal;
+}
+.qsfHome .qsfTitle h1,
+.qsfOverview .qsfTitle h1
+{
+	padding:0;
+}
+
+/*skin manager*/
+.qsfSkinMgr
+{
+	position:absolute;
+	top:7px;
+	left:441px;
+}
+
+.qsfSkinMgr span
+{
+	line-height:22px;
+	vertical-align:middle;
+	margin:2px 10px;
+}
+
+/* version */
+
+.qsfVersion,
+.qsfVersion a
+{
+	font-size:10px;
+	color:#706d60;
+}
+.qsfHome .qsfVersion
+{
+	margin:1.2em 0 0 379px;
+}
+.qsfHome .qsfVersion,
+.qsfHome .qsfVersion a
+{
+	color:#98d2de;
+}
+
+.qsfOverview .qsfVersion
+{
+	width:268px;
+	margin:1em 0 1em 504px;
+	text-align:right;
+}
+
+.qsfOverview .qsfVersion,
+.qsfOverview .qsfVersion a
+{
+	color:#9adbe0;
+}
+
+.qsfTitle .qsfVersion
+{
+	position:absolute;
+	width:260px;
+	top:15px;
+	left:510px;
+	text-align:right;
+	font-weight:normal;
+}
+
+/* ticked list */
+
+.qsfTicked
+{
+	margin:1em 0 0 353px;
+	list-style:none;
+}
+.qsfTicked li
+{
+	padding:4px 0 3px 26px;
+	background:url(Img/qsfSprite.gif) -300px -1100px no-repeat;
+	font-size:1.1em;
+	line-height:1.3;
+}
+
+/* examples sliders */
+
+.qsfDemosLeft,
+.qsfDemosTransparent
+{
+	padding:0 0 0 30px;
+	background:url(Img/qsfDemosLeft.gif) no-repeat;
+}
+.qsfDemos
+{
+	height:176px;
+	background:url(Img/qsfDemos.gif) repeat-x;
+}
+
+.qsfHome .qsfDemosLeft
+{
+	background:url(Img/qsfDemosHomeLeft.gif) no-repeat;
+}
+.qsfHome .qsfDemos
+{
+	height:220px;
+	background:url(Img/qsfDemosHome.gif) repeat-x;
+}
+
+.qsfDemos dl dt
+{
+	color:#fff;
+	font-weight:bold;
+	margin:2px;
+}
+.qsfDemos dl dd
+{
+	padding:5px 20px 0 0;
+}
+.qsfDemosTransparent
+{
+	margin:10px 0 0;
+	background:none;
+}
+
+.qsfDemos h2,
+.qsfDemosTransparent h2
+{
+	margin:0;
+	padding:20px 0 0;
+	color:#ffcd03;
+	font-size:1.2em;
+	font-weight:normal;
+}
+
+.qsfThumbHolder
+{
+	width:746px;
+	height:110px;
+	overflow:hidden;
+	position:relative;
+	margin:13px 0 6px;
+}
+
+.qsfHome .qsfThumbHolder
+{
+	height:122px;
+	margin:11px 0 6px;
+}
+
+.qsfThumbHolder ul
+{
+	position:relative;
+	width:790px;
+	list-style:none;
+}
+
+.qsfHome .qsfThumbHolder ul
+{
+	width:1080px;
+}
+
+.qsfThumbHolder li
+{
+	width:95px;
+	margin:0 35px 0 0;
+	padding:0;
+	float:left;
+	text-align:center;
+}
+
+.qsfHome .qsfThumbHolder li
+{
+	width:240px;
+	height:200px;
+	margin:0 18px 0 0;
+	text-align:left;
+	border:1px solid red;
+}
+
+.qsfThumbHolder a
+{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+
+.qsfThumbHolder img
+{
+	width:95px;
+	height:84px;
+	margin-bottom:-7px;
+	vertical-align:bottom;
+}
+
+.qsfHome .qsfThumbHolder img
+{
+	width:238px;
+	height:108px;
+	margin-bottom:0;
+}
+
+.qsfThumbHolder span
+{
+	display:block;
+	position:relative;
+	z-index:2;
+}
+
+/* home page hide the controls section*/
+.qsfHome .controlMenu
+{
+	display:none;
+}
+.qsfHome .allProductsHeader
+{
+	display:none;
+}
+
+.qsfHome .qsfSearch
+{
+	margin-bottom:0;
+}
+
+/* demo list */
+.qsfDemos ul
+{
+	list-style:none;
+	padding:0;
+	margin:10px 0 0 0;
+}
+
+/*controls home page*/
+.qsfHome .qsfDemos ul li
+{
+	float:left;
+	width:240px;
+	padding:0;
+	padding-right:16px;
+}
+
+
+.qsfHome .qsfDemos ul li a
+{
+	display:block;
+}
+
+/*control specific home page*/
+.qsfOverview .qsfDemos
+{
+	background:transparent url('Img/qsfOverview.png') repeat-x 0 0;
+	height:280px;
+}
+
+.qsfOverview .qsfDemos h2
+{
+	font-weight:bold;
+	/*color :#074573;*/
+}
+
+.qsfOverview .qsfDemos ul
+{
+	width:752px;
+}
+
+.qsfOverview .qsfDemosLeft
+{
+	background:transparent url('Img/qsfOverviewLeft.png') no-repeat 0 0;
+}
+.qsfOverview .qsfDemos li
+{
+	float:left;
+	width:340px;
+	height:107px;
+}
+.qsfOverview .qsfDemos li a
+{
+	float:left;
+	margin-right:10px;
+}
+/*home page why buy section*/
+
+.qsfWhyBuy
+{
+	margin:20px 0 0 30px;
+	width:800px;
+}
+.qsfWhyBuy h3,
+.qsfWhyBuy h3 a
+{
+	font:13px 'Segoe UI', Arial, sans-serif;
+	color:#ffcd03;
+	text-decoration:none;
+	cursor:default;
+}
+.qsfWhyBuy dl
+{
+	margin:0;
+	padding:0;
+	float:left;
+	width:240px;
+	padding-right:16px;
+	
+}
+
+.qsfWhyBuy dt
+{
+	font-weight:bold;
+	border-bottom:1px solid #144b60;
+	padding:5px 0;
+	color:#abc7cd;
+}
+.qsfWhyBuy dd
+{
+	margin:0;
+	padding:5px 0;
+	color:#73a0a9;
+}
+.qsfWhyBuy dd a
+{
+	color:#73a0a9;
+}
+/* infopanel links */
+
+.qsfMoreLinks
+{
+	margin:46px 0 0;
+	border-top:1px solid #1f5165;
+}
+.qsfMoreLinks div
+{
+	float:left;
+	position:relative;
+	top:-1.8em;
+	width:212px;
+	padding:0 30px;
+}
+.qsfMoreLinks h2
+{
+	font-size:1.1em;
+	font-weight:normal;
+	color:#fc0;
+}
+.qsfMoreLinks ul
+{
+	list-style-position:inside;
+	margin:1.2em 0 0;
+}
+.qsfMoreLinks li,
+.qsfMoreLinks a
+{
+	color:#fff;
+}
+.qsfMoreLinks li
+{
+	padding:0.24em 0;
+}
+.qsfMoreLinks a:hover
+{
+	text-decoration:underline;
+}
+
+/* EXAMPLE AREA */
+
+.qsfExampleArea
+{
+	padding-bottom:2.2em;
+	background:#fff;
+	color:#333;
+}
+
+.qsfDark .qsfExampleArea
+{
+	background:url(Img/qsfDark.gif) repeat-x #232323;
+}
+
+/* example title */
+
+h2.qsfSubtitle,
+h2.qsfSubtitleCollapsed
+{
+	margin:0;
+	padding:15px 0 0 30px;
+	background:url(Img/qsfSprite.gif) no-repeat -590px -1030px;
+	font-weight:normal;
+	color:#1f9aa8;
+}
+
+h2.qsfSubtitleCollapsed
+{
+	background-position:-590px -979px;
+}
+
+.qsfDark h2.qsfSubtitle
+{
+	background-position:-288px -1234px;
+}
+
+.qsfDark h2.qsfSubtitleCollapsed
+{
+	background-position:-288px -1183px;
+}
+
+h2.qsfSubtitle span,
+h2.qsfSubtitleCollapsed span
+{
+	display:block;
+	font-size:14px;
+	line-height:20px;
+	height:20px;
+	padding:0 0 5px 0;
+	border-bottom:1px solid #cbcbcb;
+}
+
+h2.qsfSubtitle span span,
+h2.qsfSubtitleCollapsed span span
+{
+	display:inline;
+	padding:0;
+	border:0;
+	cursor:pointer;
+}
+
+h3.qsfSubtitle
+{
+	margin:20px 0 10px;
+	font-size:12px;
+	color:#1f9aa8;
+}
+
+/* example inner area */
+
+.qsfInnerArea
+{
+	margin:12px 0 0 30px;
+	width:748px;
+}
+
+.qsfDark .qsfInnerArea,
+.qsfDark .qsfCodeSwitcher
+{
+	color:#fff;
+}
+
+.qsfInnerArea a,
+.qsfCodeSwitcher a:visited
+{
+	color:#06c;
+}
+
+.qsfDark .qsfCodeSwitcher a,
+.qsfDark .qsfCodeSwitcher a:visited
+{
+	color:#1F9AA8;
+}
+
+/* skin manager*/
+
+.qsfSkin
+{
+	position:relative;
+	font:11px/26px arial,sans-serif;
+}
+.qsfSkin .RadComboBox
+{
+	vertical-align:middle;
+}
+
+/* code switcher*/
+
+.qsfCodeSwitcher
+{
+	position:relative;
+	margin:0 0 0 535px;
+	width:244px;
+	text-align:right;
+	font:11px/26px arial,sans-serif;
+	height:26px;
+	color:#999;
+}
+
+.qsfCodeSwitcher a
+{
+	font-weight:bold;
+	display:inline-block;
+	margin-left:5px;
+}
+
+.qsfCodeSwitcher .cssel,
+.qsfCodeSwitcher .vbsel
+{
+	background:url(Img/qsfSprite.gif) no-repeat;
+	color:#333;
+}
+
+.qsfCodeSwitcher .cssel
+{
+	background-position:-298px -250px;
+}
+
+.qsfCodeSwitcher .vbsel
+{
+	background-position:-290px -250px;
+}
+
+.qsfDark .qsfCodeSwitcher .cssel,
+.qsfDark .qsfCodeSwitcher .vbsel
+{
+	color:#fff;
+}
+
+/* breadcrumbs */
+
+.qsfCrumbs
+{
+	margin:6px 0 14px;
+	height:26px;
+	font-size:0.9em;
+}
+
+.qsfCrumbs,
+.qsfCrumbs a
+{
+	color:#999;
+}
+.qsfOverview .qsfCrumbs,
+.qsfOverview .qsfCrumbs a
+{
+	color:#bceef3;
+}
+.qsfOverview .qsfCrumbs
+{
+	width:500px;
+	margin-top:-2.2em;
+}
+
+.qsfCrumbs span
+{
+	margin:0 0.6em;
+}
+.qsfCrumbs em
+{
+	font-style:normal;
+}
+
+
+/* top module */
+
+.bigModuleVertical
+{
+	width:250px;
+	background-image:url(Img/qsfModuleTopVertical.jpg);
+}
+
+.bigModule
+{
+	width: 750px;
+	background: url(qsfModuleTop.jpg) no-repeat;
+	margin-bottom: 15px;
+}
+
+.bigModuleBottom
+{
+	background: url(qsfModuleBottom.gif) no-repeat bottom;
+	color: #252f34;
+	padding: 23px 17px;
+	line-height: 16px;
+	font-size: 12px;
+}
+
+.bigModuleVertical .bigModuleBottom
+{
+	background-image:url(Img/qsfModuleBottomVertical.gif);
+}
+
+.bigModuleContent:after
+{
+	clear:both;
+	content:"";
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+	height:0;
+}
+
+.bigModuleBottom a
+{
+	color:#252f34;
+}
+
+.bigModule .title
+{
+	color:#4888a3;
+	font:12px "Segoe UI", Arial, sans-serif;
+	margin-bottom:15px;
+	cursor:default;
+}
+
+.bigModule ul
+{
+	margin-bottom:0;
+}
+
+.button
+{
+	border:1px solid;
+	border-color:#93aaa7 #557a8a #527889;
+	background:url(Img/qsfButton.gif) repeat-x #a8d1cc;
+	min-height:24px;
+	font-size:11px;
+	line-height:20px;
+	padding:0;
+}
+
+.smallModule .button,
+.bigModule .button
+{
+	width:95px;
+	font-size:11px;
+	border:0;
+	background:url(Img/qsfButton95.gif) no-repeat #a8d1cc;
+	cursor:pointer;
+}
+
+.qsfButton,
+.qsfButtonBig,
+.qsfButtonBigger
+{
+	width:95px;
+	min-height:24px;
+	font-size:11px;
+	line-height:20px;
+	border:0;
+	background:url(Img/qsfButton95.gif) no-repeat #a8d1cc;
+}
+
+.qsfButtonBig
+{
+	width:120px;
+	background:url(Img/qsfButton120.gif) no-repeat #a8d1cc;
+}
+
+.qsfButtonBigger
+{
+	width:150px;
+	background:url(Img/qsfButton150.gif) no-repeat #a8d1cc;
+}
+
+* html .button,
+* html .qsfButton,
+* html .qsfButtonBig,
+* html .qsfButtonBigger
+{height:24px}
+
+
+.bigModule a.button,
+a.qsfButton,
+a.qsfButtonBig,
+a.qsfButtonBigger
+{
+	display:block;
+}
+
+
+/*code viewer tabs*/
+
+
+/*code viewer*/
+
+
+/* general module */
+
+.module
+{
+	border:1px solid #c6e1f2;
+	background:#dff3ff;
+	padding:1.2em;
+	color:#333;
+}
+
+/* small module */
+
+div.smallModule
+{
+	float:right;
+	background-color:#e4f6ff;
+}
+
+div.smallModule *
+{
+	font-family:'Segoe UI', Calibri, sans-serif;
+}
+
+.smallModule .rc3
+{
+	min-width:200px;
+	min-height:210px;
+	padding:10px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+* html .smallModule .rc3
+{
+	width:200px;
+	height:210px;
+}
+
+.smallModule,
+.smallModule .rc1,
+.smallModule .rc2,
+.smallModule .rc3
+{
+	background:url('Img/qsfSmallModule.gif') no-repeat top left;
+}
+
+.smallModule .rc1 { background-position:100% 0;}
+.smallModule .rc2 { background-position:0 100%;}
+.smallModule .rc3 { background-position:100% 100%;}
+
+.smallModule .title
+{
+	border-bottom:1px solid #333;
+	display:block;
+	margin:10px;
+	text-indent:3px;
+}
+
+/* code tabs */
+
+#codeTitle span
+{
+	width:748px;
+}
+
+.qsfCodeTabs
+{
+	margin:0 0 0 30px;
+	background:#D6EEFD;
+	width:734px;
+	padding:4px 6px 6px;
+	border:1px solid #B0CBEC;
+	border-top-width:0;
+	position:relative;
+	z-index:0;
+	overflow:hidden;
+}
+
+#qsfNewCodeWindow
+{
+	margin:7px 10px 0 0;
+	text-align:right;
+	padding:0 0 0 19px;
+	color:#06C;
+	float:right;
+	font-size:11px;
+	background:transparent url(Img/qsfSprite.gif) no-repeat -300px -600px;
+	position:relative;
+	z-index:10000;
+}
+
+.codeOuter
+{
+	clear:both;
+	background:#fff;
+	border:1px solid #B0CBEC;
+	position:relative;
+	top:-1px;
+	height:320px;
+}
+
+.qsfOverlay
+{
+	position:absolute;
+	width:732px;
+	height:320px;
+	bottom:8px;
+	left:7px;
+	z-index:20;
+	padding:0;
+	margin:0;
+	opacity:0;
+	background:#fff url('Img/qsfCodeLoader.gif') no-repeat center center;
+}
+
+ul.codeListings
+{
+	list-style-type:none;
+	margin:6px;
+	padding:0.8em 10px;
+	overflow:auto;
+	height:288px;
+}
+
+ul.codeListings ul
+{
+	list-style-type:circle;
+	list-style-position:inside;
+	margin-left:20px;
+	padding-left:0;
+}
+
+ul.codeListings code
+{
+	font:13px "Consolas", "Courier New", Monospace;
+	border: 0;
+}
+
+div.RadToolBar_FileSelection
+{
+	position:relative;
+	z-index:1;
+	width:530px;
+	overflow:hidden;
+	float:left;
+}
+div.RadToolBar_FileSelection .rtbUL
+{
+	display:block;
+	width:1000px;
+}
+
+div.RadToolBar_FileSelection .rtbInner
+{
+	padding:0;
+}
+
+.RadToolBar_FileSelection .rtbWrap
+{
+	color:#000;
+	padding:1px 1px 0;
+}
+
+.RadToolBar_FileSelection .rtbWrap .rtbOut
+{
+	padding:0 3px 0 6px;
+}
+
+.RadToolBar_FileSelection .rtbSplBtn .rtbOut
+{
+	padding:0 0 0 6px;
+}
+
+div.RadToolBar_FileSelection .rtbWrap .rtbText
+{
+	background:transparent url(Img/qsfSprite.gif) no-repeat 0 0;
+	padding-left:20px;
+	line-height:20px;
+}
+
+div.RadToolBar_FileSelection .file-type-ascx .rtbText { background-position: -300px -350px }
+div.RadToolBar_FileSelection .file-type-cs .rtbText { background-position: -300px -400px }
+div.RadToolBar_FileSelection .file-type-vb .rtbText { background-position: -300px -450px }
+div.RadToolBar_FileSelection .description .rtbText { background-position: -300px -500px }
+div.RadToolBar_FileSelection .file-type-aspx .rtbText { background-position: -300px -550px }
+div.RadToolBar_FileSelection .file-type-js .rtbText { background-position: -900px -750px }
+
+.RadToolBar_FileSelection .selectedTab .rtbWrap
+{
+	background:#fff;
+	border-color:#B0CBEC;
+	border-style:solid;
+	border-width:1px 1px 0;
+	padding:0;
+}
+
+div.RadToolBar_FileSelection .rtbSplBtn .rtbChoiceArrow{background:url(Img/qsfSprite.gif) no-repeat -300px -650px}
+div.RadToolBar_FileSelection .rtbSplBtnHovered .rtbChoiceArrow,
+div.RadToolBar_FileSelection .rtbSplBtnFocused .rtbChoiceArrow,
+div.RadToolBar_FileSelection .rtbSplBtnExpanded .rtbChoiceArrow{background-position:-298px -650px}
+div.RadToolBar_FileSelection .rtbSplBtn .rtbChoiceArrow:hover{background-position:-300px -700px}
+
+.RadToolBarDropDown_FileSelection
+{
+	background:#fff;
+	border:1px solid #B0CBEC;
+	border-top-width:0;
+	overflow:hidden !important;
+}
+
+div.RadToolBar_FileSelection .rtbItem { margin:0;}
+
+div.RadToolBarDropDown_FileSelection .rtbItem { padding:0;}
+
+div.RadToolBarDropDown_FileSelection .rtbWrap
+{
+	color:#000;
+	padding:2px 35px 3px 27px;
+	font-size:12px;
+}
+
+div.RadToolBarDropDown_FileSelection .rtbWrap:hover
+{
+	background:#D6EEFD;
+}
+
+.qsfCodeLeft,
+.qsfCodeRight
+{
+	width:20px;
+	height:22px;
+	float:left;
+	overflow:hidden;
+	font-size:0;
+	line-height:0;
+	text-indent:-2222px;
+	background:transparent url(Img/qsfSprite.gif) no-repeat;
+	outline:none;
+}
+
+.qsfCodeLeft
+{
+	background-position:-300px -750px;
+	margin-left:3px;
+}
+.qsfCodeLeft:hover
+{
+	background-position:-300px -800px;
+}
+
+.qsfCodeRight
+{
+	background-position:-300px -850px;
+}
+.qsfCodeRight:hover
+{
+	background-position:-300px -900px;
+}
+
+/* skin chooser */
+
+.qsfSkinChooser
+{
+	clear:both;
+	margin:2em 0;
+	padding:1.4em;
+	border:1px solid #c6e1f2;
+	background:#dff3ff;
+}
+
+
+
+.qsfSkinChooser h3
+{
+	margin:0;
+	padding:0 0 0.6em;
+	background:url(Img/qsfSkinSeparator.gif) 0 100% repeat-x;
+	font-size:1.2em;
+}
+
+.qsfSkinChooser table
+{
+	margin:0 auto;
+}
+
+.qsfSkinChooser h3,
+.qsfSkinChooser td
+{
+	background:url(Img/qsfSkinSeparator.gif) 0 100% repeat-x;
+}
+
+.qsfSkinChooser td
+{
+	padding:16px 0px 24px;
+}
+
+.qsfSkinChooser label,
+.qsfClientSkins a
+{
+	display:block;
+	padding:0 0 0 25px;
+	background:url(Img/qsfArrowRight.gif) 4px 0.2em no-repeat;
+	font-size:1.2em;
+	cursor:pointer;
+	text-decoration:none;
+	color:#333;
+}
+
+.qsfClientSkins a
+{
+	width:160px;
+}
+
+.qsfSkinChooser img
+{
+	display:block;
+	margin:0.4em 0 0;
+	position:relative;
+	left:-25px;
+}
+
+.qsfSkinChooser input
+{
+	position:absolute;
+	left:-3333px;
+	width:1px;
+	height:1px;
+}
+
+/* FOOTER */
+
+.qsfFooter
+{
+	border-top:1px solid #143947;
+	padding:18px 30px 1em;
+	clear:both;
+}
+
+.qsfFooter,
+.qsfFooter a
+{
+	color:#1F5165;
+}
+
+.qsfFooter a:hover
+{
+	text-decoration:underline;	
+}
+
+.qsfFooter address
+{
+	display:inline;
+	font-style:normal;
+}
+
+.qsfBottomLinks
+{
+	margin:0.8em 0;
+}
+
+/* compliance images */
+
+.qsfCompliance
+{
+	margin:0 0 20px;
+	width:748px;
+}
+
+.qsfCompliance img
+{
+	border:0;
+	vertical-align:bottom;
+	margin:0 11px 0 0;
+}
+
+@media print 
+{
+	.qsfWrap
+	{
+		background:#fff;
+	}
+	
+	.qsfWrap .qsfHeader,
+	.qsfWrap .qsfLeft,
+	.qsfWrap .qsfSkinChooser,
+	.qsfWrap #codeTitle,
+	.qsfWrap #codeContainer
+	{
+		display:none;
+	}
+	
+	.qsfWrap .qsfGrid
+	{
+		margin:0;
+	}
+	
+	#Footer1_optimizedForVSImage
+	{
+		display:none;
+	}
+}
+
+/* Free RadFormDecorator styles */
+.tryRadControlsForAspNetAjax
+{
+    margin:90px 0 20px 0;
+    display:block;
+    clear:both;
+    background:url('Img/qsfFreeTryradControlsLeft.gif') no-repeat;
+    text-decoration:none;
+    font:normal 14px "Myriad Pro", Arial, Verdana;
+}
+
+.tryRadControlsForAspNetAjax strong
+{
+    font-size:18px;
+}
+
+.tryRadControlsForAspNetAjax em
+{
+    font:normal italic 18px "Minion Pro", Arial, Verdana;
+}
+
+.tryRadControlsForAspNetAjax span
+{
+    display:block;
+    height:77px;
+    line-height:77px;
+    margin-left:91px;
+    background:url('Img/qsfFreeTryRadControlsRight.gif') repeat-x;
+    cursor:pointer;
+    cursor:hand;
+    color:#000;
+}
+
+.freeFormDecorator
+{
+    background:url('Img/qsfFreeRadFormDecorator.gif') no-repeat;
+}
+
+/*configurator panel*/
+a.bigModuleCollapsible {
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+	line-height:25px;
+    color:#63b3d5;
+    width:100%;
+    padding-bottom:5px;
+    text-decoration:none;
+}
+
+a.bigModuleCollapsible:hover {
+    color:#68A8C3;
+}
+a.bigModuleCollapsible .configTitle
+{
+	text-decoration:underline;
+	position:absolute;
+	background:transparent url(Frames/Images/EMPLOYEE/qsfModuleTop.jpg) no-repeat -17px -7px;
+	padding-right:10px;
+	cursor:pointer;
+}
+
+.bigModuleVertical a.bigModuleCollapsible .configTitle
+{
+	background:none;
+}
+
+a.bigModuleCollapsible .configTitle,
+a.bigModuleCollapsible .configLine,
+span.configButton
+{
+	display:-moz-inline-box;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.bigModuleVertical span.configButton
+{
+	display:none;
+}
+
+a.bigModuleCollapsible .configLine
+{
+	background:transparent url('Img/qsfConfigPixel.gif') repeat-x 0 50%;
+	margin-left:10px;
+	margin-right:16px;
+	width:630px;
+	height:25px;
+	cursor:pointer;
+}
+
+.bigModuleVertical a.bigModuleCollapsible .configLine
+{
+	width:140px;
+	background:none;
+}
+
+.bigModuleVertical a.bigModuleCollapsible .configTitle,
+.bigModuleVertical a.bigModuleCollapsible,
+.bigModuleVertical a.bigModuleCollapsible .configLine
+{
+	cursor:default;
+}
+
+.bigModuleBottom div.title {
+    margin-bottom:0;
+    padding:13px 0;
+}
+
+div.bigModuleBottom 
+{
+    padding:7px 17px;
+    overflow:hidden;
+    zoom:1;
+}
+
+span.configButton
+{
+	vertical-align:middle;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+}
+
+span.toggleUp
+{
+	background:transparent url(Img/qsfConfigUpArrow.png) no-repeat 0 0;
+}
+
+* html span.toggleUp
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../Common/Img/qsfConfigUpArrow.png');
+	background-image:none;
+}
+
+span.toggleDown
+{
+	background:transparent url(Img/qsfConfigDownArrow.png) no-repeat 0 0;
+}
+
+* html span.toggleDown
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../Common/Img/qsfConfigDownArrow.png');
+	background-image:none;
+}
+/* database reset notice */
+
+#qsfDbResetNotice
+{
+	background:#dff3ff url('Img/qsfInfo.png') no-repeat 10px 9px;
+    padding-left:36px;
+    border:1px solid #c6e1f2;
+	height:35px;
+	line-height:35px;
+}
+
+/* Console component  */
+.qsfEventLogWrapper
+{
+	margin-top:10px;
+	position:relative;
+	height:150px;
+}
+
+.qsfConsole
+{
+	position:absolute;
+	top:23px;
+	left:0;
+	display:block;
+	width:100%;
+	bottom:0;
+	font:11px Consolas, monospace;
+	padding:0;
+	margin:0;
+	border:1px solid #CCC;
+    overflow:auto;
+    background:white;
+}
+* html .qsfConsole { height:90%;}
+
+.qsfConsole span
+{
+    display:block;
+    margin:0;
+    padding:5px 5px 5px 24px;
+    background:url('Img/qsfConsoleInfo.gif') no-repeat 5px 50%;
+    border-bottom:1px solid #DDD;
+    zoom:1;
+}
+
+.qsfConsoleClear {
+    background:url('Img/qsfConsoleClear.gif') no-repeat 5px 3px;
+    font:normal normal 11px "Segoe UI", Arial, sans-serif;
+    border:0;
+    display:block;
+    padding:0 0 2px 17px;
+    float:right;
+    color:#333;
+    height:17px;
+    outline:0;
+}
+/*new*/
+
+.cfgHead
+{
+	display:block;
+	background-color:Red;
+	/*background:0 center repeat-x url(blueDots.gif);*/
+	color:#666;
+	font-size:14px;
+	line-height:22px;
+	outline:none;
+	text-decoration:none;
+}

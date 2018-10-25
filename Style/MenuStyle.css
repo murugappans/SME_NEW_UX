@@ -1,0 +1,368 @@
+
+    .example-panel
+{
+	width: 250px;
+	height: 203px;
+	background: transparent url('../Frames/Images/TOOLBAR/backs.jpg') no-repeat 0 0;	
+	position:relative;
+	z-index:2000;
+}
+
+
+
+.item-title
+{
+	font: 11px/11px 'Segoe UI', Tahoma;
+	color: Black;
+}
+/*
+.RadMenu
+{
+	position:absolute;
+	top:106px;
+}*/
+
+
+.RadMenu a
+{
+	text-decoration:none;
+}
+
+div.RadMenu .rmRootGroup .rmItem .rmGroup
+{
+	padding-bottom: 0;
+}
+
+div.RadMenu .rmGroup
+{
+	border: none;
+}
+
+div.RadMenu .rmGroup li.aspnet-ajax
+{
+	background: transparent url('../Frames/Images/MENU/product_03.png') no-repeat 0 0;
+	width: 199px;
+	height:56px;
+}
+
+div.RadMenu li.aspnet-ajax div.rmText
+{
+	padding: 18px 0 0 52px;
+}
+
+div.RadMenu .rmGroup li.winforms
+{
+	background: transparent url('../Frames/Images/MENU/product_05.png') no-repeat 0 0;
+	width: 199px;
+	height:56px;
+}
+
+div.RadMenu li.winforms div.rmText
+{
+	padding: 15px 0 0 52px;
+}
+
+div.RadMenu .rmGroup li.wpf
+{
+	background: transparent url('../Frames/Images/MENU/product_06.png') no-repeat 0 0;
+	width: 199px;
+	height:56px;
+}
+
+div.RadMenu li.wpf div.rmText
+{
+	padding: 12px 0 0 52px;
+}
+
+div.RadMenu .rmGroup li.silverlight
+{
+	background: transparent url('../Frames/Images/MENU/product_07.png') no-repeat 0 0;
+	width: 199px;
+	height:56px;
+}
+
+div.RadMenu li.silverlight div.rmText
+{
+	padding: 10px 0 0 52px;
+}
+
+div.RadMenu .rmGroup li.reporting
+{
+	background: transparent url('../Frames/Images/MENU/product_08.png') no-repeat 0 0;
+	width: 199px;
+	height:56px;
+}
+div.RadMenu li.reporting div.rmText
+{
+	padding: 7px 0 0 52px;
+}
+div.RadMenu .rmGroup li.orm
+{
+	background: transparent url('../Frames/Images/MENU/product_09.png') no-repeat 0 0;
+	width: 199px;
+	height:56px;
+}
+div.RadMenu li.orm div.rmText
+{
+	padding: 7px 0 0 52px;
+}
+div.RadMenu .rmGroup li.sitefinity
+{
+	background: transparent url('../Frames/Images/MENU/product_10.png') no-repeat 0 0;
+	width: 199px;
+	height:56px;
+}
+div.RadMenu li.sitefinity div.rmText
+{
+	padding: 7px 0 0 52px;
+
+}
+
+div.RadMenu .rmGroup .support-firstColumn
+{
+	width:250px !important;
+	height: 30px;
+	float:left !important;
+	clear:left !important;
+	border:4;
+}
+
+div.RadMenu .rmGroup .support-firstColumn a,
+div.RadMenu .rmGroup .support-secondColumn a
+{
+	font: 11px 'Segoe UI', Tahoma;
+	color: black;
+}
+
+div.RadMenu .support-firstColumn .rmText,
+div.RadMenu .support-secondColumn .rmText
+{
+	padding: 8px 0 0 60px
+}
+
+div.RadMenu .rmGroup .support-secondColumn
+{
+	width:250px !important;
+	height: 30px;
+	float:left !important;
+	clear:none !important;
+}
+
+div.RadMenu .rmGroup li.costing {background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.multicurrency {background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.chequecashexport {background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.viewemployees{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewemployeegroups{background: transparent url('../Frames/Images/MENU/menu-employeegroup.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.leaverequest{background: transparent url('../Frames/Images/MENU/menu-applyleave.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewappliedleaves{background: transparent url('../Frames/Images/MENU/menu-applyleaves.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewrejectedleaves{background: transparent url('../Frames/Images/MENU/menu-leaverejected.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewapprovedleaves{background: transparent url('../Frames/Images/MENU/menu-leavesapproved.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.approveandrejectleaves{background: transparent url('../Frames/Images/MENU/menu-leavependingapproval.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.manageleavesallowed{background: transparent url('../Frames/Images/MENU/menu-leavesallowed.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewleavetypes{background: transparent url('../Frames/Images/MENU/menu-leavetype.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.leavetransfer{background: transparent url('../Frames/Images/MENU/menu-leavetransfer.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewpublicholidays{background: transparent url('../Frames/Images/MENU/menu-manageholidays.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewmanageleaves{background: transparent url('../Frames/Images/MENU/menu-manageholidays.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.leaverollback{background: transparent url('../Frames/Images/MENU/menu-Leaverollback.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.pendingapprovalforclaim{background: transparent url('../Frames/Images/MENU/menu-pendingapproval.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.applyclaim{background: transparent url('../Frames/Images/MENU/menu-appluclaim.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.claimstatus{background: transparent url('../Frames/Images/MENU/menu-claimstatus.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.approvedclaims{background: transparent url('../Frames/Images/MENU/menu-approvedclaims.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.rejectedclaims{background: transparent url('../Frames/Images/MENU/menu-rejectedclaims.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.roster{background: transparent url('../Frames/Images/MENU/menu-roaster.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.rostersettings{background: transparent url('../Frames/Images/MENU/menu-roastersettings.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.rosterassignment{background: transparent url('../Frames/Images/MENU/menu-roasterassignment.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.automatictimesheet{background: transparent url('../Frames/Images/MENU/menu-automatictimesheet.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.manageemployeetimesheet{background: transparent url('../Frames/Images/MENU/menu-timeshseetemployee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.manageprojecttimesheet{background: transparent url('../Frames/Images/MENU/Project Assignment_s.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.managetimesheetdocument{background: transparent url('../Frames/Images/MENU/timesheet.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.comparetimesheet{background: transparent url('../Frames/Images/MENU/menu-timesheetcompare.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewexceptionreports{background: transparent url('../Frames/Images/MENU/timesheetreport.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.latenessreport{background: transparent url('../Frames/Images/MENU/menu-latenessreport.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.mobiletimesheetreport{background: transparent url('../Frames/Images/MENU/mtsr.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.timesheetmonthly{background: transparent url('../Frames/Images/MENU/B-monthlytimesheet_s.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.timesheetstatus{background: transparent url('../Frames/Images/MENU/B-projecttimesheet_s.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.pendingapproval{background: transparent url('../Frames/Images/MENU/pending.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.managepayrolladditions{background: transparent url('../Frames/Images/MENU/menu-payrolladdition.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.managepayrolldeductions{background: transparent url('../Frames/Images/MENU/menu-payrolldeductions.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.manageovertimepayroll{background: transparent url('../Frames/Images/MENU/menu-payrollovertime.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.generateorsubmitpayroll{background: transparent url('../Frames/Images/MENU/menu-payrollsubmit.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.approveorrejectpayroll{background: transparent url('../Frames/Images/MENU/menu-payrollapprove.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewgeneratepayroll{background: transparent url('../Frames/Images/MENU/menu-payrollgenerate.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.printpayroll{background: transparent url('../Frames/Images/MENU/menu-payrollprint.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.printmypayroll{background: transparent url('../Frames/Images/MENU/menu-payrollprint.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.generateledger{background: transparent url('../Frames/Images/MENU/menu-payrollprint.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.unlockpayroll{background: transparent url('../Frames/Images/MENU/menu-payrollunlock.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.viewcpfinformation{background: transparent url('../Frames/Images/MENU/menu-cpffile.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewirasinformation{background: transparent url('../Frames/Images/MENU/menu-irasforms.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewgiroinformation{background: transparent url('../Frames/Images/MENU/menu-giro.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewmid-monthgiroinformation{background: transparent url('../Frames/Images/MENU/menu-giro.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewreports{background: transparent url('../Frames/Images/MENU/menu-reports.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewcustomreports{background: transparent url('../Frames/Images/MENU/menu-reports.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewcustomconsolidatereports{background: transparent url('../Frames/Images/MENU/menu-reports.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewamcs{background: transparent url('../Frames/Images/MENU/menu-AMCS.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.viewcompany{background: transparent url('../Frames/Images/MENU/menu-managecompany.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewusers{background: transparent url('../Frames/Images/MENU/menu-managesecuriy.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.viewlookups{background: transparent url('../Frames/Images/MENU/menu-managesettings.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.projectmanagement{background: transparent url('../Frames/Images/MENU/menu-manageproject.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.workflowmanagement{background: transparent url('../Frames/Images/MENU/menu-manageworkflow.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.itemsmanagement{background: transparent url('../Frames/Images/MENU/menu-manageitem.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.assignmentmanagement{background: transparent url('../Frames/Images/MENU/menu-manageassignment.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.bulkimport{background: transparent url('../Frames/Images/MENU/menu-mangeimport.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.othermanagements{background: transparent url('../Frames/Images/MENU/menu-manageothers.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.accomadationmanagement{background: transparent url('../Frames/Images/MENU/menu-accomadation.png') no-repeat 0 0;}
+
+
+div.RadMenu .rmGroup li.stockin{background: transparent url('../Frames/Images/MENU/menu-stockin.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.stockout{background: transparent url('../Frames/Images/MENU/menu-stockout.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.stocktransfer{background: transparent url('../Frames/Images/MENU/menu-stocktransfer.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.stockreturn{background: transparent url('../Frames/Images/MENU/menu-stockreturn.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.multiadditions{background: transparent url('../Frames/Images/MENU/menu-payrolladdition.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.multideductions{background: transparent url('../Frames/Images/MENU/menu-payrolldeductions.png') no-repeat 0 0;}
+
+
+div.RadMenu .rmGroup li.stockdetails{background: transparent url('../Frames/Images/MENU/menu-stockin.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.issuedetails{background: transparent url('../Frames/Images/MENU/menu-stockin.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.returndetails{background: transparent url('../Frames/Images/MENU/menu-stockin.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.outstandingdetails{background: transparent url('../Frames/Images/MENU/menu-stockin.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.stockbalance{background: transparent url('../Frames/Images/MENU/menu-stockin.png') no-repeat 0 0;}
+
+
+div.RadMenu .rmGroup li.helponthispage{background: transparent url('../Frames/Images/MENU/menu-helponpage.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.licenseinformation{background: transparent url('../Frames/Images/MENU/menu-licenseinfo.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.userguide{background: transparent url('../Frames/Images/MENU/menu-userguide.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.newinthisversion{background: transparent url('../Frames/Images/MENU/menu-newinthisversiont.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.checkforupdate{background: transparent url('../Frames/Images/MENU/menu-about.png') no-repeat 0 0;}
+
+
+/* new invoice */
+div.RadMenu .rmGroup li.manageclients{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.managequotation{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.manageorder{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.manageinvoice{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.managepreference{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+
+
+
+div.RadMenu .rmGroup li.invoicepreferences1{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.clientmaster{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.createquotation{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.printquotation{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.printinvoice{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.paymentmanagement{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.createorder{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.createinvoice{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.printinvoice{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.paymentmanagement{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+div.RadMenu .rmGroup li.paymenttype{background: transparent url('../Frames/Images/MENU/menu-employee.png') no-repeat 0 0;}
+
+div.RadMenu .rmGroup li.trainer
+{
+	background: transparent url('../Frames/Images/MENU/menu.png') no-repeat 0 0;
+}
+div.RadMenu .rmGroup li.empty
+{
+	background: transparent url('../Frames/Images/MENU/empty.png') no-repeat 0 0;
+}
+
+div.RadMenu .rmGroup li.samples
+{
+	background: transparent url('../Frames/Images/MENU/menu.png') no-repeat 0 0;
+}
+div.RadMenu .rmGroup li.documentation
+{
+	background: transparent url('../Frames/Images/MENU/menu.png') no-repeat 0 0;
+}
+div.RadMenu .rmGroup li.video
+{
+	background: transparent url('../Frames/Images/MENU/menu.png') no-repeat 0 0;
+}
+div.RadMenu li.video .rmText,
+div.RadMenu li.kb .rmText
+{
+	padding: 13px 0 0 60px
+}
+div.RadMenu .rmGroup li.kb
+{
+	background: transparent url('../Frames/Images/MENU/menu.png') no-repeat 0 0;
+}
+
+div.RadMenu .rmGroup li.webinars
+{
+	background: transparent url('../Frames/Images/MENU/menu.png') no-repeat 0 0;
+}
+
+div.RadMenu li.webinars .rmText,
+div.RadMenu li.code .rmText
+{
+	padding: 8px 0 0 60px
+}
+div.RadMenu .rmGroup li.code
+{
+	background: transparent url('../Frames/Images/MENU/menu.png') no-repeat 0 0;
+}
+
+div.RadMenu .rmGroup .community-firstColumn
+{
+	width:248px !important;
+	height: 61px;
+	float:left !important;
+	clear:left !important;
+}
+div.RadMenu .rmGroup .community-secondColumn
+{
+	width:247px !important;
+	height: 61px;
+	float:left !important;
+	clear:none !important;
+}
+
+div.RadMenu .rmGroup .community-firstColumn a,
+div.RadMenu .rmGroup .community-secondColumn a
+{
+	font: 11px/11px 'Segoe UI', Tahoma;
+	color: Black;
+	display:inline-block;
+}
+
+
+div.RadMenu .rmGroup li.style .rmText,
+div.RadMenu .rmGroup li.falafel .rmText
+{
+	padding:21px 0 0 66px;
+}
+
+div.RadMenu .rmGroup li.case .rmText,
+div.RadMenu .rmGroup li.dilemma .rmText
+{
+	padding:12px 0 0 66px;
+}
+
+
+
+div.RadMenu .rmGroup li.login .rmText
+{
+	padding: 0 7px;
+}
+
+
+div.RadMenu .rmGroup li.login input
+{
+	width: 170px;
+}
+
+div.RadMenu .rmGroup li.login label
+{
+	color:#fff;
+}
+
+
+    

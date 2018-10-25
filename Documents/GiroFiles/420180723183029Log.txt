@@ -1,0 +1,21 @@
+Company Name:Advanced and Best Technologies Pte Ltd
+
+Company Bank :DBS/POSB
+
+Company Bank Branch:025
+
+Bank Account:0259044716 
+
+Payroll Month:January 2018
+
+IC            Emp Name                                      BankCode     branch code      AccountNo   Transfer Amount
+*************************************************************************************************************************
+S7516784I     ANGELINE KUEK WEE KHENG                      7171          081            107261710          6392.80
+S7045401G     AZYATI BTE AHAMAD                            7144          001            0110014987         2766.93
+S8302585I     CAI ZHIWEN                                   7171          081            003548961          3972.87
+S8129820C     CHEONG MENG KEONG                            7171          081            189301774          5082.00
+*************************************************************************************************************************
+
+Total Transfer Amount: 18214.6
+
+Total Head Count: 4

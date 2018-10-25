@@ -1,0 +1,292 @@
+﻿
+/*Table sort headers Start*/
+.Asc:after {
+    font-family: 'FontAwesome';
+    content: "\f0d7";
+    padding: 0 0 0 15px;
+}
+
+.Desc:after {
+    font-family: 'FontAwesome';
+    content: "\f0d8";
+    padding: 0 0 0 15px;
+}
+
+/*Table sort headers End*/
+
+table th[data-property] {
+    cursor: pointer;
+}
+.table-decoration th,table td {
+    color: #82949a;
+}
+.table-decoration td {
+    font-size:12px;
+}
+.table-decoration th {
+    font-size:13px;
+}
+
+.counter {
+    display: none;
+}
+
+.pagination > ul > li, .pagination span.pagenav, .pagination a.pagenav {
+display: inline-block;
+    text-decoration: none;
+    color: #337ab7;
+    /*background-color: #fff;*/
+    border: 1px solid #ddd;
+    padding-right: 2px; 
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border: none;
+}
+.pagination-start,.pagination-end,.pagination-prev,.pagination-next {
+    border-radius: 20px;
+    border: solid 1px lightgray !important
+}
+.pagination a.pagenav {
+    color: #fff;
+    text-decoration: none;
+    background-color:transparent;
+}
+
+    .pagination a.pagenav:hover {
+        color: #fff;
+        background-color: #808080;
+         border-radius: 20px;
+         border-color:#808080;
+    }
+
+.pagination span.pagenav {
+    color: #999;
+}
+
+
+.pagination ul .pageno {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 1px;
+    margin-right: 3px;
+    background-color:lightgray;
+}
+
+.pagination .pageno.active-page {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    cursor: default;
+    border-radius: 20px;
+    padding: 1px;
+    margin-right: 3px;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.pagination {
+    font-weight: normal;
+    /*border: solid 1px lightgray;*/
+    padding-top: 5px;
+    width: 100%;
+    height: 45px;
+}
+.pagination ul{
+    float:right;
+}
+.grid-filters {
+   padding-bottom:10px;
+}
+.waiting-wrapper {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.waiting-text{
+    color:#36c6d3;
+    font-weight:bold;
+}
+.table-row-detail {
+    position: absolute;
+    background-color: #36c6d3;
+    color:#fff;
+    width: 87%;
+    left: 10%;
+    border: solid 1px lightgray;
+}
+.table-row-detail table {
+    width:40%;
+}
+.table-row-detail tbody tr td {
+    color:#fff;
+}
+.fc-day:hover{background:lightblue;cursor: pointer;}
+
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180px;
+    height: 40px;
+    margin-left: -90px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #333;
+    font-size: 13px;
+    /*background-color: #ddd;*/
+}
+
+.fc-day-grid-event .fc-content {
+    white-space:inherit !important;
+    overflow: hidden;
+    /*background-color: #1bbc9b;*/
+    border:none;
+      padding:2px !important;
+}
+
+.fc-event {
+    border:none !important;
+    /*background-color:transparent !important;*/
+    padding:2px !important;
+}
+
+
+
+.Accepted {
+    background-color: #1bbc9b;
+    color: #fff;
+}
+
+.Rejected {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.Scheduled {
+    background-color: #95a5a6;
+    color: #fff;
+}
+
+.Completed {
+    background-color: #008000;
+    color: #fff;
+}
+
+.Postponed {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.Preponed {
+     background-color:#FF4500;
+         color:#fff;
+}
+
+
+._jslocked {
+     background-color:#95a5a6;
+     color:#fff;
+     text-decoration:none;
+     cursor:default;
+     /*padding:2px;*/
+}
+._jslocked:hover {
+     background-color:#95a5a6;
+     color:#fff;
+     text-decoration:none;
+     cursor:default;
+}
+
+ ._jslocked:visited {
+     background-color:#95a5a6;
+     color:#fff;
+     text-decoration:none;
+     cursor:default;
+}
+
+
+     .jsGrid tbody tr:hover {
+         background-color: #d1ecf5;
+    }
+
+     .jsGrid tbody tr td .form-control  {
+        height:30px;
+    }
+
+
+.jsGrid thead {
+    background-color: #0d638f;
+}
+
+    .jsGrid thead th {
+        color: #fff;
+    }
+
+.portlet.box {
+    background-color: #d7dbdf;
+}
+
+#selectRecords {
+    width: 70px !important;
+}
+
+
+.mainItemGrid-row td.invoice {
+    color: red;
+    font-weight: bold;
+}
+
+.mainItemGrid-row td.payment {
+    color: #00af00;
+    font-weight: bold;
+}
+
+.outstanding-footer-row{
+    background-color:#fff8dc!important;
+}
+
+.outstanding-footer-row td{
+    font-weight:bold !important;
+}
+/*.tools .btn-group{
+    background-color:#fff;
+}*/
+#formNewSchedule{
+    position:absolute!important;
+    top:50px!important;
+    left:20%!important;
+}
+#previousLicenceBox{
+    width:70%;
+    position:absolute!important;
+    top:-60px!important;
+    left:25%!important;
+    background-color:#f0f8ff;
+    border:solid 2px #0d638f
+}
+
+#previousLicenceBox>table>tbody>tr td{
+color:#2f353b;
+}
+
+.footer-row {
+    background-color: #0d638f !important;
+    color: #fff !important;
+}
+
+    .footer-row td {
+        color: #fff !important;
+    }
+
+.backbutton-home {
+    margin-right: 2% !important;
+    float: right;
+}

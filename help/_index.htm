@@ -1,0 +1,86 @@
+﻿<HTML><HEAD>
+<title>SME</title>
+<link href="AppStyles.css" type="text/css" rel="StyleSheet"/>
+<link href="pagestyles.css" type="text/css" rel="StyleSheet"/>
+<script language=JavaScript src="static_page.js" type="text/javascript"></script>
+<script language="JavaScript" src="static_functions.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script src="ua.js"></script>
+<script src="ftiens4.js"></script>
+<script src="contents_data.js"></script>
+<script type="text/javascript">
+function display_contents()
+{
+initializeDocument();
+document.getElementById("tbl_legacy_contents").style.display="none";
+document.getElementById("div_javascript_contents").style.display="";
+//highlight the page
+docObj = findObj([HighlightPageID]);
+docObj.forceOpeningOfAncestorFolders();
+highlightObjLink(docObj)
+}
+</script>
+</HEAD>
+<BODY topmargin=0 bottommargin=0 leftmargin=0 rightmargin=0 bgcolor=#FFFFFF onload="loadpage()" style="overflow:auto">
+<table height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <tr>
+        <td style="WIDTH: 25%; HEIGHT: 38px" background=skinimages/vista_back.gif colSpan=2>
+            <table style="WIDTH: 100%" cellSpacing=0 cellPadding=0 border=0>
+                <tr>
+
+                    <td><img id="imghome" onmouseover="this.src='skinimages/vista_home_mouseover.gif'" style="CURSOR: hand" onmouseout="this.src='skinimages/vista_home.gif'" alt="" src="skinimages/vista_home.gif" onclick="showhomepage('Welcome.htm')"></td>
+                    <td><img id="imgprint" onmouseover="this.src='skinimages/vista_print_mouseover.gif'" style="CURSOR: hand" onmouseout="this.src='skinimages/vista_print.gif'" alt="" src="skinimages/vista_print.gif" onclick="printpage()"></td>
+                    <td><img id="imgbrowse" onmouseover="this.src='skinimages/vista_browse_mouseover.gif'" style="CURSOR: hand" onmouseout="this.src='skinimages/vista_browse.gif'" alt="" src="skinimages/Vista_browse.gif" onclick="browse()"></td>
+                    <td></td>
+                    <td><img id="imgoptions" onmouseover="this.src='skinimages/vista_options_mouseover.gif'" style="CURSOR: hand; POSITION: relative" onmouseout="this.src='skinimages/vista_options.gif'" alt="" src="skinimages/Vista_options.gif" onclick="showoptions()"></td>
+                    <td width=100% align="right"><font style="FONT-SIZE: 8pt; FONT-FAMILY: arial" face=arial color=white size=2>&nbsp;&nbsp;&nbsp;</font></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="HEIGHT: 35px" vAlign=center align=middle background=skinimages/vista_back.gif colSpan=2>
+            <table onmouseover="this.background='skinimages/vista_search_mouseover.gif'" style="WIDTH: 330px; HEIGHT: 26px" onclick="document.getElementById('txtsearch').style.visibility='visible';document.getElementById('imgsearch').style.visibility='visible';document.getElementById('txtsearch').focus()" onmouseout="this.background='skinimages/vista_search_back.gif'" cellSpacing=0 cellPadding=0 background=skinimages/vista_search_back.gif>
+                <tr>
+                    <td style="WIDTH: 2px"></td>
+                    <td><input id=txtsearch onblur="document.getElementById('txtsearch').style.visibility='hidden';document.getElementById('imgsearchicon').style.visibility='hidden'" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; VISIBILITY: hidden; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px" name=txtsearch onKeyPress="SearchKeyPress(this.value,event);"></td>
+                    <td style="WIDTH: 25px"><img id="imgsearch" style="VISIBILITY: hidden; CURSOR: hand" alt="" src="skinimages/Vista_searchicon.gif" onclick="DisplaySearch(txtsearch.value)"></td>
+                    <td style="WIDTH: 2px"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td id=td_contents_hidden style="DISPLAY: none" width="25%">
+ <table id="tbl_legacy_contents" cellpadding=0 cellspacing=0 border=0><tr><td><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="Welcome.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Welcome</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="modules.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Modules</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="Ask.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Customer&nbsp;Support&nbsp;</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="employee_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Employee&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="claims_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Claims&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="leave_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Leave&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="timesheet_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Timesheet&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="payroll_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Payroll&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="reports_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Reports&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="admin_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Admin&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="inventory_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Inventory&nbsp;Management</font></a><br><img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="invoicing_management.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Invoicing&nbsp;Management</font></a><br><img src="skinimages/toc_fld.gif" border=0 width=16 height=16>&nbsp;<a href="FAQ.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>FAQ</font></a><br>&nbsp;&nbsp;&nbsp;<img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="General_FAQ.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>General&nbsp;FAQ</font></a><br>&nbsp;&nbsp;&nbsp;<img src="skinimages/toc_page.gif" border=0 width=32 height=16>&nbsp;<a href="Installation_FAQ.htm" class="HiddenLink"><font size=2 face=arial style='color: black; font-family: tahoma; font-size: 11px; TEXT-DECORATION: none;'>Installation&nbsp;FAQ</font></a><br><br><br></td></tr></table><div id="div_javascript_index" class="divtree" style="display:none"><table border=0 cellspacing=0 cellpadding=8 style="width:100%"><tr><td class="keywordindex" valign="top"><table border=0 style="width:100%"><tr><td><font size=2>Index</font></td><td id="tdCloseIndex" align="right"><img src="skinimages/form_cancel.gif" style="cursor:pointer" onclick="DisplayContents()"></td></tr></table></td></tr></table></div>
+        </td>
+        <td valign=top id=td_main_visible style="BORDER-RIGHT: #f7f3f7 1px solid; BORDER-TOP: #6b696b 1px solid; BORDER-LEFT: #6b696b 1px solid; BORDER-BOTTOM: #f7f3f7 1px solid" width="75%">
+            <table border=0 cellspacing=0 cellpadding=8 style="width:100%"><tr><td class="keywordindex" valign="top"><table border=0 style="width:100%"><tr><td><font size=2>Index</font></td><td id="tdCloseIndex" align="right"><img src="skinimages/form_cancel.gif" style="cursor:pointer" onclick="DisplayContents()"></td></tr></table></td></tr></table>
+        </td>
+    </tr>
+    <tr>
+        <td style="WIDTH: 25%; HEIGHT: 44px" vAlign=top align=left background=skinimages/vista_back.gif colSpan=2>
+            <table style="WIDTH: 100%" cellSpacing=0 cellPadding=4 border=0>
+                <tr>
+                    <td style="WIDTH: 100%"></td>
+                    <td><img id="imgprevious" onmouseover="this.src='skinimages/vista_previous_mouseover.gif'" style="CURSOR: hand" onmouseout="this.src='skinimages/vista_previous.gif'" alt="" src="skinimages/vista_previous.gif" onclick="previouspage()"></td>
+                    <td><img id="imgnext" onmouseover="this.src='skinimages/vista_next_mouseover.gif'" style="CURSOR: hand" onmouseout="this.src='skinimages/vista_next.gif'" alt="" src="skinimages/vista_next.gif" onclick="nextpage()"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table id=tbloptions style="BORDER-RIGHT: #949694 1px solid; BORDER-TOP: #949694 1px solid; DISPLAY: none; LEFT: 200px; BORDER-LEFT: #949694 1px solid; WIDTH: 198px; BORDER-BOTTOM: #949694 1px solid; POSITION: absolute; TOP: 200px; HEIGHT: 116px" cellSpacing=2 cellPadding=4 background=skinimages/vista_options_back.gif>
+<tbody>
+<tr>
+<td onmouseover="this.style.backgroundImage='url(skinimages/vista_optionslist_mouseover.gif)'" style="FONT-SIZE: 8pt; CURSOR: hand; FONT-FAMILY: arial" onclick="printpage();document.getElementById('tbloptions').style.display='none'" onmouseout="this.style.backgroundImage=''"><img height=1 src="skinimages/vista_blank.gif" width=30>Print</td></tr>
+<tr>
+<td onmouseover="this.style.backgroundImage='url(skinimages/vista_optionslist_mouseover.gif)'" style="FONT-SIZE: 8pt; CURSOR: hand; FONT-FAMILY: arial" onclick="browse();document.getElementById('tbloptions').style.display='none'" onmouseout="this.style.backgroundImage=''"><img height=1 src="skinimages/vista_blank.gif" width=30>Browse Help</td></tr>
+<tr>
+<td onmouseover="this.style.backgroundImage='url(skinimages/vista_optionslist_mouseover.gif)'" style="FONT-SIZE: 8pt; CURSOR: hand; FONT-FAMILY: arial" onclick="DisplayIndex();document.getElementById('tbloptions').style.display='none'" onmouseout="this.style.backgroundImage=''"><img height=1 src="skinimages/vista_blank.gif" width=30>Show Index</td></tr>
+<tr id=tr_showpageurl>
+<td onmouseover="this.style.backgroundImage='url(skinimages/vista_optionslist_mouseover.gif)'" style="FONT-SIZE: 8pt; CURSOR: hand; FONT-FAMILY: arial" onclick="showpageurl();document.getElementById('tbloptions').style.display='none'" onmouseout="this.style.backgroundImage=''"><img height=1 src="skinimages/vista_blank.gif" width=30>Link to this Page</td></tr>
+<tr>
+<td onmouseover="this.style.backgroundImage='url(skinimages/vista_optionslist_mouseover.gif)'" style="FONT-SIZE: 8pt; CURSOR: hand; FONT-FAMILY: arial" onclick="addtofav();document.getElementById('tbloptions').style.display='none'" onmouseout="this.style.backgroundImage=''"><img height=1 src="skinimages/vista_blank.gif" width=30>Add to Favorites</td></tr>
+</tbody></table><table id="tblpageurl" style="position:absolute;top:0px;left:0px;width:100%;height:100%;display:none"><tr><td id="tdpageurl" align="center" valign="middle"></td></tr></table></BODY></HTML>

@@ -1,0 +1,18 @@
+Company Name:SMEPAYROLL PTE LTD
+
+Company Bank :DBS/POSB
+
+Company Bank Branch:081
+
+Bank Account:1473017666 
+
+Payroll Month:August 2018
+
+IC            Emp Name                                      BankCode     branch code      AccountNo   Transfer Amount
+*************************************************************************************************************************
+s1621202d     SANIYA ANAND                                 7339          123            29877597698         100.00
+*************************************************************************************************************************
+
+Total Transfer Amount: 100
+
+Total Head Count: 1

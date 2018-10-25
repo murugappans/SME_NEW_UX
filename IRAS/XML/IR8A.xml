@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IR8A xmlns="http://www.iras.gov.sg/IR8ADef">
+  <IR8AHeader>
+    <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+      <FileHeaderST>
+        <RecordType>0</RecordType>
+        <Source>6</Source>
+        <BasisYear>2016</BasisYear>
+        <PaymentType>08</PaymentType>
+        <OrganizationID>8</OrganizationID>
+        <OrganizationIDNo>200918685D</OrganizationIDNo>
+        <AuthorisedPersonName>PRABJEET SINGH ANAND</AuthorisedPersonName>
+        <AuthorisedPersonDesignation>DIRECTOR</AuthorisedPersonDesignation>
+        <EmployerName>ADVANCED &amp; BEST CONSTRUCTION PTE LTD</EmployerName>
+        <Telephone>68372336</Telephone>
+        <AuthorisedPersonEmail>aakash@anbgroup.com</AuthorisedPersonEmail>
+        <BatchIndicator>O</BatchIndicator>
+        <BatchDate>20170119</BatchDate>
+        <DivisionOrBranchName />
+      </FileHeaderST>
+    </ESubmissionSDSC>
+  </IR8AHeader>
+  <Details>
+    <IR8ARecord>
+      <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+        <IR8AST>
+          <RecordType xmlns="http://www.iras.gov.sg/IR8A">1</RecordType>
+          <IDType xmlns="http://www.iras.gov.sg/IR8A">2</IDType>
+          <IDNo xmlns="http://www.iras.gov.sg/IR8A">F8110196P</IDNo>
+          <NameLine1 xmlns="http://www.iras.gov.sg/IR8A">A R KHAN MD</NameLine1>
+          <NameLine2 xmlns="http://www.iras.gov.sg/IR8A">NUR ISLAM</NameLine2>
+          <AddressType xmlns="http://www.iras.gov.sg/IR8A">N</AddressType>
+          <BlockNo xmlns="http://www.iras.gov.sg/IR8A" />
+          <StName xmlns="http://www.iras.gov.sg/IR8A" />
+          <LevelNo xmlns="http://www.iras.gov.sg/IR8A" />
+          <UnitNo xmlns="http://www.iras.gov.sg/IR8A" />
+          <PostalCode xmlns="http://www.iras.gov.sg/IR8A" />
+          <AddressLine1 xmlns="http://www.iras.gov.sg/IR8A" />
+          <AddressLine2 xmlns="http://www.iras.gov.sg/IR8A" />
+          <AddressLine3 xmlns="http://www.iras.gov.sg/IR8A" />
+          <TX_UF_POSTAL_CODE xmlns="http://www.iras.gov.sg/IR8A" />
+          <CountryCode xmlns="http://www.iras.gov.sg/IR8A" />
+          <Nationality xmlns="http://www.iras.gov.sg/IR8A">352</Nationality>
+          <Sex xmlns="http://www.iras.gov.sg/IR8A">M</Sex>
+          <DateOfBirth xmlns="http://www.iras.gov.sg/IR8A">19731010</DateOfBirth>
+          <Amount xmlns="http://www.iras.gov.sg/IR8A">6110</Amount>
+          <PaymentPeriodFromDate xmlns="http://www.iras.gov.sg/IR8A">20160101</PaymentPeriodFromDate>
+          <PaymentPeriodToDate xmlns="http://www.iras.gov.sg/IR8A">20161231</PaymentPeriodToDate>
+          <MBF xmlns="http://www.iras.gov.sg/IR8A">0</MBF>
+          <Donation xmlns="http://www.iras.gov.sg/IR8A">0</Donation>
+          <CPF xmlns="http://www.iras.gov.sg/IR8A">0</CPF>
+          <Insurance xmlns="http://www.iras.gov.sg/IR8A" />
+          <Salary xmlns="http://www.iras.gov.sg/IR8A">5748</Salary>
+          <Bonus xmlns="http://www.iras.gov.sg/IR8A" />
+          <DirectorsFees xmlns="http://www.iras.gov.sg/IR8A" />
+          <Others xmlns="http://www.iras.gov.sg/IR8A">362</Others>
+          <ShareOptionGainsS101g xmlns="http://www.iras.gov.sg/IR8A">0</ShareOptionGainsS101g>
+          <ExemptIncome xmlns="http://www.iras.gov.sg/IR8A" />
+          <IncomeForTaxBorneByEmployer xmlns="http://www.iras.gov.sg/IR8A" />
+          <IncomeForTaxBorneByEmployee xmlns="http://www.iras.gov.sg/IR8A" />
+          <BenefitsInKind xmlns="http://www.iras.gov.sg/IR8A" />
+          <S45Applicable xmlns="http://www.iras.gov.sg/IR8A" />
+          <IncomeTaxBorneByEmployer xmlns="http://www.iras.gov.sg/IR8A" />
+          <GratuityNoticePymExGratiaPaid xmlns="http://www.iras.gov.sg/IR8A">N</GratuityNoticePymExGratiaPaid>
+          <CompensationRetrenchmentBenefitsPaid xmlns="http://www.iras.gov.sg/IR8A">N</CompensationRetrenchmentBenefitsPaid>
+          <ApprovalObtainedFromIRAS xmlns="http://www.iras.gov.sg/IR8A">N</ApprovalObtainedFromIRAS>
+          <ApprovalDate xmlns="http://www.iras.gov.sg/IR8A" />
+          <CessationProvisions xmlns="http://www.iras.gov.sg/IR8A">N</CessationProvisions>
+          <IR8SApplicable xmlns="http://www.iras.gov.sg/IR8A" />
+          <ExemptOrRemissionIncomeIndicator xmlns="http://www.iras.gov.sg/IR8A" />
+          <CompensationAndGratuity xmlns="http://www.iras.gov.sg/IR8A" />
+          <GrossCommissionAmount xmlns="http://www.iras.gov.sg/IR8A" />
+          <GrossCommissionPeriodFrom xmlns="http://www.iras.gov.sg/IR8A" />
+          <GrossCommissionPeriodTo xmlns="http://www.iras.gov.sg/IR8A" />
+          <GrossCommissionIndicator xmlns="http://www.iras.gov.sg/IR8A" />
+          <Pension xmlns="http://www.iras.gov.sg/IR8A">0</Pension>
+          <TransportAllowance xmlns="http://www.iras.gov.sg/IR8A">0</TransportAllowance>
+          <EntertainmentAllowance xmlns="http://www.iras.gov.sg/IR8A">362</EntertainmentAllowance>
+          <OtherAllowance xmlns="http://www.iras.gov.sg/IR8A">0</OtherAllowance>
+          <GratuityNoticePymExGratia xmlns="http://www.iras.gov.sg/IR8A">0</GratuityNoticePymExGratia>
+          <RetrenchmentBenefits xmlns="http://www.iras.gov.sg/IR8A">0</RetrenchmentBenefits>
+          <RetrenchmentBenefitsUpto311292 xmlns="http://www.iras.gov.sg/IR8A" />
+          <RetrenchmentBenefitsFrom1993 xmlns="http://www.iras.gov.sg/IR8A">0</RetrenchmentBenefitsFrom1993>
+          <EmployerContributionToPensionOrPFOutsideSg xmlns="http://www.iras.gov.sg/IR8A">0</EmployerContributionToPensionOrPFOutsideSg>
+          <ExcessEmployerContributionToCPF xmlns="http://www.iras.gov.sg/IR8A">0</ExcessEmployerContributionToCPF>
+          <ShareOptionGainsS101b xmlns="http://www.iras.gov.sg/IR8A">0</ShareOptionGainsS101b>
+          <BenefitsInKindValue xmlns="http://www.iras.gov.sg/IR8A">0</BenefitsInKindValue>
+          <EmployeesVoluntaryContributionToCPF xmlns="http://www.iras.gov.sg/IR8A" />
+          <Designation xmlns="http://www.iras.gov.sg/IR8A">CONST. WORKER</Designation>
+          <CommencementDate xmlns="http://www.iras.gov.sg/IR8A" />
+          <CessationDate xmlns="http://www.iras.gov.sg/IR8A">20160810</CessationDate>
+          <BonusDecalrationDate xmlns="http://www.iras.gov.sg/IR8A" />
+          <DirectorsFeesApprovalDate xmlns="http://www.iras.gov.sg/IR8A" />
+          <RetirementBenefitsFundName xmlns="http://www.iras.gov.sg/IR8A" />
+          <DesignatedPensionOrProvidentFundName xmlns="http://www.iras.gov.sg/IR8A" />
+          <BankName xmlns="http://www.iras.gov.sg/IR8A" />
+          <PayrollDate xmlns="http://www.iras.gov.sg/IR8A" />
+          <Filler xmlns="http://www.iras.gov.sg/IR8A" />
+          <GratuityOrCompensationDetailedInfo xmlns="http://www.iras.gov.sg/IR8A" />
+          <ShareOptionGainsDetailedInfo xmlns="http://www.iras.gov.sg/IR8A" />
+          <Remarks xmlns="http://www.iras.gov.sg/IR8A" />
+        </IR8AST>
+      </ESubmissionSDSC>
+    </IR8ARecord>
+  </Details>
+  <IR8ATrailer>
+    <ESubmissionSDSC xmlns="http://tempuri.org/ESubmissionSDSC.xsd">
+      <IR8ATrailerST>
+        <RecordType>2</RecordType>
+        <NoOfRecords>1</NoOfRecords>
+        <TotalPayment>6110</TotalPayment>
+        <TotalSalary>5748</TotalSalary>
+        <TotalBonus>0</TotalBonus>
+        <TotalDirectorsFees>0</TotalDirectorsFees>
+        <TotalOthers>362</TotalOthers>
+        <TotalExemptIncome>0</TotalExemptIncome>
+        <TotalIncomeForTaxBorneByEmployer>0</TotalIncomeForTaxBorneByEmployer>
+        <TotalIncomeForTaxBorneByEmployee>0</TotalIncomeForTaxBorneByEmployee>
+        <TotalDonation>0</TotalDonation>
+        <TotalCPF>0</TotalCPF>
+        <TotalInsurance>0</TotalInsurance>
+        <TotalMBF>0</TotalMBF>
+        <Filler>0</Filler>
+      </IR8ATrailerST>
+    </ESubmissionSDSC>
+  </IR8ATrailer>
+</IR8A>

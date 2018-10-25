@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="IRAS" namespace="IRAS.Appendix_A">
+
+  <class name="A8AST" table="A8AST">
+    <id name="Id" column="Id" type="int">
+      <generator class="native"></generator>
+    </id>
+
+   
+    <property name="HardOrsoftFurnitureItemsRatePM" column="HardOrsoftFurnitureItemsRatePM"></property>
+    
+    <property name="RefrigeratorRatePM" column="RefrigeratorRatePM"></property>
+   
+    <property name="VideoRecorderRatePM" column="VideoRecorderRatePM"></property>
+  
+    <property name="WashingMachineDryerDishWasherRatePM" column="WashingMachineDryerDishWasherRatePM"></property>
+  
+    <property name="AirConditionersUnitRatePM" column="AirConditionersUnitRatePM"></property>
+   
+    <property name="AirpurifierRatePM" column="AirpurifierRatePM"></property>
+   
+    <property name="TVRadioAmpHiFiStereoElectriGuitarRatePM" column="TVRadioAmpHiFiStereoElectriGuitarRatePM"></property>
+    
+    <property name="ComputerAndOrganRatePM" column="ComputerAndOrganRatePM"></property>
+    
+    <property name="SwimmingPoolRatePM" column="SwimmingPoolRatePM"></property>
+   
+    <property name="SelfWifeChildAbove20RatePM" column="SelfWifeChildAbove20RatePM"></property>
+   
+    <property name="ChildBetween8And20RatePM" column="ChildBetween8And20RatePM"></property>
+    
+    <property name="ChildBetween3And7RatePM" column="ChildBetween3And7RatePM"></property>
+
+    <property name="ChildBelow3RatePM" column="ChildBelow3RatePM"></property>
+
+   
+    <property name="C2bc1" column="C2bc1"></property>
+    <property name="C2bc2" column="C2bc2"></property>
+    
+    <property name="C2cc1" column="C2cc1"></property>
+    <property name="C2cc2" column="C2cc2"></property>
+    <property name="C2cc3" column="C2cc3"></property>
+    
+    <property name="C2dc1" column="C2dc1"></property>
+    <property name="C2dc2" column="C2dc2"></property>
+    <property name="C2dc3" column="C2dc3"></property>
+    <property name="C2dc4" column="C2dc4"></property>
+    <property name="C2dc5" column="C2dc5"></property>
+    
+    <property name="C2ec1" column="C2ec1"></property>
+    <property name="C2ec2" column="C2ec2"></property>
+    <property name="C2ec3" column="C2ec3"></property>
+    <property name="C2ec4" column="C2ec4"></property>
+    <property name="C2ec5" column="C2ec5"></property>
+    <property name="C2fc1" column="C2fc1"></property>
+    <property name="C2fc2" column="C2fc2"></property>
+    <property name="C2hc1" column="C2hc1"></property>
+    <property name="C2hc2" column="C2hc2"></property>
+    <property name="C2hc3" column="C2hc3"></property>
+    <property name="C2hc4" column="C2hc4"></property>
+    <property name="C2hc5" column="C2hc5"></property>
+    <property name="C2hc6" column="C2hc6"></property>
+    <property name="C2hc7" column="C2hc7"></property>
+
+    <property name="C3ac1" column="C3ac1"></property>
+    <property name="C3ac2" column="C3ac2"></property>
+    <property name="C3ac3" column="C3ac3"></property>
+
+
+
+   
+
+    <property name="ActualHotelAccommodation" column="ActualHotelAccommodation"></property>
+    <property name="AmountPaidByEmployee" column="AmountPaidByEmployee"></property>
+    <property name="TaxableValueHotelAccommodation" column="TaxableValueHotelAccommodation"></property>
+    
+    
+    <property name="ValueFurnitureFittingInd" column="ValueFurnitureFittingInd"></property>
+    <property name="ValueFurnitureFitting" column="ValueFurnitureFitting"></property>
+    <property name="RentPaidToLandlord" column="RentPaidToLandlord"></property>
+    <property name="TaxableValuePlaceOfResidence" column="TaxableValuePlaceOfResidence"></property>
+    <property name="TotalRentPaidByEmployeePlaceOfResidence" column="TotalRentPaidByEmployeePlaceOfResidence"></property>
+    <property name="TotalTaxableValuePlaceOfResidence" column="TotalTaxableValuePlaceOfResidence"></property>
+    <property name="TaxableValueUtilitiesHouseKeeping" column="TaxableValueUtilitiesHouseKeeping"></property>
+    
+    <property name="IS_AMENDMENT" column="IS_AMENDMENT"></property>
+    <property name="SelfWifeChildAbove20NoOfPersons_20above" column="SelfWifeChildAbove20NoOfPersons_20above"></property>
+    <property name="SelfWifeChildAbove20NoOfPersons_Spouse" column="SelfWifeChildAbove20NoOfPersons_Spouse"></property>
+    <property name="SelfWifeChildAbove20NoOfDays_20above" column="SelfWifeChildAbove20NoOfDays_20above"></property>
+    <property name="SelfWifeChildAbove20NoOfDays_Spouse" column="SelfWifeChildAbove20NoOfDays_Spouse"></property>
+    <property name="emp_id" column="emp_id"></property>
+    <property name="AppendixA_year" column="AppendixA_year"></property>
+    <property name="RecordType" column="RecordType"></property>
+    <property name="IDType" column="IDType"></property>
+    <property name="IDNo" column="IDNo"></property>
+    <property name="NameLine1" column="NameLine1"></property>
+    <property name="NameLine2" column="NameLine2"></property>
+    <property name="ResidencePlaceValue" column="ResidencePlaceValue"></property>
+    <property name="ResidenceAddressLine1" column="ResidenceAddressLine1"></property>
+    <property name="ResidenceAddressLine2" column="ResidenceAddressLine2"></property>
+    <property name="ResidenceAddressLine3" column="ResidenceAddressLine3"></property>
+    <property name="OccupationFromDate" column="OccupationFromDate"></property>
+    <property name="NoOfEmployeeSharing" column="NoOfEmployeeSharing"></property>
+    <property name="OccupationToDate" column="OccupationToDate"></property>
+    <property name="NoOfDays" column="NoOfDays"></property>
+    <property name="AVOrRentByEmployer" column="AVOrRentByEmployer"></property>
+    <property name="RentByEmployee" column="RentByEmployee"></property>
+    <property name="FurnitureValue" column="FurnitureValue"></property>
+    <property name="HardOrsoftFurnitureItemsValue" column="HardOrsoftFurnitureItemsValue"></property>
+    <property name="RefrigeratorValue" column="RefrigeratorValue"></property>
+    <property name="NoOfRefrigerators" column="NoOfRefrigerators"></property>
+    <property name="VideoRecorderValue" column="VideoRecorderValue"></property>
+    <property name="NoOfVideoRecorders" column="NoOfVideoRecorders"></property>
+    <property name="WashingMachineDryerDishWasherValue" column="WashingMachineDryerDishWasherValue"></property>
+    <property name="NoOfWashingMachines" column="NoOfWashingMachines"></property>
+    <property name="NoOfDryers" column="NoOfDryers"></property>
+    <property name="NoOfDishWashers" column="NoOfDishWashers"></property>
+    <property name="AirConditionerValue" column="AirConditionerValue"></property>
+    <property name="NoOfAirConditioners" column="NoOfAirConditioners"></property>
+    <property name="NoOfCentralACDining" column="NoOfCentralACDining"></property>
+    <property name="NoOfCentralACSitting" column="NoOfCentralACSitting"></property>
+    <property name="NoOfCentralACAdditional" column="NoOfCentralACAdditional"></property>
+    <property name="NoOfAirpurifier" column="NoOfAirpurifier"></property>
+    <property name="TVRadioAmpHiFiStereoElectriGuitarValue" column="TVRadioAmpHiFiStereoElectriGuitarValue"></property>
+    <property name="NoOfTVs" column="NoOfTVs"></property>
+    <property name="NoOfRadios" column="NoOfRadios"></property>
+    <property name="NoOfAmplifiers" column="NoOfAmplifiers"></property>
+    <property name="NoOfHiFiStereos" column="NoOfHiFiStereos"></property> 
+    <property name="NoOfElectriGuitar" column="NoOfElectriGuitar"></property>
+    <property name="NoOfSurvellance" column="NoOfSurvellance"></property>
+    <property name="ComputerAndOrganValue" column="ComputerAndOrganValue"></property>
+    <property name="NoOfComputers" column="NoOfComputers"></property>
+    <property name="NoOfOrgans" column="NoOfOrgans"></property>
+    <property name="SwimmingPoolValue" column="SwimmingPoolValue"></property>
+    <property name="NoOfSwimmingPools" column="NoOfSwimmingPools"></property>
+    <property name="PublicUtilities" column="PublicUtilities"></property>
+    <property name="Telephone" column="Telephone"></property>
+    <property name="Pager" column="Pager"></property>
+    <property name="Suitcase" column="Suitcase"></property>
+    <property name="GolfBagAndAccessories" column="GolfBagAndAccessories"></property>
+    <property name="Camera" column="Camera"></property>
+    <property name="Servant" column="Servant"></property>
+    <property name="Driver" column="Driver"></property>
+    <property name="GardenerOrCompoundUpkeep" column="GardenerOrCompoundUpkeep"></property>
+    <property name="OtherBenefitsInKindValue" column="OtherBenefitsInKindValue"></property>
+    <property name="HotelAccommodationValue" column="HotelAccommodationValue"></property>
+    <property name="SelfWifeChildAbove20NoOfPersons" column="SelfWifeChildAbove20NoOfPersons"></property>
+    <property name="SelfWifeChildAbove20NoOfDays" column="SelfWifeChildAbove20NoOfDays"></property>
+    <property name="SelfWifeChildAbove20Value" column="SelfWifeChildAbove20Value"></property>
+    <property name="ChildBetween8And20NoOfPersons" column="ChildBetween8And20NoOfPersons"></property>
+    <property name="ChildBetween8And20NoOfDays" column="ChildBetween8And20NoOfDays"></property>
+    <property name="ChildBetween8And20Value" column="ChildBetween8And20Value"></property>
+    <property name="ChildBetween3And7NoOfPersons" column="ChildBetween3And7NoOfPersons"></property>
+    <property name="ChildBetween3And7NoOfDays" column="ChildBetween3And7NoOfDays"></property>
+    <property name="ChildBetween3And7Value" column="ChildBetween3And7Value"></property>
+    <property name="ChildBelow3NoOfPersons" column="ChildBelow3NoOfPersons"></property>
+    <property name="ChildBelow3NoOfDays" column="ChildBelow3NoOfDays"></property>
+    <property name="ChildBelow3Value" column="ChildBelow3Value"></property> 
+    <property name="Percent2OfBasic" column="Percent2OfBasic"></property>
+    <property name="CostOfLeavePassageAndIncidentalBenefits" column="CostOfLeavePassageAndIncidentalBenefits"></property>
+    <property name="NoOfLeavePassageSelf" column="NoOfLeavePassageSelf"></property>
+    <property name="NoOfLeavePassageWife" column="NoOfLeavePassageWife"></property>
+    <property name="NoOfLeavePassageChildren" column="NoOfLeavePassageChildren"></property>
+    <property name="OHQStatus" column="OHQStatus"></property>
+    <property name="InterestPaidByEmployer" column="InterestPaidByEmployer"></property>
+    <property name="LifeInsurancePremiumsPaidByEmployer" column="LifeInsurancePremiumsPaidByEmployer"></property>
+    <property name="FreeOrSubsidisedHoliday" column="FreeOrSubsidisedHoliday"></property>
+    <property name="EducationalExpenses" column="EducationalExpenses"></property>
+    <property name="NonMonetaryAwardsForLongService" column="NonMonetaryAwardsForLongService"></property>
+    <property name="EntranceOrTransferFeesToSocialClubs" column="EntranceOrTransferFeesToSocialClubs"></property>
+    <property name="GainsFromAssets" column="GainsFromAssets"></property>
+    <property name="FullCostOfMotorVehicle" column="FullCostOfMotorVehicle"></property>
+    <property name="CarBenefit" column="CarBenefit"></property>
+    <property name="OthersBenefits" column="OthersBenefits"></property>
+    <property name="TotalBenefitsInKind" column="TotalBenefitsInKind"></property>
+    <property name="NoOfEmployeesSharingQRS" column="NoOfEmployeesSharingQRS"></property>
+    <property name="Filler" column="Filler"></property>
+    <property name="Remarks" column="Remarks"></property>
+    <property name="NoOfHardSoftFunniture" column="NoOfHardSoftFunniture"></property>
+    <!--<property name="DateOfIncorporation" column="DateOfIncorporation"></property>-->
+  
+    
+    
+    </class>
+
+  <class name="employe" table="employee" lazy="false">
+    <id name="id" column="emp_code" type="int">
+      <!--<generator class="identity"></generator>-->
+      <generator class="native"></generator>
+    </id>
+    <property name="Name" column="emp_name"></property>
+    <property name="Last_Name" column="emp_lname"></property>
+    <property name="Nric" column="ic_pp_number"></property>
+    <property name="block_no" column="block_no"></property>
+    <property name="street_name" column="street_name"></property>
+    <property name="level_no" column="level_no"></property>
+    <property name="postal_code" column="postal_code"></property>
+    <property name="unit_number" column="unit_no"></property>
+   </class>
+ 
+  <!--<class name="ir8a_Amendment" table="ir8a_Amendment">
+    <id name="ID" column="ID" type="int">
+      <generator class="native"></generator>
+    </id>
+   <property  name="IRYear"  column="IRYear"></property>
+   <property  name="Emp_ID"   column="Emp_ID"></property>
+   <property  name="GrossPay"  column="GrossPay"> </property>
+   <property  name="Bonus" column="Bonus"></property>
+   <property  name="DirectorFee" column="DirectorFee"></property>
+   <property  name="Commission" column="Commission"></property>
+   <property  name="Pension" column="Pension"></property>
+   <property  name="TransAllow" column="TransAllow"></property>
+   <property  name="EntAllow" column="EntAllow"></property>
+   <property  name="OtherAllow" column="OtherAllow"></property>
+   <property  name="EmployeeCPF" column="EmployeeCPF"></property>
+   <property  name="Funds" column="Funds"></property>
+   <property  name="MBMF" column="MBMF"></property>
+   <property  name="ISAmendment" column="ISAmendment"></property> 
+  </class>-->
+   
+</hibernate-mapping>

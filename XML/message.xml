@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SMEPayroll>
+
+  <Message>
+    <MessageId id="001" type="E" msg="User Name or Password is Incorrect"></MessageId>
+    <MessageId id="002" type="E" msg="Please Select Company..."></MessageId>
+    <MessageId id="003" type="E" msg="Test3"></MessageId>
+    <MessageId id="004" type="E" msg="Please Enter User Name..."></MessageId>
+    <MessageId id="005" type="E" msg="Please Enter  Valid User Name..."></MessageId>
+    <MessageId id="006" type="S" msg="Password has been sent successfully."></MessageId>
+    <MessageId id="007" type="E" msg="Hourly rate is Manual."></MessageId>
+    <MessageId id="008" type="E" msg="SMTP server setup is not done."></MessageId>
+    <MessageId id="009" type="E" msg="Email id is not valid."></MessageId>\
+    <MessageId id="010" type="E" msg="License File is Missing"></MessageId>
+  </Message>
+  
+  
+</SMEPayroll>

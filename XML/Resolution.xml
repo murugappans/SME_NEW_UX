@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resolution >
+  <Values width="800" height="600"  val1="95%" val2="18%" val3="5%" val4="65%"></Values>
+  <Values width="1024" height="768"  val1="95%" val2="12%" val3="5%" val4="65%"></Values>
+  <Values width="1152" height="864"  val1="95%" val2="10%" val3="5%" val4="65%"></Values>
+  <Values width="1280" height="600"  val1="95%" val2="18%" val3="5%" val4="65%"></Values>
+  <Values width="1280" height="720"  val1="95%" val2="13%" val3="5%" val4="65%"></Values>
+  <Values width="1280" height="768"  val1="95%" val2="17%" val3="5%" val4="65%"></Values>
+  <Values width="1280" height="800"  val1="95%" val2="11%" val3="5%" val4="65%"></Values>
+  <Values width="1280" height="960"  val1="95%" val2="9%" val3="5%" val4="65%"></Values>
+  <Values width="1280" height="1024"  val1="93%" val2="8%" val3="5%" val4="65%" ></Values>
+  <Values width="1366" height="768"  val1="89%" val2="11%" val3="5%" val4="65%" ></Values>
+  <Values width="1440" height="900"  val1="105%" val2="7%" val3="5%" val4="65%" ></Values>
+  <Values width="1600" height="900"  val1="117%" val2="8%" val3="5%" val4="65%" ></Values>
+  <Values width="1680" height="1050"  val1="122%" val2="9%" val3="5%" val4="65%" ></Values>  
+  <Values width="1920" height="1080" val1="89%" val2="11%" val3="5%" val4="65%" ></Values>
+</Resolution>
+
+
