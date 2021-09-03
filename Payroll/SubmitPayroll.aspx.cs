@@ -47,8 +47,8 @@ namespace SMEPayroll.Payroll
         protected void Page_Load(object sender, EventArgs e)
         {
             /* To disable Grid filtering options  */
-
-            string payroll = Request.QueryString["payroll"];
+            ViewState["AuditActionModuleRef"] = "";
+           string payroll = Request.QueryString["payroll"];
             if(payroll == "continue")
             {
                 _actionMessage = "Success|Submitted Successfully";
@@ -205,10 +205,10 @@ namespace SMEPayroll.Payroll
 
 
             //RadProgressArea1.Localization.Uploaded = "Total Progress";
-           // RadProgressArea1.Localization.UploadedFiles = "Progress";
+            // RadProgressArea1.Localization.UploadedFiles = "Progress";
             // RadProgressArea1.Localization.CurrentFileName = "Progress in action: ";
             //RadProgressArea1.Localization.CurrentFileName = "";
-
+            
         }
 
 
@@ -331,7 +331,9 @@ namespace SMEPayroll.Payroll
         private static readonly Object obj = new Object();
         protected void btnsubapprove_click(object sender, EventArgs e)
         {
-            sendemail();
+            
+         
+           sendemail();
             IFormatProvider format = new System.Globalization.CultureInfo("en-GB", true);
             lock (obj)
             {
@@ -385,7 +387,8 @@ namespace SMEPayroll.Payroll
                                     double Wdays = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("Days_Work"));
                                     double NetPay = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("Netpay"));
                                     string ot_entitlement = Utility.ToString(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("OT"));
-                                    double cpfAdd_Ordinary = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("CPFOrdinaryCeil"));
+                                     double cpfAdd_Ordinary = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("CPFOrdinaryCeil"));
+                                   // double cpfAdd_Ordinary = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("cpfordinary"));
                                     double cpfAdd_Additional = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("CPFAdditionNet"));
                                     double cpfNet = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("CPFGross"));
                                     double empCPF = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("EmployeeCPFAmt"));
@@ -426,10 +429,17 @@ namespace SMEPayroll.Payroll
                                     TextBox txtPayment = (TextBox)this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].FindControl("txtPaymentDate");
                                     string paymentDate = Convert.ToDateTime(txtPayment.Text).ToString("dd/MM/yyyy", format);
 
+                                    double mfc = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("mfc"));
+
+                                    double mvc = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("mvc"));
+
+                                    double cpfActual_Odinary = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("cpfordinary"));
+                                    double cpfActual_Additional = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("awcm"));
+                                    double wlevy = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("wlevy"));
 
 
-                             
-                                  
+
+
 
                                     //double fundgrossamount = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("FundGrossAmount"));
 
@@ -473,7 +483,7 @@ namespace SMEPayroll.Payroll
 
                                     string status = "P";
                                     int i = 0;
-                                    SqlParameter[] parms = new SqlParameter[56];
+                                    SqlParameter[] parms = new SqlParameter[61];
                                     parms[i++] = new SqlParameter("@emp_id", Utility.ToInteger(empid));
                                     parms[i++] = new SqlParameter("@basic_pay", Utility.ToDouble(basicpay));
                                     parms[i++] = new SqlParameter("@NHRate", Utility.ToDouble(NHRate));
@@ -544,6 +554,14 @@ namespace SMEPayroll.Payroll
                                     }
                                     parms[i++] = new SqlParameter("@CPFGrossAmount", Utility.ToDouble(CPFGross1));
                                     parms[i++] = new SqlParameter("@PaymentDate", Convert.ToDateTime(paymentDate));
+
+                                    parms[i++] = new SqlParameter("@mfc", mfc);
+                                    parms[i++] = new SqlParameter("@mvc", mvc);
+
+                                    parms[i++] = new SqlParameter("@cpfActual_Odinary", cpfActual_Odinary);
+                                    parms[i++] = new SqlParameter("@cpfActual_Additional", cpfActual_Additional);
+                                    parms[i++] = new SqlParameter("@wlevy", Convert.ToDecimal(wlevy));
+
                                     //parms[i++] = new SqlParameter("@fundgrossamount", Utility.ToDouble(fundgrossamount));
 
                                     sSQL = "sp_payroll_add";
@@ -551,7 +569,6 @@ namespace SMEPayroll.Payroll
 
                                     try
                                     {
-
                                         if (Session["processPayroll"] == null)
                                         {
                                             DataAccess.ExecuteStoreProc(sSQL, parms);
@@ -635,13 +652,14 @@ namespace SMEPayroll.Payroll
 
                                             }
                                         }
+                                       
                                     }
                                     catch (Exception ex)
                                     {
                                         string ErrMsg = ex.Message;
                                         if (ErrMsg.IndexOf("PRIMARY KEY constraint", 1) > 0)
                                         {
-                                            ErrMsg = "<font color = 'Red'>Unable to update the status.Please Try again!</font>";
+                                            ErrMsg = "<font color = 'Red'>Unable to update the status.Try again!</font>";
                                         }
                                     }
                                 }
@@ -653,16 +671,16 @@ namespace SMEPayroll.Payroll
 
                         if (blnisrecsel == false)
                         {
-                            //ShowMessageBox("Please Select Employees to Submit Payroll");
-                            _actionMessage = "Warning|Please Select Employees to Submit Payroll";
+                            //ShowMessageBox("Select Employees to Submit Payroll");
+                            _actionMessage = "Warning|Select Employees to Submit Payroll";
                             ViewState["actionMessage"] = _actionMessage;
                         }
                     }
                 }
                 else
                 {
-                    // ShowMessageBox("Please Choose payment date");
-                    _actionMessage = "Warning|Please Choose payment date";
+                    // ShowMessageBox("Choose payment date");
+                    _actionMessage = "Warning|Choose payment date";
                     ViewState["actionMessage"] = _actionMessage;
                 }
                 sw.Stop();
@@ -707,6 +725,8 @@ namespace SMEPayroll.Payroll
             string _cmpmonth =cmbMonth.SelectedValue.ToString();
             string _dptid= deptID.SelectedValue.ToString();
            // deptID.Enabled = false;
+
+           
             try
             {
                 RadGrid1.DataBind();
@@ -848,8 +868,8 @@ namespace SMEPayroll.Payroll
                         {
                             txtPayDate.Text = "";
                         }
-
-
+                        //Audit part
+                        ViewState["AuditActionModuleRef"] = "8||Payroll_module||0";
                     }
                 }
             }
@@ -879,6 +899,7 @@ namespace SMEPayroll.Payroll
             foreach (DataRow drnew in drResults)
             {
                 month = drnew["Month"].ToString();
+                Session["PayStartDate"] = drnew["PayStartDate"].ToString();
             }
 
             string from = "";
@@ -1053,9 +1074,12 @@ namespace SMEPayroll.Payroll
                 //Session["EmpPassID"] = dr["emp_code"].ToString();
                 //str = "paydetailreport.aspx?UserID=" + Session["EmpCode"].ToString() + "&Month=" + dr["Month"].ToString() + "&stdatemonth=" + Session["PayStartDay"].ToString() + "&endatemonth=" + Session["PayEndDay"].ToString() + "&stdatesubmonth=" + Session["PaySubStartDay"].ToString() + "&endatesubmonth=" + Session["PaySubEndDay"].ToString() + "&monthidintbl=" + monthid.ToString() + "&Year=" + yearid.ToString() + "&company_id=" + Session["Compid"].ToString() + "&EmpPassID=" + Session["EmpPassID"] + "&dept_id=" + DEPTID.ToString();
                 str = "payrolldetailreport_New.aspx?UserID=" + Session["EmpCode"].ToString() + "&Month=" + dr["Month"].ToString() + "&stdatemonth=" + Session["PayStartDay"].ToString() + "&endatemonth=" + Session["PayEndDay"].ToString() + "&stdatesubmonth=" + Session["PaySubStartDay"].ToString() + "&endatesubmonth=" + Session["PaySubEndDay"].ToString() + "&monthidintbl=" + monthid.ToString() + "&Year=" + yearid.ToString() + "&company_id=" + Session["Compid"].ToString() + "&EmpPassID=" + Session["EmpPassID"] + "&dept_id=" + DEPTID.ToString();
+               // str = "payrolldetailsreport_approved.aspx?UserID=" + Session["EmpCode"].ToString() + "&Month=" + dr["Month"].ToString() + "&stdatemonth=" + Session["PayStartDay"].ToString() + "&endatemonth=" + Session["PayEndDay"].ToString() + "&stdatesubmonth=" + Session["PaySubStartDay"].ToString() + "&endatesubmonth=" + Session["PaySubEndDay"].ToString() + "&monthidintbl=" + monthid.ToString() + "&Year=" + yearid.ToString() + "&company_id=" + Session["Compid"].ToString() + "&EmpPassID=" + Session["EmpPassID"] + "&dept_id=" + DEPTID.ToString();
+
             }
             string popupScript = "<script language='javascript'>" + "window.open('', '" + str + "', " + "'width=1000, height=1000, menubar=yes, resizable=yes')" + "</script>";
             HttpContext.Current.Response.Write("<SCRIPT language='Javascript'>window.open('" + str + "');</SCRIPT>");
+            ViewState["AuditActionModuleRef"] = "12||Payroll_module||0";
         }
 
         [AjaxPro.AjaxMethod]
@@ -1095,8 +1119,9 @@ namespace SMEPayroll.Payroll
             }
             string popupScript = "<script language='javascript'>" + "window.open('', '" + str + "', " + "'width=1000, height=1000, menubar=yes, resizable=yes')" + "</script>";
             HttpContext.Current.Response.Write("<SCRIPT language='Javascript'>window.open('" + str + "');</SCRIPT>");
-
-
+            //Audit
+            ViewState["AuditActionModuleRef"] = "12||Payroll_module||0";
+            //Audit
             //return str;
         }
 
@@ -1197,14 +1222,27 @@ namespace SMEPayroll.Payroll
                 {
                     e.Item.Cells[26].BackColor = Color.Red;
                 }
-                if (e.Item.Cells[50].Text.ToString() == "0")
+                //if (e.Item.Cells[50].Text.ToString() == "0")
+                //{
+                //    ((CheckBox)item["GridClientSelectColumn"].Controls[0]).Visible = false;
+
+                //    // hiding detail column link
+                //    HyperLink HlLink = (HyperLink)e.Item.FindControl("Image3");
+                //    HlLink.Text = "";
+
+                //}
+                if (e.Item is GridItem)
                 {
-                    ((CheckBox)item["GridClientSelectColumn"].Controls[0]).Visible = false;
+                    GridDataItem dataItem = e.Item as GridDataItem;
+                    string strvar = dataItem["PayProcessFH"].Text.ToString();
+                    if (strvar == "0")
+                    {
+                        ((CheckBox)item["GridClientSelectColumn"].Controls[0]).Visible = false;
 
-                    // hiding detail column link
-                    HyperLink HlLink = (HyperLink)e.Item.FindControl("Image3");
-                    HlLink.Text = "";
-
+                        // hiding detail column link
+                        HyperLink HlLink = (HyperLink)e.Item.FindControl("Image3");
+                        HlLink.Text = "";
+                    }
                 }
 
                 RadGrid1.MasterTableView.GetColumn("TemplateColumn").Display = false;
@@ -1229,23 +1267,6 @@ namespace SMEPayroll.Payroll
 
                 //     }
                 //// }               
-            }
-            
-        }
-
-        protected void FormatItem(GridItem gitem)
-        {
-            double v = 0;
-            if(gitem.GetType().Name== "GridDataItem")
-            {
-                foreach(TableCell tcell in gitem.Cells)
-                {
-                    if(Double.TryParse(tcell.Text,out v))
-                    {
-
-                     tcell.Style["text-align"] = "right";
-                    }
-                }
             }
         }
 
@@ -1331,6 +1352,11 @@ namespace SMEPayroll.Payroll
             {
                 foreach (GridItem item in this.RadGrid1.MasterTableView.Items)
                 {
+                    if (rdPayDatePicker.SelectedDate == null)
+                    {
+                        chkDateSelection.Checked = false;
+                        throw new Exception("Invalid Payment Date");
+                    }
                     if (item is GridItem)
                     {
                         GridDataItem dataItem = (GridDataItem)item;
@@ -1564,219 +1590,14 @@ namespace SMEPayroll.Payroll
 
         protected void RadGrid1_GridExporting(object source, GridExportingArgs e)
         {
-
-
-            
-
-            foreach (GridColumn col in RadGrid1.MasterTableView.RenderColumns)
-            {
-                switch (col.UniqueName)
-                {
-                    case "Basic":
-                        {
-                            col.HeaderStyle.Width = Unit.Pixel(100);
-                            col.ItemStyle.Width = Unit.Pixel(100);
-                            col.ItemStyle.HorizontalAlign = HorizontalAlign.Right;
-                            col.ItemStyle.ForeColor = Color.Green;
-
-
-                            break;
-                        }
-                    case "Column2": col.HeaderStyle.Width = Unit.Pixel(90); break;
-                    case "Column3": col.HeaderStyle.Width = Unit.Pixel(200); break;
-                }
-            }
-
-            //DataSet ds = new DataSet();
-            //ds = (DataSet)RadGrid1.DataSource;
-            //  applystyletopdf(this.RadGrid1.MasterTableView);
-
-            //GridSettingsPersister obj1 = new GridSettingsPersister();
-            //obj1.ExportGridHeader("103", Session["CompanyName"].ToString(), Session["Emp_Name"].ToString(), e);
-
-           // DataTable dt = new DataTable();
-            //dt = ds.Tables[0];
-            //string str = "";
-            //for (int j = 0; j < dt.Rows.Count; j++)
-            //{
-
-
-            //    DataRow row = dt.Rows[j];
-
-            //    for (int i = 0; i < dt.Columns.Count; i++)
-            //    {
-            //        str = dt.Rows[j][i].ToString();
-
-
-            //    }
-
-
-            //}
-            //DataTable dt = new DataTable();
-
-            //int columncount = 0;
-
-            //foreach (GridColumn column in RadGrid1.MasterTableView.Columns)
-            //{
-            //    if (!string.IsNullOrEmpty(column.UniqueName) && !string.IsNullOrEmpty(column.HeaderText))
-            //    {
-            //        columncount++;
-            //        dt.Columns.Add(column.UniqueName, typeof(string));
-            //    }
-            //}
-
-            //DataRow dr;
-            //string str = "";
-            //foreach (GridDataItem item in RadGrid1.MasterTableView.Items)
-            //{
-            //    dr = dt.NewRow();
-
-            //    for (int i = 0; i < columncount; i++)
-            //    {
-            //        dr[i] = item[RadGrid1.MasterTableView.Columns[i].UniqueName].Text;
-            //        str= item[RadGrid1.MasterTableView.Columns[i].UniqueName].Text;
-            //    }
-
-            //    dt.Rows.Add(dr);
-            //}
-        }
-        private void ApplyStylesToPDFExport()
-        {
-            foreach (GridItem item in RadGrid1.MasterTableView.Items)
-            {
-                if (item is GridHeaderItem)
-                    foreach (TableCell cell in item.Cells)
-                    {
-                        cell.Style["font-family"] = "Verdana";
-                        cell.Style["text-align"] = "Left";
-                        cell.Style["font-size"] = "12pt";
-                    }
-
-                if (item is GridDataItem)
-                {
-                    item.Style["font-size"] = "12px";
-                    item.Style["background-color"] = item.ItemType == GridItemType.AlternatingItem ? "#DDDDDD" : "#AAAAAA";
-                    item.Style["horizontal-align"] = "Right";
-                }
-            }
-        
-
-        }
-        public void applystyletopdf(GridTableView tableview)
-        {
-            GridItem headerItem = tableview.GetItems(GridItemType.Header)[0];
-            foreach(TableCell cell in headerItem.Cells)
-            {
-                cell.Style["font-size"] = "16pt";
-                cell.Style["color"] = "white";
-                cell.Style["background-color"] = "green";
-                cell.Style["height"] = "50px";
-                cell.Style["vertical-aligh"] = "middle";
-
-            }
-           
-
+            GridSettingsPersister obj1 = new GridSettingsPersister();
+            obj1.ExportGridHeader("103", Session["CompanyName"].ToString(), Session["Emp_Name"].ToString(), e);
         }
 
         protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
         {
             //GridSettingsPersister objCount = new GridSettingsPersister();
             //objCount.RowCount(e, tbRecord);
-            if (e.Item is GridHeaderItem)
-            {
-                GridHeaderItem headerItem = (GridHeaderItem)e.Item;
-                headerItem.Style["font-size"] = "12pt";
-                headerItem.Style["font-family"] = "Arial";//"Courier New"; 
-                headerItem.Style["vertical-align"] = "middle";
-                headerItem.Style["font-weight"] = "bold";
-                headerItem.Style["text-align"] = "center";
-                headerItem.Style["background-color"] = "#f0f7f0";
-                headerItem.Style["color"] = "#176517";
-
-               
-
-                foreach (TableCell cell in headerItem.Cells)
-                {
-                    if(cell.Text=="Basic Pay")
-                        cell.Style["color"] = "red";
-                    cell.Style["font-weight"] = "bold";
-                    cell.Style["text-align"] = "center";
-                    cell.Style["font-size"] = "12pt";
-                    cell.Style["font-family"] = "Arial";
-                    cell.Style["vertical-align"] = "middle";
-                    cell.Style["background-color"] = "#f0f7f0";
-                    cell.Style["color"] = "#176517";
-                }
-
-         
-               
-
-            }
-
-            //foreach (GridDataItem item in RadGrid1.Items)
-            //{
-            //    item.Cells[5].Style["text-align"] = "right";
-            //    item.Cells[6].Style["text-align"] = "right";
-            //    item.Cells[7].Text = item.Cells[7].Text.ToString();
-            //    item.Cells[7].Style["text-align"] = "right";
-            //    item.Cells[8].Text = item.Cells[8].Text.ToString();
-            //    item.Cells[8].Style["text-align"] = "right";
-            //    item.Cells[9].Text = item.Cells[9].Text.ToString();
-            //    item.Cells[9].Style["text-align"] = "right";
-   
-            //    item.Cells[10].Style["text-align"] = "right";
-            //    item.Cells[11].Style["text-align"] = "right";
-            //    item.Cells[12].Style["text-align"] = "right";
-            //    item.Cells[13].Style["text-align"] = "right";
-            //    item.Cells[14].Style["text-align"] = "right";
-            //    item.Cells[15].Style["text-align"] = "right";
-            //    item.Cells[16].Style["text-align"] = "right";
-            //    item.Cells[17].Style["text-align"] = "right";
-            //    item.Cells[18].Style["text-align"] = "right";
-            //    item.Cells[19].Style["text-align"] = "right";
-            //    item.Cells[20].Style["text-align"] = "right";
-            //}
-            // item.Style["background-color"] = "red";
-           
-
-
-            //GridItem detItem = (GridItem)e.Item;
-            //foreach (TableCell cell in detItem.Cells)
-            //{
-            //    int n;
-            //    bool isNumeric = int.TryParse(cell.ToString(), out n);
-            //    if (isNumeric)
-            //    {
-            //        cell.HorizontalAlign = HorizontalAlign.Right;
-            //        cell.ForeColor = Color.Green;
-            //    }
-            //}
-            //GridDataItem item = e.Item as GridDataItem;
-            //TableCell cell2 = item["Basic"];
-            //cell2.HorizontalAlign = HorizontalAlign.Right;
-            int n;
-            bool isNumeric = int.TryParse(e.Item.ToString(), out n);
-            if (isNumeric)
-            {
-                e.Item.Style["color"] = "green";
-                e.Item.Style["text-align"] = "right";
-            }
-
-           if(e.Item is GridDataItem)
-            {
-                if (e.Item.Cells.ToString() == "Basic")
-                {
-                    e.Item.Style["color"] = "green";
-                    e.Item.Style["text-align"] = "right";
-                }
-            }
-
-               
-           
-
-
-
-
         }
         #endregion
         //Toolbar End
@@ -1828,6 +1649,4 @@ namespace SMEPayroll.Payroll
         }
 
     }
-
-    
 }

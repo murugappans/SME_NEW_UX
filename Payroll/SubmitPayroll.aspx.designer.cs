@@ -253,7 +253,7 @@ namespace SMEPayroll.Payroll {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkDateSelection;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chkDateSelection;
         
         /// <summary>
         /// lblpaymentdate control.
@@ -308,6 +308,15 @@ namespace SMEPayroll.Payroll {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::SMEPayroll.Frames.QuickSidebar QuickSideBartControl1;
+        
+        /// <summary>
+        /// pagefooter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::SMEPayroll.Frames.pagefooter pagefooter;
         
         /// <summary>
         /// bundle_js control.
