@@ -7221,6 +7221,9 @@
     <Compile Include="Payroll\Payroll-Dashboard.aspx.designer.cs">
       <DependentUpon>Payroll-Dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Payroll\payrolldetailsreport_approved.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Payroll\payslipCheques.aspx.cs">
       <DependentUpon>payslipCheques.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -9027,7 +9030,7 @@
           <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

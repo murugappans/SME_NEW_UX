@@ -394,6 +394,7 @@ namespace SMEPayroll.Payroll
                                     double empCPF = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("EmployeeCPFAmt"));
                                     double employerCPF = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("EmployerCPFAmt"));
                                     
+
                                     double cpfAmount = Utility.ToDouble(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("CPFAmount"));
                                     string cpf_entitlement = Utility.ToString(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("CPF"));
                                     int empcpftype = Utility.ToInteger(this.RadGrid1.MasterTableView.Items[dataItem.ItemIndex].GetDataKeyValue("EmpCPFType"));
